@@ -1,0 +1,35 @@
+.site-header-main {
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    img {
+      max-width: 372px;
+    }
+  }
+  
+  .main-navigation {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      li {
+        list-style-type: none;
+        a {
+          color: $shadow_black;
+          font-size: 2em;
+          text-decoration: none;
+        }
+      }
+    }
+    .media-banner {
+      a {
+        background-image: url('../../static/media_net_hor.png');
+        background-repeat: no-repeat;
+        color: transparent;
+        display: block;
+        height: 90px;
+        width: 728px;
+      }
+    }
+  }  
+}
+

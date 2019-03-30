@@ -31,48 +31,31 @@
       <header id="masthead" class="site-header" role="banner">
         <div class="site-header-main">
 
-          <!-- Brown Header Rule -->
-          <div class="brown-header-rule"></div>
-
-          <!-- Header / Banner -->
+          <!-- Logo -->
           <?php if ( get_header_image() ) : ?>
-          <div class="header-image">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-              <img class="u-full-width" src="<?php header_image(); ?>" srcset="<?php echo esc_attr( wp_get_attachment_image_srcset( get_custom_header()->attachment_id ) ); ?>"
-                alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-            </a>
-          </div>
+            <div class="logo">
+              <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                <img class="u-full-width" src="<?php header_image(); ?>" srcset="<?php echo esc_attr( wp_get_attachment_image_srcset( get_custom_header()->attachment_id ) ); ?>"
+                  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+              </a>
+            </div>
           <?php endif; ?>
 
           <!-- Primary Navigation & Social Menu -->
-          <?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
-          <div id="site-header-menu" class="site-header-menu">
-            <?php if ( has_nav_menu( 'primary' ) ) : ?>
-            <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'escapade' ); ?>">
-              <?php
-                  wp_nav_menu( array(
-                    'theme_location' => 'primary',
-                    'menu_class'     => 'primary-menu',
-                  ) );
-                ?>
-            </nav>
-            <?php endif; ?>
-
-            <?php if ( has_nav_menu( 'social' ) ) : ?>
-            <nav id="social-navigation" class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'escapade' ); ?>">
-              <?php
-                  wp_nav_menu( array(
-                    'theme_location' => 'social',
-                    'menu_class'     => 'social-links-menu',
-                    'depth'          => 1,
-                    'link_before'    => '<span class="screen-reader-text">',
-                    'link_after'     => '</span>',
-                  ) );
-                ?>
-            </nav>
-            <?php endif; ?>
-          </div>
+          <?php if ( has_nav_menu( 'primary' ) ) : ?>
+          <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
+            <div class="media-banner">
+              <a href=""></a>
+            </div>
+            <?php
+                wp_nav_menu( array(
+                  'theme_location' => 'primary',
+                  'menu_class'     => 'primary-menu',
+                ) );
+              ?>
+          </nav>
           <?php endif; ?>
+
         </div>
       </header>
       

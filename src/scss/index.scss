@@ -1,6 +1,5 @@
 @import './palette.scss';
 @import './header.scss';
-@import './sidebar.scss';
 @import './footer.scss';
 
 html {
@@ -13,10 +12,106 @@ html {
 }
 
 body {
+    background-image: url('../../static/background.png');
     font-family: 'Lato', sans-serif;
-    max-width: 1080px;
-    min-width: 1080px;
-    width: 1080px;
-    padding: 0 24px;
+    max-width: 1100px;
+    min-width: 1100px;
+    width: 1100px;
     margin: 0 auto
 }
+
+.two-column {
+  display: flex;
+  justify-content: space-between;
+  .comic {
+    width: 75%;
+  }
+  .social-sidebar {
+    display: flex;
+    a {
+      background-repeat: no-repeat;
+      color: transparent;
+      display: block;
+    }
+    li {
+      list-style-type: none;
+    }
+    .banner {
+      a {
+        background-image: url('../../static/media_net_ver.png');
+        height: 600px;
+        width: 160px;
+      }
+    }
+    .buttons {
+      width: 140px;
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        width: 140px;
+      }
+      a {
+        height: 70px;
+        width: 70px;
+      }
+      .picarto {
+        a {
+          background-image: url('../../static/socialsSmall_0000_Picarto.png');
+        }
+      }
+      .fur-affinity {
+        a {
+          background-image: url('../../static/socialsSmall_0001_Fa.png');
+        }
+      }
+      .deviant-art {
+        a {
+          background-image: url('../../static/socialsSmall_0002_DA.png');
+        }
+      }
+      .instagram {
+        a {
+          background-image: url('../../static/socialsSmall_0003_Instagram.png');
+        }
+      }
+      .youtube {
+        a {
+          background-image: url('../../static/socialsSmall_0004_youtube.png');
+        }
+      }
+      .patreon {
+        a {
+          background-image: url('../../static/socialsSmall_0005_patreon.png');
+        }
+      }
+      .paypal {
+        a {
+          background-image: url('../../static/socialsSmall_0006_paypal.png');
+        }
+      }
+      .ko-fi {
+        a {
+          background-image: url('../../static/socialsSmall_0007_kofi.png');
+        }
+      }
+      .gumroad {
+        a {
+          background-image: url('../../static/socialsSmall_0008_gumroad.png');
+        }
+      }
+      .twitter {
+        a {
+          background-image: url('../../static/socialsSmall_0009_twitter.png');
+        }
+      }
+      .discord {
+        a {
+          background-image: url('../../static/socialsSmall_0010_Discord.png');
+        }
+      }
+    }
+  }
+}
+
