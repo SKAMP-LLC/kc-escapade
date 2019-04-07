@@ -68,4 +68,59 @@ get_header(); ?>
     <a class="spotlight"></a><a class="spotlight"></a><a class="spotlight"></a>
   </section>
 
+  <section class="carousel">
+    <div class="control previous_slot"></div>
+    <div class="siema">
+      <div class="comic_slot slot_0"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_1"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_2"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_0"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_1"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_2"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_0"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_1"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_2"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_0"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_1"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+      <div class="comic_slot slot_2"
+      >
+        <a href="">Comic Slot</a>
+      </div>
+    </div>
+    <div class="control next_slot"></div>
+  </section>
+
 <?php get_footer(); ?>
