@@ -64,4 +64,8 @@ get_header(); ?>
     </div><!-- .social-sidebar -->
   </section><!-- .two-column -->
 
+  <section class="cross-promotion">
+    <a class="spotlight"></a><a class="spotlight"></a><a class="spotlight"></a>
+  </section>
+
 <?php get_footer(); ?>
