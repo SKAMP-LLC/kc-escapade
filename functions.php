@@ -257,8 +257,8 @@ function escapade_scripts() {
   
   $url = site_url();
 
-  // PAPRIKA THEME
-  if (strpos($url, 'kemono') !== false) {
+  // PAPRIKA THEME & TEST THEME
+  if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'paprika') !== false) {
     wp_enqueue_script( 'paprika-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/paprika.js', array('jquery'), 1, false );
     wp_enqueue_style( 'paprika-webpack-main-css', get_template_directory_uri() . '/dist/paprika.css', array( 'escapade-style' ), '20160816' );
   }
