@@ -250,10 +250,18 @@ function escapade_scripts() {
 	wp_enqueue_style( 'escapade-style', get_stylesheet_uri() );
 
 	// WEBPACK - bundle.js
-	wp_enqueue_script( 'escapade-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/bundle.js', array('jquery'), 1, false );
+	wp_enqueue_script( 'escapade-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/main.js', array('jquery'), 1, false );
 
 	// WEBPACK - main.css
-	wp_enqueue_style( 'escapade-webpack-main-css', get_template_directory_uri() . '/dist/main.css', array( 'escapade-style' ), '20160816' );
+  wp_enqueue_style( 'escapade-webpack-main-css', get_template_directory_uri() . '/dist/main.css', array( 'escapade-style' ), '20160816' );
+  
+  $url = site_url();
+
+  // PAPRIKA THEME
+  if (strpos($url, 'kemono') !== false) {
+    wp_enqueue_script( 'paprika-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/paprika.js', array('jquery'), 1, false );
+    wp_enqueue_style( 'paprika-webpack-main-css', get_template_directory_uri() . '/dist/paprika.css', array( 'escapade-style' ), '20160816' );
+  }
 
 	// Load the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'escapade-ie', get_template_directory_uri() . '/css/ie.css', array( 'escapade-style' ), '20160816' );

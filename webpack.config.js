@@ -3,10 +3,13 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: {
+    main: './src/index.js',
+    paprika: './src/paprika.js'
+  },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: '[name].js',
+    path: __dirname + '/dist'
   },
   module: {
     rules: [
