@@ -1,0 +1,24 @@
+table#comic-nav-wrapper {
+  background-color: $shadow_black;
+  a, span {
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+    height: 50px;
+    width: 200px;
+  }
+
+  .comic-nav-first {
+    background-image: url('../../static/paprika/comic_nav_first.png');
+  }
+  .comic-nav-previous {
+    background-image: url('../../static/paprika/comic_nav_previous.png');
+  }
+  .comic-nav-next {
+    background-image: url('../../static/paprika/comic_nav_next.png');
+  }
+  .comic-nav-last {
+    background-image: url('../../static/paprika/comic_nav_last.png');
+  }
+}
+

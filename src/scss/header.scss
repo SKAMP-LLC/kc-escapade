@@ -2,11 +2,14 @@
   display: flex;
   justify-content: space-between;
   .logo {
-    img {
-      max-width: 372px;
+    a {
+      background-repeat: no-repeat;
+      color: transparent;
+      display: block;
+      height: 160px;
+      width: 372px;
     }
   }
-  
   .main-navigation {
     ul {
       display: flex;

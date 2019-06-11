@@ -13,41 +13,28 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php escapade_excerpt(); ?>
+  <section class="two-column">
+    <div id="primary" class="comic">
+      <?php do_action('comic-area'); ?>
+    </div>
+    <div class="social-sidebar">
+      <?php
+        get_template_part( 'template-parts/content', 'social-buttons' );
+      ?>
+      <div class="banner">
+        <a href=""></a>
+      </div>
+    </div>
+  </section>
 
-	<?php escapade_post_thumbnail(); ?>
+  <?php
+    get_template_part( 'template-parts/content', 'cross-promotion' );
+  ?>
 
-	<div class="entry-content">
-		<?php
-			the_content();
+  <?php
+    get_template_part( 'template-parts/content', 'carousel' );
+  ?>
 
-			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'escapade' ) . '</span>',
-				'after'       => '</div>',
-				'link_before' => '<span>',
-				'link_after'  => '</span>',
-				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'escapade' ) . ' </span>%',
-				'separator'   => '<span class="screen-reader-text">, </span>',
-			) );
+<?php get_footer(); ?>
 
-			if ( '' !== get_the_author_meta( 'description' ) ) {
-				get_template_part( 'template-parts/biography' );
-			}
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php escapade_entry_meta(); ?>
-		<?php
-			edit_post_link(
-				sprintf(
-					/* translators: %s: Name of current post */
-					__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'escapade' ),
-					get_the_title()
-				),
-				'<span class="edit-link">',
-				'</span>'
-			);
-		?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

@@ -1,0 +1,10 @@
+@import './palette.scss';
+@import './paprika/comic-navigation.scss';
+@import './paprika/header.scss';
+@import './paprika/social-buttons.scss';
+
+body {
+  background-image: url('../../static/paprika/background.png');
+  background-position: center;
+  color: $off_white;
+}

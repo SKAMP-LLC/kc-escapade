@@ -32,14 +32,10 @@
         <div class="site-header-main">
 
           <!-- Logo -->
-          <?php if ( get_header_image() ) : ?>
-            <div class="logo">
-              <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-                <img class="u-full-width" src="<?php header_image(); ?>" srcset="<?php echo esc_attr( wp_get_attachment_image_srcset( get_custom_header()->attachment_id ) ); ?>"
-                  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-              </a>
-            </div>
-          <?php endif; ?>
+          <div class="logo">
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            </a>
+          </div>
 
           <!-- Primary Navigation & Social Menu -->
           <?php if ( has_nav_menu( 'primary' ) ) : ?>

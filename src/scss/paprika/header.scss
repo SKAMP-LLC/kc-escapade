@@ -1,0 +1,37 @@
+.logo {
+  a {
+    background-image: url('../../static/paprika/comic_logo.png');
+  }
+}
+
+#menu-primary-navigation.primary-menu {
+  margin: 0;
+  padding: 0;
+  a {
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+    height: 70px;
+    width: 182px;
+  }
+  #menu-item-30 {
+    a {
+      background-image: url('../../static/paprika/text_menu1.png');
+    }
+  }
+  #menu-item-31 {
+    a {
+      background-image: url('../../static/paprika/text_menu2.png');
+    }
+  }
+  #menu-item-32 {
+    a {
+      background-image: url('../../static/paprika/text_menu3.png');
+    }
+  }
+  #menu-item-33 {
+    a {
+      background-image: url('../../static/paprika/text_menu4.png');
+    }
+  }
+}
