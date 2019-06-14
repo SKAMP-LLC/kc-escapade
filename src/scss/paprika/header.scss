@@ -14,22 +14,23 @@
     height: 70px;
     width: 182px;
   }
-  #menu-item-30 {
+
+  .menu-item:nth-child(1) {
     a {
       background-image: url('../../static/paprika/text_menu1.png');
     }
   }
-  #menu-item-31 {
+  .menu-item:nth-child(2) {
     a {
       background-image: url('../../static/paprika/text_menu2.png');
     }
   }
-  #menu-item-32 {
+  .menu-item:nth-child(3) {
     a {
       background-image: url('../../static/paprika/text_menu3.png');
     }
   }
-  #menu-item-33 {
+  .menu-item:nth-child(4) {
     a {
       background-image: url('../../static/paprika/text_menu4.png');
     }
