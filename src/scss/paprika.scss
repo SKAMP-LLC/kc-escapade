@@ -8,3 +8,12 @@ body {
   background-position: center;
   color: $off_white;
 }
+
+@media only screen and (max-device-width : 1024px) and (orientation : portrait) {
+  .logo {
+    margin: 0 auto;
+    a {
+      background-image: url('../../static/paprika/comic_logo_mobile.png');
+    }
+  }
+}
