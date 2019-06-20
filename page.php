@@ -15,9 +15,16 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-		<?php
+  <?php
       while ( have_posts() ) : the_post();
-        get_template_part( 'template-parts/content', 'page' );
+        if(is_page('Characters'))
+          get_template_part( 'template-parts/content', 'page-cast' );
+        else if(is_page('Archive'))
+          get_template_part( 'template-parts/content', 'page-archive' );
+        else if(is_page('About'))
+          get_template_part( 'template-parts/content', 'page-about' );
+        else
+          get_template_part( 'template-parts/content', 'page' );
       endwhile;
 		?>
 
