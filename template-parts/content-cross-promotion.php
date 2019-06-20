@@ -9,5 +9,7 @@
 ?>
 
 <section class="cross-promotion">
-  <a class="spotlight"></a><a class="spotlight"></a><a class="spotlight"></a>
+  <a class="spotlight" href="https://nekonny.katbox.net/comics/imew"></a>
+  <a class="spotlight" href="https://pmp.nekonny.com"></a>
+  <a class="spotlight" href="https://nekonny.com/store.html"></a>
 </section>

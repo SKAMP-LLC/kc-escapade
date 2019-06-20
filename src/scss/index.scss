@@ -74,15 +74,8 @@ body {
   justify-content: space-evenly;
   margin: .5em 0;
   a {
-    background-image: url('../../static/spotlight_banner_2.png');
     height: 180px;
     width: 360px;
-    &:first-child {
-      background-image: url('../../static/spotlight_banner_1.png');
-    }
-    &:last-child {
-      background-image: url('../../static/spotlight_banner_3.png');
-    }
   }
 }
 

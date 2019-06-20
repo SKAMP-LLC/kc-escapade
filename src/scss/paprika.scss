@@ -9,6 +9,18 @@ body {
   color: $off_white;
 }
 
+.cross-promotion {
+  a {
+    background-image: url('../../static/paprika/spotlight_banner_2.png');
+    &:first-child {
+      background-image: url('../../static/paprika/spotlight_banner_1.png');
+    }
+    &:last-child {
+      background-image: url('../../static/paprika/spotlight_banner_3.png');
+    }
+  }
+}
+
 @media only screen and (max-device-width : 1024px) and (orientation : portrait) {
   .logo {
     margin: 0 auto;
