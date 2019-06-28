@@ -15,7 +15,7 @@
 
   <head>
     <title>Paprika</title>
-    <meta name="description" content="Paprika is a celebraton of anime's golden age through the eyes of some very special fans. Tina and her friends have some very strong imaginations, ones so strong they transport the girls to a whole new world when they let it run away with them.">
+    <meta name="description" content="Paprika is a celebration of anime's golden age through the eyes of some very special fans. Tina and her friends have some very strong imaginations, ones so strong they transport the girls to a whole new world when they let it run away with them.">
     <meta name="keywords" content="paprika, webcomic, webcomics, anime, furry, kemono, art, furry art">
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">

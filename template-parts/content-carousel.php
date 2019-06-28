@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for the social buttons
+ * The template for the cross-promotion carousel.
  *
  * @package WordPress
  * @subpackage Escapade
