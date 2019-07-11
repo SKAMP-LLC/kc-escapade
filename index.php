@@ -25,7 +25,7 @@ get_header(); ?>
         get_template_part( 'template-parts/content', 'social-buttons' );
       ?>
       <div class="banner">
-        <a href=""></a>
+        <a href="https://kemono.cafe"></a >
       </div>
     </div>
   </section>
