@@ -1,0 +1,50 @@
+table#comic-nav-wrapper {
+  border-spacing: 0;
+  tr {
+    display: flex;
+    justify-content: center;
+  }
+  td {
+    margin: 0;
+    padding: 0;
+  }
+  a, span {
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+    height: 50px;
+    width: 200px;
+  }
+}
+
+#comic-head {
+  .comic-nav-first {
+    background-image: url('../../static/imew/comic_nav_first_top.png');
+  }
+  .comic-nav-previous {
+    background-image: url('../../static/imew/comic_nav_previous_top.png');
+  }
+  .comic-nav-next {
+    background-image: url('../../static/imew/comic_nav_next_top.png');
+  }
+  .comic-nav-last {
+    background-image: url('../../static/imew/comic_nav_last_top.png');
+  }
+}
+
+#comic-foot {
+  .comic-nav-first {
+    background-image: url('../../static/imew/comic_nav_first_bottom.png');
+  }
+  .comic-nav-previous {
+    background-image: url('../../static/imew/comic_nav_previous_bottom.png');
+  }
+  .comic-nav-next {
+    background-image: url('../../static/imew/comic_nav_next_bottom.png');
+  }
+  .comic-nav-last {
+    background-image: url('../../static/imew/comic_nav_last_bottom.png');
+  }
+}
+
+

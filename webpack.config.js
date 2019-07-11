@@ -5,7 +5,8 @@ module.exports = {
   mode: 'production',
   entry: {
     main: './src/index.js',
-    paprika: './src/paprika.js'
+    paprika: './src/paprika.js',
+    imew: './src/imew.js'
   },
   output: {
     filename: '[name].js',
