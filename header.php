@@ -14,9 +14,16 @@
   <html <?php language_attributes(); ?> class="no-js">
 
   <head>
-    <title>Paprika</title>
-    <meta name="description" content="Paprika is a celebration of anime's golden age through the eyes of some very special fans. Tina and her friends have some very strong imaginations, ones so strong they transport the girls to a whole new world when they let it run away with them.">
-    <meta name="keywords" content="paprika, webcomic, webcomics, anime, furry, kemono, art, furry art">
+    <?php if ( strpos($url, 'paprika') ) : ?>
+      <title>Paprika</title>
+      <meta name="description" content="Paprika is a celebration of anime's golden age through the eyes of some very special fans. Tina and her friends have some very strong imaginations, ones so strong they transport the girls to a whole new world when they let it run away with them.">
+      <meta name="keywords" content="paprika, webcomic, webcomics, anime, furry, kemono, catgirl, art, furry art">
+    <?php endif; ?>
+    <?php if ( strpos($url, 'imew') ) : ?>
+      <title>iMew</title>
+      <meta name="description" content="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
+      <meta name="keywords" content="imew, webcomic, webcomics, anime, furry, catgirl, art, furry art, phone, smartphone">
+    <?php endif; ?>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
