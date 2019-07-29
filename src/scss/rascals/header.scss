@@ -1,0 +1,38 @@
+.logo {
+  a {
+    background-image: url('../../static/rascals/comic_logo.png');
+  }
+}
+
+#menu-primary-navigation.primary-menu {
+  margin: 0;
+  padding: 0;
+  a {
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+    height: 70px;
+    width: 182px;
+  }
+
+  .menu-item:nth-child(1) {
+    a {
+      background-image: url('../../static/rascals/text_menu1.png');
+    }
+  }
+  .menu-item:nth-child(2) {
+    a {
+      background-image: url('../../static/rascals/text_menu2.png');
+    }
+  }
+  .menu-item:nth-child(3) {
+    a {
+      background-image: url('../../static/rascals/text_menu3.png');
+    }
+  }
+  .menu-item:nth-child(4) {
+    a {
+      background-image: url('../../static/rascals/text_menu4.png');
+    }
+  }
+}

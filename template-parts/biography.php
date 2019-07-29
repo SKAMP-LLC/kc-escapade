@@ -1,6 +1,6 @@
 <?php
 /**
- * The template part for displaying an Author biography
+ * The template part for displaying an Author biography.
  *
  * @package WordPress
  * @subpackage Escapade

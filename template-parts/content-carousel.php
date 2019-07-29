@@ -11,41 +11,65 @@
 <section class="carousel">
   <div class="control previous_slot"></div>
   <div class="siema">
-    <div class="comic_slot slot_0">
-      <a href="">Comic Slot</a>
-    </div>
     <div class="comic_slot slot_1">
-      <a href="">Comic Slot</a>
+      <a href="https://imew.kemono.cafe/">Comic Slot</a>
     </div>
     <div class="comic_slot slot_2">
-      <a href="">Comic Slot</a>
+      <a href="https://paprika.kemono.cafe/">Comic Slot</a>
     </div>
-    <div class="comic_slot slot_0">
-      <a href="">Comic Slot</a>
+    <div class="comic_slot slot_3">
+      <a href="https://cb.kemono.cafe/">Comic Slot</a>
     </div>
-    <div class="comic_slot slot_1">
-      <a href="">Comic Slot</a>
+    <div class="comic_slot slot_4">
+      <a href="https://pmp.kemono.cafe/">Comic Slot</a>
     </div>
-    <div class="comic_slot slot_2">
-      <a href="">Comic Slot</a>
-    </div>
-    <div class="comic_slot slot_0">
-      <a href="">Comic Slot</a>
+    <div class="comic_slot slot_5">
+      <a href="https://rascals.kemono.cafe/">Comic Slot</a>
     </div>
     <div class="comic_slot slot_1">
-      <a href="">Comic Slot</a>
+      <a href="https://imew.kemono.cafe/">Comic Slot</a>
     </div>
     <div class="comic_slot slot_2">
-      <a href="">Comic Slot</a>
+      <a href="https://paprika.kemono.cafe/">Comic Slot</a>
     </div>
-    <div class="comic_slot slot_0">
-      <a href="">Comic Slot</a>
+    <div class="comic_slot slot_3">
+      <a href="https://cb.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_4">
+      <a href="https://pmp.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_5">
+      <a href="https://rascals.kemono.cafe/">Comic Slot</a>
     </div>
     <div class="comic_slot slot_1">
-      <a href="">Comic Slot</a>
+      <a href="https://imew.kemono.cafe/">Comic Slot</a>
     </div>
     <div class="comic_slot slot_2">
-      <a href="">Comic Slot</a>
+      <a href="https://paprika.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_3">
+      <a href="https://cb.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_4">
+      <a href="https://pmp.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_5">
+      <a href="https://rascals.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_1">
+      <a href="https://imew.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_2">
+      <a href="https://paprika.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_3">
+      <a href="https://cb.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_4">
+      <a href="https://pmp.kemono.cafe/">Comic Slot</a>
+    </div>
+    <div class="comic_slot slot_5">
+      <a href="https://rascals.kemono.cafe/">Comic Slot</a>
     </div>
   </div>
   <div class="control next_slot"></div>

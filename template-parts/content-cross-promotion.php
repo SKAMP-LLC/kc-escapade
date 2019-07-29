@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for the social buttons
+ * The template for cross promotions.
  *
  * @package WordPress
  * @subpackage Escapade
@@ -8,8 +8,19 @@
  */
 ?>
 
-<section class="cross-promotion">
-  <a class="spotlight" href="https://nekonny.katbox.net/comics/imew"></a>
-  <a class="spotlight" href="https://pmp.nekonny.com"></a>
-  <a class="spotlight" href="https://nekonny.com/store.html"></a>
-</section>
+<?php 
+  global $wp;
+  $url = home_url( add_query_arg( array(), $wp->request ) );
+  if ( strpos($url, '###') !== false || strpos($url, 'paprika') !== false || strpos($url, 'imew') !== false) : ?>
+  <section class="cross-promotion">
+    <a class="spotlight" href="https://nekonny.katbox.net/comics/imew"></a>
+    <a class="spotlight" href="https://pmp.nekonny.com"></a>
+    <a class="spotlight" href="https://nekonny.com/store.html"></a>
+  </section>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'rascals') !== false ) : ?>
+  <section class="cross-promotion">
+    <a class="spotlight" href="https://www.youtube.com/user/playorgodai"></a>
+    <a class="spotlight" href="https://gumroad.com/mastergodai"></a>
+    <a class="spotlight" href="https://picarto.tv/mastergodai"></a>
+  </section>
+<?php endif; ?>

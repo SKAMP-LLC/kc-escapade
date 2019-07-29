@@ -14,19 +14,29 @@
       width: 130px;
     }
   }
-  .slot_0 {
-    a {
-      background-image: url('../../static/comic_link_01.png');
-    }
-  }
   .slot_1 {
     a {
-      background-image: url('../../static/comic_link_02.png');
+      background-image: url('../../static/carousel/comic_link_01.png');
     }
   }
   .slot_2 {
     a {
-      background-image: url('../../static/comic_link_03.png');
+      background-image: url('../../static/carousel/comic_link_02.png');
+    }
+  }
+  .slot_3 {
+    a {
+      background-image: url('../../static/carousel/comic_link_03.png');
+    }
+  }
+  .slot_4 {
+    a {
+      background-image: url('../../static/carousel/comic_link_04.png');
+    }
+  }
+  .slot_5 {
+    a {
+      background-image: url('../../static/carousel/comic_link_05.png');
     }
   }
   .control {
@@ -40,11 +50,11 @@
     width: 62px;
   }
   .previous_slot {
-    background-image: url('../../static/comic_link_left.png');
+    background-image: url('../../static/carousel/comic_link_left.png');
     left: -62px;
   }
   .next_slot {
-    background-image: url('../../static/comic_link_right.png');
+    background-image: url('../../static/carousel/comic_link_right.png');
     right: -62px;
   }
 }

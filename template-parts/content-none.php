@@ -1,6 +1,6 @@
 <?php
 /**
- * The template part for displaying a message that posts cannot be found
+ * The template part for displaying a message that posts cannot be found.
  *
  * @package WordPress
  * @subpackage Escapade
