@@ -1,12 +1,5 @@
 table#comic-nav-wrapper {
   background-color: $shadow_black;
-  a, span {
-    background-repeat: no-repeat;
-    color: transparent;
-    display: block;
-    height: 50px;
-    width: 200px;
-  }
 
   .comic-nav-first {
     background-image: url('../../static/rascals/comic_nav_first.png');

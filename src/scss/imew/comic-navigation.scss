@@ -4,13 +4,6 @@ table#comic-nav-wrapper {
     margin: 0;
     padding: 0;
   }
-  a, span {
-    background-repeat: no-repeat;
-    color: transparent;
-    display: block;
-    height: 50px;
-    width: 200px;
-  }
 }
 
 #comic-head {
@@ -43,4 +36,13 @@ table#comic-nav-wrapper {
   }
 }
 
-
+@media only screen and (max-width : 360px) and (orientation : portrait) {
+  table#comic-nav-wrapper {
+    a {
+      color: #000000 !important;
+    }
+    span {
+      color: #999999 !important;
+    }
+  }
+}

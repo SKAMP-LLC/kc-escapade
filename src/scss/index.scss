@@ -3,6 +3,7 @@
 @import './header.scss';
 @import './footer.scss';
 @import './social-buttons.scss';
+@import './mobile.scss';
 
 html {
   box-sizing: border-box;
@@ -84,40 +85,12 @@ body {
   display: none;
 }
 
-// Desktop
-@media only screen and (min-device-width : 1025px) {
-  body {
-    max-width: 1100px;
-    min-width: 1100px;
-    width: 1100px;
-  }
-}
-
-@media only screen and (max-device-width : 1024px) and (orientation : portrait) {
-  body {
-    overflow-x: hidden;
-  }
-  .logo {
-    margin: 0 auto;
-    a {
-      background-image: url('../../static/paprika/comic_logo_mobile.png');
-    }
-  }
-  .comic {
-    width: 100% !important;
-  }
-  section.carousel, .main-navigation, .social-sidebar {
-    display: none !important;
-  }
-  .cross-promotion {
-    flex-direction: column;
-  }
-  .spotlight {
-    margin: 1em auto;
-  }
-  table#comic-nav-wrapper {
-    .comic-nav {
-      max-width: 80px;
-    }
+table#comic-nav-wrapper {
+  a, span {
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+    height: 50px;
+    width: 200px;
   }
 }
