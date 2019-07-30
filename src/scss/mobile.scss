@@ -8,7 +8,7 @@
 }
 
 /* Smartphones (portrait) ------------------------------------------------------------------------------------------- */
-@media only screen and (max-width : 380px) and (orientation : portrait) {
+@media only screen and (max-width : 420px) and (orientation : portrait) {
   table#comic-nav-wrapper {  
     text-align: center;
     a, span {
@@ -67,7 +67,7 @@
 }
 
 /* Tablet (portrait) ------------------------------------------------------------------------------------------------ */
-@media only screen and (min-width : 361px) and (max-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-width : 421px) and (max-width : 1024px) and (orientation : portrait) {
   body {
     overflow-x: hidden;
   }
