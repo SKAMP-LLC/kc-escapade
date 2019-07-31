@@ -14,15 +14,18 @@
   <html <?php language_attributes(); ?> class="no-js">
 
   <head>
-    <?php if ( strpos($url, 'paprika') ) : ?>
+    <?php if ( strpos($url, 'paprika') !== false ) : ?>
       <title>Paprika</title>
       <meta name="description" content="Paprika is a celebration of anime's golden age through the eyes of some very special fans. Tina and her friends have some very strong imaginations, ones so strong they transport the girls to a whole new world when they let it run away with them.">
       <meta name="keywords" content="paprika, webcomic, webcomics, anime, furry, kemono, catgirl, art, furry art">
-    <?php endif; ?>
-    <?php if ( strpos($url, 'imew') ) : ?>
+    <?php elseif ( strpos($url, 'imew') !== false ) : ?>
       <title>iMew</title>
       <meta name="description" content="Ever think your phone's controlling your life? Sammy sure feels that way! After purchasing a mysterious knock-off phone, she's discovered the apps control a little more than you or I would expect! Now she has to get her life back before the battery runs out!">
       <meta name="keywords" content="imew, webcomic, webcomics, anime, furry, catgirl, art, furry art, phone, smartphone">
+    <?php elseif ( strpos($url, 'rascals') !== false ) : ?>
+      <title>Rascals</title>
+      <meta name="description" content="Follow the crazy antics of a group of friends from different backgrounds as they grow and experience the ups and downs of days dealing with Love triangles, misunderstood situations, annoying jobs and nosy parents. Will all of them find a happy ending in this crazy thing we call Life? Let's join them and find out!">
+      <meta name="keywords" content="rascals, webcomic, webcomics, anime, furry, art, furry art">
     <?php endif; ?>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,6 +34,13 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php endif; ?>
     <?php wp_head(); ?>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-9448426483899385",
+        enable_page_level_ads: true
+      });
+    </script>
   </head>
 
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700" rel="stylesheet"> 
