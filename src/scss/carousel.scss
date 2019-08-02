@@ -14,6 +14,11 @@
       width: 130px;
     }
   }
+  .slot_0 {
+    a {
+      background-image: url('../../static/carousel/comic_link_00.png');
+    }
+  }
   .slot_1 {
     a {
       background-image: url('../../static/carousel/comic_link_01.png');
@@ -37,11 +42,6 @@
   .slot_5 {
     a {
       background-image: url('../../static/carousel/comic_link_05.png');
-    }
-  }
-  .slot_6 {
-    a {
-      background-image: url('../../static/carousel/comic_link_06.png');
     }
   }
   .control {
