@@ -14,7 +14,10 @@
   <html <?php language_attributes(); ?> class="no-js">
 
   <head>
-    <?php if ( strpos($url, 'paprika') !== false ) : ?>
+    <?php 
+      global $wp;
+      $url = home_url( add_query_arg( array(), $wp->request ) );
+      if ( strpos($url, 'paprika') !== false ) : ?>
       <title>Paprika</title>
       <meta name="description" content="Paprika is a celebration of anime's golden age through the eyes of some very special fans. Tina and her friends have some very strong imaginations, ones so strong they transport the girls to a whole new world when they let it run away with them.">
       <meta name="keywords" content="paprika, webcomic, webcomics, anime, furry, kemono, catgirl, art, furry art">
@@ -26,6 +29,10 @@
       <title>Rascals</title>
       <meta name="description" content="Follow the crazy antics of a group of friends from different backgrounds as they grow and experience the ups and downs of days dealing with Love triangles, misunderstood situations, annoying jobs and nosy parents. Will all of them find a happy ending in this crazy thing we call Life? Let's join them and find out!">
       <meta name="keywords" content="rascals, webcomic, webcomics, anime, furry, art, furry art">
+    <?php elseif ( strpos($url, 'theeye') !== false ) : ?>
+      <title>The Eye of Ramalach</title>
+      <meta name="description" content="The Eye Description">
+      <meta name="keywords" content="webcomic, webcomics, anime, furry, art, furry art">
     <?php endif; ?>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">

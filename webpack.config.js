@@ -7,7 +7,8 @@ module.exports = {
     main: './src/index.js',
     imew: './src/imew.js',
     paprika: './src/paprika.js',
-    rascals: './src/rascals.js'
+    rascals: './src/rascals.js',
+    theeye: './src/theeye.js'
   },
   output: {
     filename: '[name].js',

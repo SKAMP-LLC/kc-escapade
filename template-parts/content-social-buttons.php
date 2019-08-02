@@ -52,7 +52,7 @@
     </ul>
   </div>
 
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'rascals') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'rascals') !== false ) : ?>
   <div class="buttons">
     <ul>
       <li class="picarto">
@@ -90,4 +90,44 @@
       </li>
     </ul>
   </div>
+
+  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false ) : ?>
+    <div class="buttons">
+      <ul>
+        <li class="picarto">
+          <a href="https://picarto.tv/avencri"></a>
+        </li>
+        <li class="fur-affinity">
+          <a href=""></a>
+        </li>
+        <li class="deviant-art">
+          <a href="https://www.deviantart.com/avencri"></a>
+        </li>
+        <li class="instagram">
+          <a href=""></a>
+        </li>
+        <li class="youtube">
+          <a href=""></a>
+        </li>
+        <li class="patreon">
+          <a href="https://www.patreon.com/avencri"></a>
+        </li>
+        <li class="paypal">
+          <a href=""></a>
+        </li>
+        <li class="ko-fi">
+          <a href=""></a>
+        </li>
+        <li class="gumroad">
+          <a href=""></a>
+        </li>
+        <li class="twitter">
+          <a href="https://twitter.com/avencri"></a>
+        </li>
+        <li class="discord">
+          <a href=""></a>
+        </li>
+      </ul>
+    </div>
+
 <?php endif; ?>
