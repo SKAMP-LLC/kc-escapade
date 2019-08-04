@@ -67,7 +67,7 @@
           <!-- Primary Navigation & Social Menu -->
           <?php if ( has_nav_menu( 'primary' ) ) : ?>
           <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
-            <div class="media-banner">
+            <div class="banner">
               <a href="https://kemono.cafe"></a>
             </div>
             <?php
