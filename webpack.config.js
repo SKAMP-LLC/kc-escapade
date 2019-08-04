@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   mode: 'production',
   entry: {
+    cb: './src/cb.js',
     main: './src/index.js',
     imew: './src/imew.js',
     paprika: './src/paprika.js',
