@@ -6,8 +6,10 @@
 
 body {
   background-image: url('../../static/cb/background.png');
+  background-repeat: no-repeat;
   background-position: center;
   color: $off_white;
+  background-color: rgb(9, 180, 232);
 }
 
 .cross-promotion {
