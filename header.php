@@ -31,7 +31,11 @@
       <meta name="keywords" content="rascals, webcomic, webcomics, anime, furry, art, furry art">
     <?php elseif ( strpos($url, 'theeye') !== false ) : ?>
       <title>The Eye of Ramalach</title>
-      <meta name="description" content="The Eye Description">
+      <meta name="description" content="Historian Ronald Rudentof has spent his entire life trying to escape his father's shadow. But while attempting to solve the last mystery his father left behind, Ron's life was changed forever. Now permanently bonded to an ancient demigod named Ramalach that has taken residence inside his forehead, Ron finds himself trapped between forces determined to either destroy Ramalach, or use him for their own sinister purposes.">
+      <meta name="keywords" content="webcomic, webcomics, anime, furry, art, furry art">
+    <?php elseif ( strpos($url, 'cb') !== false ) : ?>
+      <title>Caribbean Blue</title>
+      <meta name="description" content="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
       <meta name="keywords" content="webcomic, webcomics, anime, furry, art, furry art">
     <?php endif; ?>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
