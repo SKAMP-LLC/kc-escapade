@@ -15,18 +15,18 @@
   <section class="cross-promotion">
     <a class="spotlight" href="https://imew.kemono.cafe"></a>
     <a class="spotlight" href="https://pmp.kemono.cafe"></a>
-    <a class="spotlight" href="https://nekonny.com/store.html"></a>
+    <a class="spotlight" href="https://nekonny.com/#/store"></a>
   </section>
 <?php elseif ( strpos($url, '###') !== false || strpos($url, 'imew') !== false ) : ?>
   <section class="cross-promotion">
     <a class="spotlight" href="https://paprika.kemono.cafe/"></a>
     <a class="spotlight" href="https://pmp.kemono.cafe/"></a>
-    <a class="spotlight" href="https://nekonny.com/store.html"></a>
+    <a class="spotlight" href="https://nekonny.com/#/store"></a>
   </section>
 <?php elseif ( strpos($url, '###') !== false || strpos($url, 'cb') !== false ) : ?>
   <section class="cross-promotion">
     <a class="spotlight" href="https://imew.kemono.cafe/"></a>
-    <a class="spotlight" href="https://nekonny.com/store.html"></a>
+    <a class="spotlight" href="https://nekonny.com/#/store"></a>
     <a class="spotlight" href="https://paprika.kemono.cafe/"></a>
   </section>
 <?php elseif ( strpos($url, '###') !== false || strpos($url, 'rascals') !== false ) : ?>
