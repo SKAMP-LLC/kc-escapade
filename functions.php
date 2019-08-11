@@ -273,12 +273,12 @@ function escapade_scripts() {
     wp_enqueue_style( 'rascals-webpack-main-css', get_template_directory_uri() . '/dist/rascals.css', array( 'escapade-style' ), '20160816' );
   }
   // The Eye of Ramalach Theme
-  else if (strpos($url, '###') !== false || strpos($url, 'theeye') !== false) {
+  else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false) {
     wp_enqueue_script( 'theeye-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/theeye.js', array('jquery'), 1, false );
     wp_enqueue_style( 'theeye-webpack-main-css', get_template_directory_uri() . '/dist/theeye.css', array( 'escapade-style' ), '20160816' );
   }
   // Caribbean Blue Theme
-   else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'cb') !== false) {
+   else if (strpos($url, '###') !== false || strpos($url, 'cb') !== false) {
     wp_enqueue_script( 'cb-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/cb.js', array('jquery'), 1, false );
     wp_enqueue_style( 'cb-webpack-main-css', get_template_directory_uri() . '/dist/cb.css', array( 'escapade-style' ), '20160816' );
   }

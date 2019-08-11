@@ -137,13 +137,13 @@
         <a href="https://picarto.tv/mastergodai"></a>
       </li>
       <li class="fur-affinity">
-        <a href=""></a>
+        <a href="http://www.furaffinity.net/user/mastergodai/"></a>
       </li>
       <li class="deviant-art">
         <a href="https://www.deviantart.com/mastergodai"></a>
       </li>
       <li class="instagram">
-        <a href=""></a>
+        <a href="https://www.instagram.com/mastergodai/"></a>
       </li>
       <li class="youtube">
         <a href="https://www.youtube.com/user/playorgodai"></a>
@@ -166,6 +166,9 @@
       <li class="discord">
         <a href=""></a>
       </li>
+      <li class="reddit">
+        <a href="https://www.reddit.com/r/Mastergodai/"></a>
+      </li>
     </ul>
   </div>
 
@@ -176,7 +179,7 @@
           <a href="https://picarto.tv/avencri"></a>
         </li>
         <li class="fur-affinity">
-          <a href=""></a>
+          <a href="https://www.furaffinity.net/user/avencri/"></a>
         </li>
         <li class="deviant-art">
           <a href="https://www.deviantart.com/avencri"></a>
@@ -191,10 +194,10 @@
           <a href="https://www.patreon.com/avencri"></a>
         </li>
         <li class="paypal">
-          <a href=""></a>
+          <a href="https://www.paypal.com/paypalme2/avencri"></a>
         </li>
         <li class="ko-fi">
-          <a href=""></a>
+          <a href="https://ko-fi.com/Avencri"></a>
         </li>
         <li class="gumroad">
           <a href=""></a>

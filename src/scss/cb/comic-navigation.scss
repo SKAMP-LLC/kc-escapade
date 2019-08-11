@@ -1,4 +1,12 @@
 table#comic-nav-wrapper {
+  border-spacing: 0;
+  td {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+table#comic-nav-wrapper {
   .comic-nav-first {
     background-image: url('../../static/cb/comic_nav_first.png');
   }
