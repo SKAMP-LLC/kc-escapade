@@ -13,7 +13,7 @@
 <?php 
   global $wp;
   $url = home_url( add_query_arg( array(), $wp->request ) );
-  if ( strpos($url, '###') !== false || strpos($url, 'paprika') !== false ) : ?>
+  if ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'paprika') !== false ) : ?>
   <div class="buttons">
     <ul>
       <li class="picarto">
@@ -91,7 +91,7 @@
     </ul>
   </div>
 
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'cb') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'cb') !== false ) : ?>
   <div class="buttons">
     <ul>
     <li class="picarto">

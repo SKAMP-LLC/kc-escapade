@@ -21,7 +21,6 @@ body {
 .two-column {
   display: flex;
   justify-content: space-between;
-  margin-top: .5em;
   .comic {
     width: 75%;
     #comic-nav-wrapper {
@@ -86,11 +85,16 @@ body {
 }
 
 table#comic-nav-wrapper {
+  border-spacing: 0;
   a, span {
     background-repeat: no-repeat;
     color: transparent;
     display: block;
     height: 50px;
     width: 200px;
+  }
+  td {
+    margin: 0;
+    padding: 0;
   }
 }
