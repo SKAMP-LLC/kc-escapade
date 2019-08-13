@@ -1,0 +1,17 @@
+table#comic-nav-wrapper {
+  background-color: $shadow_black;
+
+  .comic-nav-first {
+    background-image: url('../../static/pmp/comic_nav_first.png');
+  }
+  .comic-nav-previous {
+    background-image: url('../../static/pmp/comic_nav_previous.png');
+  }
+  .comic-nav-next {
+    background-image: url('../../static/pmp/comic_nav_next.png');
+  }
+  .comic-nav-last {
+    background-image: url('../../static/pmp/comic_nav_last.png');
+  }
+}
+

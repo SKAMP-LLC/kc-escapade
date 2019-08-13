@@ -5,11 +5,11 @@
 @import './rascals/social-buttons.scss';
 
 body {
-  background-image: url('../../static/rascals/background.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  color: $off_white;
   background-color: #a4125d;
+  background-image: url('../../static/rascals/background.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: $off_white;
 }
 
 .cross-promotion {

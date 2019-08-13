@@ -5,11 +5,11 @@
 @import './theeye/social-buttons.scss';
 
 body {
-  background-image: url('../../static/theeye/background.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  color: $off_white;
   background-color: #000;
+  background-image: url('../../static/theeye/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $off_white;
 }
 
 .cross-promotion {

@@ -8,6 +8,7 @@ module.exports = {
     main: './src/index.js',
     imew: './src/imew.js',
     paprika: './src/paprika.js',
+    pmp: './src/pmp.js',
     rascals: './src/rascals.js',
     theeye: './src/theeye.js'
   },

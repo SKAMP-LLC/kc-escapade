@@ -268,7 +268,7 @@ function escapade_scripts() {
     wp_enqueue_style( 'imew-webpack-main-css', get_template_directory_uri() . '/dist/imew.css', array( 'escapade-style' ), '20160816' );
   }
   // Rascals Theme
-  else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'rascals') !== false) {
+  else if (strpos($url, '###') !== false || strpos($url, 'rascals') !== false) {
     wp_enqueue_script( 'rascals-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/rascals.js', array('jquery'), 1, false );
     wp_enqueue_style( 'rascals-webpack-main-css', get_template_directory_uri() . '/dist/rascals.css', array( 'escapade-style' ), '20160816' );
   }
@@ -281,6 +281,11 @@ function escapade_scripts() {
    else if (strpos($url, '###') !== false || strpos($url, 'cb') !== false) {
     wp_enqueue_script( 'cb-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/cb.js', array('jquery'), 1, false );
     wp_enqueue_style( 'cb-webpack-main-css', get_template_directory_uri() . '/dist/cb.css', array( 'escapade-style' ), '20160816' );
+  }
+  // PMP Theme
+  else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'pmp') !== false) {
+    wp_enqueue_script( 'pmp-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/pmp.js', array('jquery'), 1, false );
+    wp_enqueue_style( 'pmp-webpack-main-css', get_template_directory_uri() . '/dist/pmp.css', array( 'escapade-style' ), '20160816' );
   }
   
 	// Load the Internet Explorer specific stylesheet.
