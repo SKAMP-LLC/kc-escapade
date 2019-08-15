@@ -7,6 +7,7 @@ module.exports = {
     cb: './src/cb.js',
     main: './src/index.js',
     imew: './src/imew.js',
+    laslindas: './src/laslindas.js',
     paprika: './src/paprika.js',
     pmp: './src/pmp.js',
     rascals: './src/rascals.js',

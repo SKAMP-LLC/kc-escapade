@@ -41,10 +41,16 @@
     <a class="spotlight" href="https://picarto.tv/avencri"></a>
     <a class="spotlight" href="https://tinaofthesouth.kemono.cafe"></a>
   </section>
-  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'pmp') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'pmp') !== false ) : ?>
   <section class="cross-promotion">
     <a class="spotlight" href="https://imew.kemono.cafe/"></a>
     <a class="spotlight" href="https://nekonny.com/#/store"></a>
     <a class="spotlight" href="https://paprika.kemono.cafe/"></a>
+  </section>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false ) : ?>
+  <section class="cross-promotion">
+    <a class="spotlight" href="https://picarto.tv/Chalodraws"></a>
+    <a class="spotlight" href="https://knighthood.kemono.cafe"></a>
+    <a class="spotlight" href="https://www.patreon.com/Chalodillo"></a>
   </section>
 <?php endif; ?>

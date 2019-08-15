@@ -25,9 +25,6 @@
       <li class="deviant-art">
         <a href="https://www.deviantart.com/freelancemanga"></a>
       </li>
-      <li class="instagram">
-        <a href=""></a>
-      </li>
       <li class="youtube">
         <a href="https://www.youtube.com/user/TheDrawingNeko"></a>
       </li>
@@ -46,8 +43,8 @@
       <li class="twitter">
         <a href="https://twitter.com/nekonny"></a>
       </li>
-      <li class="discord">
-        <a href=""></a>
+      <li class="reddit">
+        <a href="https://www.reddit.com/r/Mastergodai/"></a>
       </li>
     </ul>
   </div>
@@ -64,9 +61,6 @@
       <li class="deviant-art">
         <a href="https://www.deviantart.com/freelancemanga"></a>
       </li>
-      <li class="instagram">
-        <a href=""></a>
-      </li>
       <li class="youtube">
         <a href="https://www.youtube.com/user/TheDrawingNeko"></a>
       </li>
@@ -84,9 +78,6 @@
       </li>
       <li class="twitter">
         <a href="https://twitter.com/nekonny"></a>
-      </li>
-      <li class="discord">
-        <a href=""></a>
       </li>
     </ul>
   </div>
@@ -103,9 +94,6 @@
       <li class="deviant-art">
         <a href="https://www.deviantart.com/freelancemanga"></a>
       </li>
-      <li class="instagram">
-        <a href=""></a>
-      </li>
       <li class="youtube">
         <a href="https://www.youtube.com/user/TheDrawingNeko"></a>
       </li>
@@ -123,9 +111,6 @@
       </li>
       <li class="twitter">
         <a href="https://twitter.com/nekonny"></a>
-      </li>
-      <li class="discord">
-        <a href=""></a>
       </li>
     </ul>
   </div>
@@ -151,20 +136,11 @@
       <li class="patreon">
         <a href="https://www.patreon.com/Mastergodai"></a>
       </li>
-      <li class="paypal">
-        <a href=""></a>
-      </li>
-      <li class="ko-fi">
-        <a href=""></a>
-      </li>
       <li class="gumroad">
         <a href="https://gumroad.com/mastergodai"></a>
       </li>
       <li class="twitter">
         <a href="https://twitter.com/Mastergodai"></a>
-      </li>
-      <li class="discord">
-        <a href=""></a>
       </li>
       <li class="reddit">
         <a href="https://www.reddit.com/r/Mastergodai/"></a>
@@ -184,12 +160,6 @@
         <li class="deviant-art">
           <a href="https://www.deviantart.com/avencri"></a>
         </li>
-        <li class="instagram">
-          <a href=""></a>
-        </li>
-        <li class="youtube">
-          <a href=""></a>
-        </li>
         <li class="patreon">
           <a href="https://www.patreon.com/avencri"></a>
         </li>
@@ -199,19 +169,13 @@
         <li class="ko-fi">
           <a href="https://ko-fi.com/Avencri"></a>
         </li>
-        <li class="gumroad">
-          <a href=""></a>
-        </li>
         <li class="twitter">
           <a href="https://twitter.com/avencri"></a>
-        </li>
-        <li class="discord">
-          <a href=""></a>
         </li>
       </ul>
     </div>
 
-  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'pmp') !== false ) : ?>
+  <?php elseif ( strpos($url, '###') !== false || strpos($url, 'pmp') !== false ) : ?>
     <div class="buttons">
       <ul>
         <li class="picarto">
@@ -222,9 +186,6 @@
         </li>
         <li class="deviant-art">
           <a href="https://www.deviantart.com/freelancemanga"></a>
-        </li>
-        <li class="instagram">
-          <a href=""></a>
         </li>
         <li class="youtube">
           <a href="https://www.youtube.com/user/TheDrawingNeko"></a>
@@ -244,8 +205,29 @@
         <li class="twitter">
           <a href="https://twitter.com/nekonny"></a>
         </li>
-        <li class="discord">
-          <a href=""></a>
+      </ul>
+    </div>
+
+    <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false ) : ?>
+    <div class="buttons">
+      <ul>
+        <li class="picarto">
+          <a href="https://picarto.tv/Chalodraws"></a>
+        </li>
+        <li class="fur-affinity">
+          <a href="http://www.furaffinity.net/user/chalodillo/"></a>
+        </li>
+        <li class="deviant-art">
+          <a href="https://www.deviantart.com/chalosan"></a>
+        </li>
+        <li class="patreon">
+          <a href="https://www.patreon.com/Chalodillo"></a>
+        </li>
+        <li class="ko-fi">
+          <a href="https://ko-fi.com/chalodillo"></a>
+        </li>
+        <li class="twitter">
+          <a href="https://twitter.com/Chalodillo"></a>
         </li>
       </ul>
     </div>
