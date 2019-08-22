@@ -5,6 +5,7 @@ module.exports = {
   mode: 'production',
   entry: {
     cb: './src/cb.js',
+    knighthood: './src/knighthood.js',
     main: './src/index.js',
     imew: './src/imew.js',
     laslindas: './src/laslindas.js',
