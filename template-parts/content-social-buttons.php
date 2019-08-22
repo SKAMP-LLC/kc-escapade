@@ -142,9 +142,6 @@
       <li class="twitter">
         <a href="https://twitter.com/Mastergodai"></a>
       </li>
-      <li class="reddit">
-        <a href="https://www.reddit.com/r/Mastergodai/"></a>
-      </li>
     </ul>
   </div>
 

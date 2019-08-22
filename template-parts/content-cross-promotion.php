@@ -49,8 +49,8 @@
   </section>
 <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false ) : ?>
   <section class="cross-promotion">
-    <a class="spotlight" href="https://picarto.tv/Chalodraws"></a>
-    <a class="spotlight" href="https://knighthood.kemono.cafe"></a>
     <a class="spotlight" href="https://www.patreon.com/Chalodillo"></a>
+    <a class="spotlight" href="https://knighthood.kemono.cafe"></a>
+    <a class="spotlight" href="https://picarto.tv/Chalodraws"></a>
   </section>
 <?php endif; ?>

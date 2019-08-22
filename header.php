@@ -37,6 +37,14 @@
       <title>Caribbean Blue</title>
       <meta name="description" content="Tina and Yuki travel to the island of Caribbean Blue in search of a cure for their friend's strange feline curse, only to discover the island has many more secrets than they bargained for. Will they save the island after accidentally unearthing one of its greatest mysteries? Read and find out!">
       <meta name="keywords" content="webcomic, webcomics, anime, furry, art, furry art">
+    <?php elseif ( strpos($url, 'pmp') !== false ) : ?>
+      <title>Practice Makes Perfect</title>
+      <meta name="description" content="A four panel gag comic with a cast of adorable characters! Jess Drea and Addy are just kids trying to make sense of the world in their own unique way, using imagination as their guide!">
+      <meta name="keywords" content="webcomic, webcomics, anime, furry, art, furry art">
+    <?php elseif ( strpos($url, 'laslindas') !== false ) : ?>
+      <title>Las Lindas</title>
+      <meta name="description" content="Las Lindas is a Slice of Life story that revolves around Mora Linda, who inherits her family's farmland after the death of her mother Diana. At first attempting to manage the farm on her own, she quickly realizes that she will need help, and goes out to recruit some more workers. Things are complicated when an old rival shows up and tries to run Mora out of business.">
+      <meta name="keywords" content="laslindas, webcomic, webcomics, anime, furry, art, furry art">
     <?php endif; ?>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
