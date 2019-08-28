@@ -18,11 +18,22 @@ body {
     margin: 0 auto
 }
 
-.two-column {
+.three-column {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  a {
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+  }
+  .side-banner {
+    a {
+      background-image: url('../../static/kc_banner_ver.png');
+      height: 600px;
+      width: 160px;
+    }
+  }
   .comic {
-    width: 75%;
     #comic-nav-wrapper {
       width: 100%;
     }
@@ -38,20 +49,8 @@ body {
   }
   .social-sidebar {
     display: flex;
-    a {
-      background-repeat: no-repeat;
-      color: transparent;
-      display: block;
-    }
     li {
       list-style-type: none;
-    }
-    .banner {
-      a {
-        background-image: url('../../static/kc_banner_ver.png');
-        height: 600px;
-        width: 160px;
-      }
     }
     .buttons {
       width: 140px;

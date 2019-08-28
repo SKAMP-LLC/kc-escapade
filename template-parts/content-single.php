@@ -13,7 +13,10 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-  <section class="two-column">
+  <section class="three-column">
+    <div class="side-banner">
+      <a href="https://kemono.cafe"></a>
+    </div>
     <div id="primary" class="comic">
       <?php do_action('comic-area'); ?>
     </div>
@@ -21,9 +24,6 @@
       <?php
         get_template_part( 'template-parts/content', 'social-buttons' );
       ?>
-      <div class="banner">
-      <a href="https://kemono.cafe"></a>
-      </div>
     </div>
   </section>
 
