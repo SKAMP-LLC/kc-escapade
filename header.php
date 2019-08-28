@@ -45,6 +45,10 @@
       <title>Las Lindas</title>
       <meta name="description" content="Las Lindas is a Slice of Life story that revolves around Mora Linda, who inherits her family's farmland after the death of her mother Diana. At first attempting to manage the farm on her own, she quickly realizes that she will need help, and goes out to recruit some more workers. Things are complicated when an old rival shows up and tries to run Mora out of business.">
       <meta name="keywords" content="laslindas, webcomic, webcomics, anime, furry, art, furry art">
+    <?php elseif ( strpos($url, 'knighthood') !== false ) : ?>
+      <title>Knighthood</title>
+      <meta name="description" content="Knighthood is a story of adventure and growth. Joy Ravenhurst has taken on a challenge to become a Knight, one of her race’s protectors and guardians. The trail is long and she faces more than a few obstacles along the way. Joy’s determination will be put to the test as those enemies grow ever more aggressive, both against her and the world she wants to protect.">
+      <meta name="keywords" content="knighthood, webcomic, webcomics, anime, furry, art, furry art">
     <?php endif; ?>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
