@@ -53,10 +53,16 @@
     <a class="spotlight" href="https://knighthood.kemono.cafe"></a>
     <a class="spotlight" href="https://picarto.tv/Chalodraws"></a>
   </section>
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'knighthood') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'knighthood') !== false ) : ?>
   <section class="cross-promotion">
     <a class="spotlight" href="https://www.patreon.com/Chalodillo"></a>
     <a class="spotlight" href="https://laslindas.kemono.cafe"></a>
     <a class="spotlight" href="https://picarto.tv/Chalodraws"></a>
+  </section>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'addictivescience') !== false ) : ?>
+  <section class="cross-promotion">
+    <a class="spotlight" href="https://www.patreon.com/Cervelet"></a>
+    <a class="spotlight" href="http://growingtroubles.smackjeeves.com/comics/2667472/growing-troubles-1/"></a>
+    <a class="spotlight" href="http://www.offcentaured.com/"></a>
   </section>
 <?php endif; ?>

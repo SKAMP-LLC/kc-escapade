@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   mode: 'production',
   entry: {
+    addictivescience: './src/addictivescience.js',
     cb: './src/cb.js',
     knighthood: './src/knighthood.js',
     main: './src/index.js',

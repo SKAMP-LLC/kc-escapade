@@ -1,0 +1,41 @@
+@import './palette.scss';
+@import './addictivescience/cast.scss';
+@import './addictivescience/comic-archive.scss';
+@import './addictivescience/comic-navigation.scss';
+@import './addictivescience/comic.scss';
+@import './addictivescience/footer.scss';
+@import './addictivescience/header.scss';
+
+body {
+  background-image: url('../../static/addictivescience/background.png');
+  background-position: center;
+  color: $off_white;
+}
+
+.cross-promotion {
+  a {
+    background-image: url('../../static/addictivescience/spotlight_banner_2.png');
+    &:first-child {
+      background-image: url('../../static/addictivescience/spotlight_banner_1.png');
+    }
+    &:last-child {
+      background-image: url('../../static/addictivescience/spotlight_banner_3.png');
+    }
+  }
+}
+.comic {
+  .comic-table {
+    #comic {
+      background: $black !important;
+    }
+  }
+}
+
+@media only screen and (max-device-width : 1024px) and (orientation : portrait) {
+  .logo {
+    margin: 0 auto;
+    a {
+      background-image: url('../../static/addictivescience/comic_logo_mobile.png');
+    }
+  }
+}

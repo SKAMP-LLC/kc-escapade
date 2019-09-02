@@ -205,7 +205,7 @@
       </ul>
     </div>
 
-    <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false || strpos($url, 'knighthood') !== false ) : ?>
+    <?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false || strpos($url, 'knighthood') !== false ) : ?>
     <div class="buttons">
       <ul>
         <li class="picarto">
@@ -225,6 +225,27 @@
         </li>
         <li class="twitter">
           <a href="https://twitter.com/Chalodillo"></a>
+        </li>
+      </ul>
+    </div>
+
+    <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'addictivescience') !== false ) : ?>
+    <div class="buttons">
+      <ul>
+        <li class="picarto">
+          <a href="https://picarto.tv/cervelet"></a>
+        </li>
+        <li class="fur-affinity">
+          <a href="http://www.furaffinity.net/user/cervelet/"></a>
+        </li>
+        <li class="deviant-art">
+          <a href="https://cervelet.deviantart.com/"></a>
+        </li>
+        <li class="patreon">
+          <a href="https://www.patreon.com/Cervelet"></a>
+        </li>
+        <li class="youtube">
+          <a href="https://www.youtube.com/user/Goddot"></a>
         </li>
       </ul>
     </div>
