@@ -273,7 +273,7 @@ function escapade_scripts() {
     wp_enqueue_style( 'rascals-webpack-main-css', get_template_directory_uri() . '/dist/rascals.css', array( 'escapade-style' ), '20160816' );
   }
   // The Eye of Ramalach Theme
-  else if (strpos($url, '###') !== false || strpos($url, 'theeye') !== false) {
+  else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false) {
     wp_enqueue_script( 'theeye-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/theeye.js', array('jquery'), 1, false );
     wp_enqueue_style( 'theeye-webpack-main-css', get_template_directory_uri() . '/dist/theeye.css', array( 'escapade-style' ), '20160816' );
   }
@@ -293,7 +293,7 @@ function escapade_scripts() {
     wp_enqueue_style( 'laslindas-webpack-main-css', get_template_directory_uri() . '/dist/laslindas.css', array( 'escapade-style' ), '20160816' );
   }
   // Knighthood Theme
-  else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'knighthood') !== false) {
+  else if (strpos($url, '###') !== false || strpos($url, 'knighthood') !== false) {
     wp_enqueue_script( 'knighthood-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/knighthood.js', array('jquery'), 1, false );
     wp_enqueue_style( 'knighthood-webpack-main-css', get_template_directory_uri() . '/dist/knighthood.css', array( 'escapade-style' ), '20160816' );
   }

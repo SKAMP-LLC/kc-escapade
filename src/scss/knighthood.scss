@@ -1,16 +1,14 @@
 @import './palette.scss';
 @import './knighthood/comic-archive.scss';
 @import './knighthood/comic-navigation.scss';
+@import './knighthood/comic.scss';
+@import './knighthood/footer.scss';
 @import './knighthood/header.scss';
 
 body {
   background-image: url('../../static/knighthood/background.png');
   background-position: center;
   color: $off_white;
-}
-
-.two-column {
-  margin-top: .5em;
 }
 
 .cross-promotion {

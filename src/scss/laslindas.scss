@@ -1,16 +1,14 @@
 @import './palette.scss';
 @import './laslindas/comic-archive.scss';
 @import './laslindas/comic-navigation.scss';
+@import './laslindas/comic.scss';
+@import './laslindas/footer.scss';
 @import './laslindas/header.scss';
 
 body {
   background-color: black;
   background-position: center;
   color: $off_white;
-}
-
-.two-column {
-  margin-top: .5em;
 }
 
 .cross-promotion {

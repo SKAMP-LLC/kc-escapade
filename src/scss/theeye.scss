@@ -1,12 +1,15 @@
 @import './palette.scss';
 @import './theeye/comic-archive.scss';
 @import './theeye/comic-navigation.scss';
+@import './theeye/comic.scss';
+@import './theeye/footer.scss';
 @import './theeye/header.scss';
 
 body {
   background-color: #000;
   background-image: url('../../static/theeye/background.png');
-  background-position: center;
+  background-position: top center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   color: $off_white;
 }
