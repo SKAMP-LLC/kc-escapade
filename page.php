@@ -17,7 +17,7 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
   <?php
       while ( have_posts() ) : the_post();
-        if(is_page('Characters'))
+        if(is_page('Cast'))
           get_template_part( 'template-parts/content', 'page-cast' );
         else if(is_page('Archive'))
           get_template_part( 'template-parts/content', 'page-archive' );

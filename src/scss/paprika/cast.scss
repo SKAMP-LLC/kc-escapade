@@ -1,0 +1,128 @@
+$tina_color: #73f1dd;
+$yuki_color: #afa7e3;
+$ruby_color: #fc8b61;
+$ron_color: #a4d0aa;
+$megan_color: #f59da9;
+$kobe_color: #7abfe5;
+
+.cast-page {
+
+  .box {
+    border-radius: 20px;
+    color: $black;
+    height: 500px;
+    margin: 100px auto 0;
+    position: relative;
+    width: 90%;
+
+    div {
+      display: inline-block;
+    }
+
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3em;
+      text-align: center;
+    }
+
+    .image {
+      height: 640px;
+      position: absolute;
+      top: -60px;
+      width: 380px;
+    }
+
+    .stats {
+      line-height: 1.5em;
+      position: absolute;
+      text-align: left;
+      top: 40px;
+      width: 450px;
+    }
+
+    .stats.left {
+      left: 80px;
+    }
+
+    .stats.right {
+      left: 45%;
+    }
+
+    .image.left {
+      left: 20px;
+    }
+
+    .image.right {
+      right: 0px;
+    }
+
+    &:last-child {
+      margin-bottom: 100px;
+    }
+
+    &:before {
+      border-radius: 20px;
+      border: 20px solid $off_white;
+      content: '';
+      height: 460px;
+      margin: 20px;
+      position: absolute;
+      top: 0px;
+      width: calc(100% - 40px);
+    }
+  }
+
+  .tina {
+    background-color: $tina_color;
+    box-shadow: 5px 5px 5px 0px $tina_color;
+    .image {
+      background-image: url('../../static/paprika/cast/cast_tina.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .yuki {
+    background-color: $yuki_color;
+    box-shadow: 5px 5px 5px 0px $yuki_color;
+    .image {
+      background-image: url('../../static/paprika/cast/cast_yuki.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .ruby {
+    background-color: $ruby_color;
+    box-shadow: 5px 5px 5px 0px $ruby_color;
+    .image {
+      background-image: url('../../static/paprika/cast/cast_ruby.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .ron {
+    background-color: $ron_color;
+    box-shadow: 5px 5px 5px 0px $ron_color;
+    .image {
+      background-image: url('../../static/paprika/cast/cast_ron.png');
+      background-repeat: no-repeat;
+    }
+  }
+  
+  .megan {
+    background-color: $megan_color;
+    box-shadow: 5px 5px 5px 0px $megan_color;
+    .image {
+      background-image: url('../../static/paprika/cast/cast_megan.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .kobe {
+    background-color: $kobe_color;
+    box-shadow: 5px 5px 5px 0px $kobe_color;
+    .image {
+      background-image: url('../../static/paprika/cast/cast_kobe.png');
+      background-repeat: no-repeat;
+    }
+  }
+}
