@@ -1,7 +1,7 @@
 import Siema from 'siema';
 
 document.addEventListener("DOMContentLoaded", () => {
-  const number_of_comics = 9;
+  const number_of_comics = 10;
   const comicSlots = new Siema({
     perPage: 7,
     loop: true,

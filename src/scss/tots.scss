@@ -1,0 +1,35 @@
+@import './palette.scss';
+@import './tots/cast.scss';
+@import './tots/comic-archive.scss';
+@import './tots/comic-navigation.scss';
+@import './tots/comic.scss';
+@import './tots/footer.scss';
+@import './tots/header.scss';
+
+body {
+  background-color: #000;
+  background: url('../../static/tots/background.png') no-repeat center center fixed;
+  color: $black;
+  background-size: cover;
+}
+
+.cross-promotion {
+  a {
+    background-image: url('../../static/tots/spotlight_banner_2.png');
+    &:first-child {
+      background-image: url('../../static/tots/spotlight_banner_1.png');
+    }
+    &:last-child {
+      background-image: url('../../static/tots/spotlight_banner_3.png');
+    }
+  }
+}
+
+@media only screen and (max-device-width : 1024px) and (orientation : portrait) {
+  .logo {
+    margin: 0 auto;
+    a {
+      background-image: url('../../static/tots/comic_logo_mobile.png');
+    }
+  }
+}

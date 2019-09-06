@@ -13,7 +13,8 @@ module.exports = {
     paprika: './src/paprika.js',
     pmp: './src/pmp.js',
     rascals: './src/rascals.js',
-    theeye: './src/theeye.js'
+    theeye: './src/theeye.js',
+    tots: './src/tots.js'
   },
   output: {
     filename: '[name].js',

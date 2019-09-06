@@ -43,9 +43,6 @@
       <li class="twitter">
         <a href="https://twitter.com/nekonny"></a>
       </li>
-      <li class="reddit">
-        <a href="https://www.reddit.com/r/Mastergodai/"></a>
-      </li>
     </ul>
   </div>
 
@@ -229,7 +226,7 @@
       </ul>
     </div>
 
-    <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'addictivescience') !== false ) : ?>
+    <?php elseif ( strpos($url, '###') !== false || strpos($url, 'addictivescience') !== false ) : ?>
     <div class="buttons">
       <ul>
         <li class="picarto">
@@ -246,6 +243,33 @@
         </li>
         <li class="youtube">
           <a href="https://www.youtube.com/user/Goddot"></a>
+        </li>
+      </ul>
+    </div>
+
+    <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'tots') !== false ) : ?>
+    <div class="buttons">
+      <ul>
+        <li class="picarto">
+          <a href="https://picarto.tv/avencri"></a>
+        </li>
+        <li class="fur-affinity">
+          <a href="https://www.furaffinity.net/user/avencri/"></a>
+        </li>
+        <li class="deviant-art">
+          <a href="https://www.deviantart.com/avencri"></a>
+        </li>
+        <li class="patreon">
+          <a href="https://www.patreon.com/avencri"></a>
+        </li>
+        <li class="paypal">
+          <a href="https://www.paypal.com/paypalme2/avencri"></a>
+        </li>
+        <li class="ko-fi">
+          <a href="https://ko-fi.com/Avencri"></a>
+        </li>
+        <li class="twitter">
+          <a href="https://twitter.com/avencri"></a>
         </li>
       </ul>
     </div>

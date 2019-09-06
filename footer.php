@@ -46,9 +46,13 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Las Lindas &#169; 2019 Chalo All Rights Reserved</span>
       </footer>
-  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'addictivescience') !== false ) : ?>
+  <?php elseif ( strpos($url, '###') !== false || strpos($url, 'addictivescience') !== false ) : ?>
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Addictive Science &#169; 2019 Cervelet All Rights Reserved</span>
+      </footer>
+  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'tots') !== false ) : ?>
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <span>Tina of the South &#169; 2019 Avencri All Rights Reserved</span>
       </footer>
   <?php endif; ?>
 </div><!-- .site -->

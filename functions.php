@@ -278,7 +278,7 @@ function escapade_scripts() {
     wp_enqueue_style( 'theeye-webpack-main-css', get_template_directory_uri() . '/dist/theeye.css', array( 'escapade-style' ), '20160816' );
   }
   // Caribbean Blue Theme
-   else if (strpos($url, '###') !== false || strpos($url, 'cb') !== false) {
+  else if (strpos($url, '###') !== false || strpos($url, 'cb') !== false) {
     wp_enqueue_script( 'cb-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/cb.js', array('jquery'), 1, false );
     wp_enqueue_style( 'cb-webpack-main-css', get_template_directory_uri() . '/dist/cb.css', array( 'escapade-style' ), '20160816' );
   }
@@ -298,9 +298,14 @@ function escapade_scripts() {
     wp_enqueue_style( 'knighthood-webpack-main-css', get_template_directory_uri() . '/dist/knighthood.css', array( 'escapade-style' ), '20160816' );
   }
   // Addictive Science Theme
-  else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'addictivescience') !== false) {
+  else if (strpos($url, '###') !== false || strpos($url, 'addictivescience') !== false) {
     wp_enqueue_script( 'addictivescience-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/addictivescience.js', array('jquery'), 1, false );
     wp_enqueue_style( 'addictivescience-webpack-main-css', get_template_directory_uri() . '/dist/addictivescience.css', array( 'escapade-style' ), '20160816' );
+  }
+  // Tina of the South Theme
+  else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'tots') !== false) {
+    wp_enqueue_script( 'tots-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/tots.js', array('jquery'), 1, false );
+    wp_enqueue_style( 'tots-webpack-main-css', get_template_directory_uri() . '/dist/tots.css', array( 'escapade-style' ), '20160816' );
   }
 
 	// Load the Internet Explorer specific stylesheet.

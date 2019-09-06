@@ -49,6 +49,14 @@
       <title>Knighthood</title>
       <meta name="description" content="Knighthood is a story of adventure and growth. Joy Ravenhurst has taken on a challenge to become a Knight, one of her race’s protectors and guardians. The trail is long and she faces more than a few obstacles along the way. Joy’s determination will be put to the test as those enemies grow ever more aggressive, both against her and the world she wants to protect.">
       <meta name="keywords" content="knighthood, webcomic, webcomics, anime, furry, art, furry art">
+    <?php elseif ( strpos($url, 'addictivescience') !== false ) : ?>
+      <title>Addictive Science</title>
+      <meta name="description" content="Slice of life comic about a mad scientist, featuring mad science, magic and whatever the author found funny that week.">
+      <meta name="keywords" content="webcomic, webcomics">
+    <?php elseif ( strpos($url, 'tots') !== false ) : ?>
+      <title>Tina of the South</title>
+      <meta name="description" content="Terra Rica is home to great riches for those willing to brave the harsh landscape. For some, however, arid deserts are the least of their worries. As a child, Tina Winchester lost everything to a sinister killer. Now, as a bounty hunter, Tina sets out on a quest for revenge, to bring her father's killer to justice. But her efforts quickly attract the ire of a secret cabal that plots to undermine the very foundations of Terra Rica itself.">
+      <meta name="keywords" content="webcomic, webcomics, furry, art, furry art">
     <?php endif; ?>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -39,7 +39,7 @@
   <section class="cross-promotion">
     <a class="spotlight" href="https://www.patreon.com/avencri"></a>
     <a class="spotlight" href="https://picarto.tv/avencri"></a>
-    <a class="spotlight" href="https://tinaofthesouth.kemono.cafe"></a>
+    <a class="spotlight" href="https://tots.kemono.cafe"></a>
   </section>
 <?php elseif ( strpos($url, '###') !== false || strpos($url, 'pmp') !== false ) : ?>
   <section class="cross-promotion">
@@ -59,10 +59,16 @@
     <a class="spotlight" href="https://laslindas.kemono.cafe"></a>
     <a class="spotlight" href="https://picarto.tv/Chalodraws"></a>
   </section>
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'addictivescience') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'addictivescience') !== false ) : ?>
   <section class="cross-promotion">
     <a class="spotlight" href="https://www.patreon.com/Cervelet"></a>
     <a class="spotlight" href="http://growingtroubles.smackjeeves.com/comics/2667472/growing-troubles-1/"></a>
     <a class="spotlight" href="http://www.offcentaured.com/"></a>
+  </section>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'tots') !== false ) : ?>
+  <section class="cross-promotion">
+    <a class="spotlight" href="https://www.patreon.com/avencri"></a>
+    <a class="spotlight" href="https://picarto.tv/avencri"></a>
+    <a class="spotlight" href="https://theeye.kemono.cafe/"></a>
   </section>
 <?php endif; ?>
