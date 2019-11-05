@@ -2,6 +2,7 @@ $mora_color: #2d8a43;
 $minos_color: #2d8a43;
 $taffy_color: #2d8a43;
 $alej_color: #2d8a43;
+$ll_green: #c4d97d;
 
 .cast-page {
 
@@ -60,7 +61,7 @@ $alej_color: #2d8a43;
 
     &:before {
       border-radius: 20px;
-      border: 20px solid $off_white;
+      border: 20px solid $ll_green;
       content: '';
       height: 460px;
       margin: 20px;
