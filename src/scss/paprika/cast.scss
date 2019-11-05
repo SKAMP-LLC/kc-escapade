@@ -1,15 +1,12 @@
-$tina_color: #73f1dd;
-$yuki_color: #afa7e3;
-$ruby_color: #fc8b61;
-$ron_color: #a4d0aa;
-$megan_color: #f59da9;
-$kobe_color: #7abfe5;
+$panel_color: #c9615f;
+$frame_color: #fcbba3;
+$shadow_color: #5f0e0c;
 
 .cast-page {
 
   .box {
     border-radius: 20px;
-    color: $black;
+    color: $white;
     height: 500px;
     margin: 100px auto 0;
     position: relative;
@@ -62,7 +59,7 @@ $kobe_color: #7abfe5;
 
     &:before {
       border-radius: 20px;
-      border: 20px solid $off_white;
+      border: 20px solid $frame_color;
       content: '';
       height: 460px;
       margin: 20px;
@@ -73,8 +70,8 @@ $kobe_color: #7abfe5;
   }
 
   .tina {
-    background-color: $tina_color;
-    box-shadow: 5px 5px 5px 0px $tina_color;
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
       background-image: url('../../static/paprika/cast/cast_tina.png');
       background-repeat: no-repeat;
@@ -82,8 +79,8 @@ $kobe_color: #7abfe5;
   }
 
   .yuki {
-    background-color: $yuki_color;
-    box-shadow: 5px 5px 5px 0px $yuki_color;
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
       background-image: url('../../static/paprika/cast/cast_yuki.png');
       background-repeat: no-repeat;
@@ -91,8 +88,8 @@ $kobe_color: #7abfe5;
   }
 
   .ruby {
-    background-color: $ruby_color;
-    box-shadow: 5px 5px 5px 0px $ruby_color;
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
       background-image: url('../../static/paprika/cast/cast_ruby.png');
       background-repeat: no-repeat;
@@ -100,8 +97,8 @@ $kobe_color: #7abfe5;
   }
 
   .ron {
-    background-color: $ron_color;
-    box-shadow: 5px 5px 5px 0px $ron_color;
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
       background-image: url('../../static/paprika/cast/cast_ron.png');
       background-repeat: no-repeat;
@@ -109,8 +106,8 @@ $kobe_color: #7abfe5;
   }
   
   .megan {
-    background-color: $megan_color;
-    box-shadow: 5px 5px 5px 0px $megan_color;
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
       background-image: url('../../static/paprika/cast/cast_megan.png');
       background-repeat: no-repeat;
@@ -118,8 +115,8 @@ $kobe_color: #7abfe5;
   }
 
   .kobe {
-    background-color: $kobe_color;
-    box-shadow: 5px 5px 5px 0px $kobe_color;
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
       background-image: url('../../static/paprika/cast/cast_kobe.png');
       background-repeat: no-repeat;

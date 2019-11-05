@@ -11,20 +11,24 @@
 <?php 
   global $wp;
   $url = home_url( add_query_arg( array(), $wp->request ) );
-  if ( strpos($url, '###') !== false || strpos($url, 'paprika') !== false ) : ?>
+  if ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'paprika') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="tina box">
         <div class="right image"></div>
         <div class="left stats">
           <h1>Tina</h1>
-          <p>Tina's energetic, fun, perhaps a bit naive... but very attached to her family and friends. Nekomimi are rare where she lives, so when she ran into another catgirl as kid, she imediately lacthed on. She hopes to carry on her families resturant one day, even though she's still got a lot to learn about cooking.</p>
+          <h2>Height ~ 160cm (5'3")</h2>
+          <h2>Stripes ~ 54 (she thinks)</h2>
+          <p>Tina's energetic, fun, perhaps a bit naive... but very attached to her family and friends. Nekomimi are rare where she lives, so when she ran into another catgirl as kid, she immediately latched on. She loves thinking big, and as a result has developed a sense of adventure up to the task. She hopes to carry on her families restaurant one day, even though she's still got a lot to learn about cooking. For now, she works as both a waiter and a store clerk.</p>
         </div>
       </div>
       <div class="yuki box">
         <div class="left image"></div>
         <div class="right stats">
           <h1>Yuki</h1>
+          <h2>Height ~ 169cm (5'6")</h2>
+          <h2>Ears ~ Caracal</h2>
           <p>As the more mature, level headed member of the group, it often falls on Yuki to keep everyone grounded. Still, she does enjoy having fun, and appreciates Tina for getting her to try out new things. They've known each other since they were kids, and although she found Tina to be rather annoying at first, eventually they bonded and now she's pretty much the " big sister" of the two.</p>
         </div>
       </div>
@@ -32,33 +36,41 @@
         <div class="right image"></div>
         <div class="left stats">
           <h1>Ruby</h1>
-          <p>This meka obsessed nekomimi has both spunk and the smarts do back it up. She grew up on sci-fi anime and dreams of one day building her own "knight of the stars", a mobile, flight capable battle suit. But while the technology catches up to her imagination, she is content building models and tinkering with eletronics. She is new to the collage where the other girls attend, and was very surprised to run into them.</p>
+          <h2>Height ~ 165cm (5'5")</h2>
+          <h2>"The Flames Make It Go Faster"</h2>
+          <p>This meka obsessed nekomimi has both spunk and the smarts do back it up. She grew up on sci-fi anime and dreams of one day building her own "knight of the stars", a mobile, flight capable battle suit. But while the technology catches up to her imagination, she is content building models and tinkering with electronics. She is new to the collage where the other girls attend, and was very surprised to run into them.</p>
         </div>
       </div>
       <div class="ron box">
         <div class="left image"></div>
         <div class="right stats">
           <h1>Ron</h1>
-          <p>A fan of group projects, Ron used to orginize small anime conventions, but had big dreams of building something that would be open year round. His latest plan was to start up his own anime store, and of course, having a trio of cute nekomimi girls working in it would be a big hook, but he never expected to become the mascot himself... Now, finding himself in a very peculiar situation, he is more dependant than ever on the nekomimis to get by.</p>
+          <h2>Height ~ 182cm (6')</h2>
+          <h2>Current projects ~ 16 (and counting)</h2>
+          <p>A fan of group projects, Ron used to organize small anime conventions, but had big dreams of building something that would be open year round. His latest plan was to start up his own anime store, and of course, having a trio of cute nekomimi girls working in it would be a big hook, but he never expected to become the mascot himself... Now, finding himself in a very peculiar situation, he is more dependent than ever on the nekomimis to get by.</p>
         </div>
       </div>
       <div class="megan box">
         <div class="right image"></div>
         <div class="left stats">
           <h1>Megan</h1>
-          <p>Being Tinas mom takes a special kind of woman. A foodie by heart, she loves a good meal almost as much as her buisness. Of course, family comes first, </p>
+          <h2>Height ~ 151cm (4'9")</h2>
+          <h2>"There's nothing like a perfectly cooked picanha."</h2>
+          <p>Being Tina's mom takes a special kind of woman. A foodie by heart, she loves a good meal almost as much as her business. Of course, family comes first, and this mama is literally a tiger. It sure takes one to Keep Tina grounded, but her keen senses have been well suited to the task. Together with her husband, Megan runs the small Korean restaurant "Paprika", and has allowed Ron to rent out the second floor for his latest project.</p>
         </div>
       </div>
       <div class="kobe box">
         <div class="left image"></div>
         <div class="right stats">
           <h1>Kobe</h1>
-          <p>As the head chef of Paprika, Kobe is used to running an efficiant ship. He's keeper of the Hachico secret family recipie, the "Tiger Special", an amazing dish, that if properly made, has the power to satisfy even the most diserning of pallets.</p>
+          <h2>Height ~ 158cm (5'5")</h2>
+          <h2>Scoville heat factor -RETRACTED-</h2>
+          <p>As the head chef of Paprika, Kobe is used to running an efficient ship. And with his wife Megan helping manage the business side of things, he is free to peruse the perfection of his art. He's keeper of the Hachico secret family recipe, the "Tiger Special", an amazing dish, that if properly made, has the power to satisfy even the most discerning of pallets. He hopes to teach Tina this power one day, that is, if she can ever become responsible enough to wield it. In the meantime, she can bus the tables.</p>
         </div>
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="mora box">
