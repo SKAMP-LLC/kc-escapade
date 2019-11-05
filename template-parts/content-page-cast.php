@@ -11,7 +11,7 @@
 <?php 
   global $wp;
   $url = home_url( add_query_arg( array(), $wp->request ) );
-  if ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'paprika') !== false ) : ?>
+  if ( strpos($url, '###') !== false || strpos($url, 'paprika') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="tina box">
@@ -54,6 +54,39 @@
         <div class="right stats">
           <h1>Kobe</h1>
           <p>As the head chef of Paprika, Kobe is used to running an efficiant ship. He's keeper of the Hachico secret family recipie, the "Tiger Special", an amazing dish, that if properly made, has the power to satisfy even the most diserning of pallets.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false ) : ?>
+  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="cast-page">
+      <div class="mora box">
+        <div class="right image"></div>
+        <div class="left stats">
+          <h1>Mora</h1>
+          <p>Mora's the sole owner of her family's vegetable farm "Las Lindas". Born with a short fuse and a fiery soul, she grew up a harsh and selfish woman, living a life of drinking and fun. Only the sudden news of her mother's passing was enough to bring her back and restore the family farm. Mora was unprepared for the burden of running a business on her own and quickly realized she needed help. Recruiting anyone who would come, she now finds herself surrounded by a colorful bunch of characters.</p>
+        </div>
+      </div>
+      <div class="minos box">
+        <div class="left image"></div>
+        <div class="right stats">
+          <h1>Minos</h1>
+          <p>Minos is a mysterious wanderer who came to Las Lindas in search of seasonal work and stayed because he fell in love with its owner. Mora cannot help see her future in Minos as her own father came and went in the same fashion. But there are so many questions surrounding him that nothing is ever certain. Minos, at times, has even exhibited incredible strength far beyond even what a prime can do.</p>
+        </div>
+      </div>
+      <div class="taffy box">
+        <div class="right image"></div>
+        <div class="left stats">
+          <h1>Taffy</h1>
+          <p>Taffy is one of the first who come to Mora's help when the farm proves to be more than she can handle alone and has since become Mora's closest friend. Taffy's determined to making the perfect home after leaving a broken one and acts as surrogate mother to many of the farm's residents. Now she wrestles with the idea of settling down too early, worried that never knowing what's out there will embitter like her own mother.</p>
+        </div>
+      </div>
+      <div class="alejandra box">
+        <div class="left image"></div>
+        <div class="right stats">
+          <h1>Alejandra</h1>
+          <p>Alejandra is Mora's childhood friend with a much more complicated adulthood. When Mora abandoned her home at a young age, Alejandra focused on her career and became a cold and calculating woman. It was only when Mora returned that she realized how wounded she was and how empty her life had become. Alejandra became obsessed at defeating her new "rival" to prove her superiority and that she had made all the correct decisions in life.</p>
         </div>
       </div>
     </div>

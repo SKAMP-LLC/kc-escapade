@@ -1,0 +1,104 @@
+$mora_color: #2d8a43;
+$minos_color: #2d8a43;
+$taffy_color: #2d8a43;
+$alej_color: #2d8a43;
+
+.cast-page {
+
+  .box {
+    border-radius: 20px;
+    color: $white;
+    height: 500px;
+    margin: 100px auto 0;
+    position: relative;
+    width: 90%;
+
+    div {
+      display: inline-block;
+    }
+
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3em;
+      text-align: center;
+    }
+
+    .image {
+      height: 640px;
+      position: absolute;
+      top: -60px;
+      width: 380px;
+    }
+
+    .stats {
+      line-height: 1.5em;
+      position: absolute;
+      text-align: left;
+      top: 40px;
+      width: 450px;
+    }
+
+    .stats.left {
+      left: 80px;
+    }
+
+    .stats.right {
+      left: 45%;
+    }
+
+    .image.left {
+      left: 20px;
+    }
+
+    .image.right {
+      right: 0px;
+    }
+
+    &:last-child {
+      margin-bottom: 100px;
+    }
+
+    &:before {
+      border-radius: 20px;
+      border: 20px solid $off_white;
+      content: '';
+      height: 460px;
+      margin: 20px;
+      position: absolute;
+      top: 0px;
+      width: calc(100% - 40px);
+    }
+  }
+
+  .mora {
+    background-color: $mora_color;
+    .image {
+      background-image: url('../../static/laslindas/cast/cast_mora.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .minos {
+    background-color: $minos_color;
+    .image {
+      background-image: url('../../static/laslindas/cast/cast_minos.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .taffy {
+    background-color: $taffy_color;
+    .image {
+      background-image: url('../../static/laslindas/cast/cast_taffy.png');
+      background-repeat: no-repeat;
+    }
+  }
+  
+  .alejandra {
+    background-color: $alej_color;
+    .image {
+      background-image: url('../../static/laslindas/cast/cast_alej.png');
+      background-repeat: no-repeat;
+    }
+  }
+}
