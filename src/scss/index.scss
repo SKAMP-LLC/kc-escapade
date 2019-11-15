@@ -49,21 +49,27 @@ body {
   }
   .social-sidebar {
     display: flex;
-    li {
-      list-style-type: none;
+    width: 140px;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+      width: 140px;
+      li {
+        list-style-type: none;
+      }
     }
     .buttons {
-      width: 140px;
-      ul {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-        padding: 0;
-        width: 140px;
-      }
       a {
         height: 70px;
         width: 70px;
+      }
+    }
+    .partners {
+      a {
+        height: 50px;
+        width: 140px;
       }
     }
   }

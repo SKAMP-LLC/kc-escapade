@@ -14,8 +14,8 @@
   global $wp;
   $url = home_url( add_query_arg( array(), $wp->request ) );
   if ( strpos($url, '###') !== false || strpos($url, 'paprika') !== false ) : ?>
-  <div class="buttons">
-    <ul>
+  <div>
+    <ul class="buttons">
       <li class="picarto">
         <a href="https://picarto.tv/Nekonny"></a>
       </li>
@@ -44,12 +44,26 @@
         <a href="https://twitter.com/nekonny"></a>
       </li>
     </ul>
+    <ul class="partners">
+      <li class="twokinds">
+        <a href="http://twokinds.keenspot.com"></a>
+      </li>
+      <li class="mylifewithfel">
+        <a href="https://mylifewithfel.com"></a>
+      </li>
+      <li class="yoshsaga">
+        <a href="https://yoshsaga.com"></a>
+      </li>
+      <li class="artificialincident">
+        <a href="https://artificialincident.com"></a>
+      </li>
+    </ul>
   </div>
 
 <?php elseif ( strpos($url, '###') !== false || strpos($url, 'imew') !== false ) : ?>
-  <div class="buttons">
-    <ul>
-    <li class="picarto">
+  <div>
+    <ul class="buttons">
+      <li class="picarto">
         <a href="https://picarto.tv/Nekonny"></a>
       </li>
       <li class="fur-affinity">
@@ -76,13 +90,15 @@
       <li class="twitter">
         <a href="https://twitter.com/nekonny"></a>
       </li>
+    </ul>
+    <ul class="partners">
     </ul>
   </div>
 
 <?php elseif ( strpos($url, '###') !== false || strpos($url, 'cb') !== false ) : ?>
-  <div class="buttons">
-    <ul>
-    <li class="picarto">
+  <div>
+    <ul class="buttons">
+      <li class="picarto">
         <a href="https://picarto.tv/Nekonny"></a>
       </li>
       <li class="fur-affinity">
@@ -110,11 +126,19 @@
         <a href="https://twitter.com/nekonny"></a>
       </li>
     </ul>
+    <ul class="partners">
+      <li class="yoshsaga">
+        <a href="https://yoshsaga.com"></a>
+      </li>
+      <li class="artificialincident">
+        <a href="https://artificialincident.com"></a>
+      </li>
+    </ul>
   </div>
 
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'rascals') !== false ) : ?>
-  <div class="buttons">
-    <ul>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'rascals') !== false ) : ?>
+  <div>
+    <ul class="buttons">
       <li class="picarto">
         <a href="https://picarto.tv/mastergodai"></a>
       </li>
@@ -140,11 +164,25 @@
         <a href="https://twitter.com/Mastergodai"></a>
       </li>
     </ul>
+    <ul class="partners">
+      <li class="twokinds">
+        <a href="http://twokinds.keenspot.com"></a>
+      </li>
+      <li class="thedepthscomic">
+        <a href="http://thedepthscomic.com"></a>
+      </li>
+      <li class="yoshsaga">
+        <a href="https://yoshsaga.com"></a>
+      </li>
+      <li class="draconiachronicles">
+        <a href="http://thedraconiachronicles.studiokhimera.com"></a>
+      </li>
+    </ul>
   </div>
 
   <?php elseif ( strpos($url, '###') !== false || strpos($url, 'theeye') !== false ) : ?>
-    <div class="buttons">
-      <ul>
+    <div>
+      <ul class="buttons">
         <li class="picarto">
           <a href="https://picarto.tv/avencri"></a>
         </li>
@@ -167,11 +205,16 @@
           <a href="https://twitter.com/avencri"></a>
         </li>
       </ul>
+      <ul class="partners">
+        <li class="mylifewithfel">
+          <a href="https://mylifewithfel.com"></a>
+        </li>
+      </ul>
     </div>
 
   <?php elseif ( strpos($url, '###') !== false || strpos($url, 'pmp') !== false ) : ?>
-    <div class="buttons">
-      <ul>
+    <div>
+      <ul class="buttons">
         <li class="picarto">
           <a href="https://picarto.tv/Nekonny"></a>
         </li>
@@ -200,11 +243,13 @@
           <a href="https://twitter.com/nekonny"></a>
         </li>
       </ul>
+      <ul class="partners">
+      </ul>
     </div>
 
     <?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false || strpos($url, 'knighthood') !== false ) : ?>
-    <div class="buttons">
-      <ul>
+    <div>
+      <ul class="buttons">
         <li class="picarto">
           <a href="https://picarto.tv/Chalodraws"></a>
         </li>
@@ -224,11 +269,28 @@
           <a href="https://twitter.com/Chalodillo"></a>
         </li>
       </ul>
+      <ul class="partners">
+        <li class="twokinds">
+          <a href="http://twokinds.keenspot.com"></a>
+        </li>
+        <li class="mylifewithfel">
+          <a href="https://mylifewithfel.com"></a>
+        </li>
+        <li class="themonsterunderthebed">
+          <a href="https://themonsterunderthebed.net"></a>
+        </li>
+        <li class="bittersweetcandybowl">
+          <a href="https://bittersweetcandybowl.com"></a>
+        </li>
+        <li class="draconiachronicles">
+          <a href="http://thedraconiachronicles.studiokhimera.com"></a>
+        </li>
+      </ul>
     </div>
 
     <?php elseif ( strpos($url, '###') !== false || strpos($url, 'addictivescience') !== false ) : ?>
-    <div class="buttons">
-      <ul>
+    <div>
+      <ul class="buttons">
         <li class="picarto">
           <a href="https://picarto.tv/cervelet"></a>
         </li>
@@ -245,11 +307,16 @@
           <a href="https://www.youtube.com/user/Goddot"></a>
         </li>
       </ul>
+      <ul class="partners">
+        <li class="atarmslength">
+          <a href="http://atarmslength.net"></a>
+        </li>
+      </ul>
     </div>
 
-    <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'tots') !== false ) : ?>
-    <div class="buttons">
-      <ul>
+    <?php elseif ( strpos($url, '###') !== false || strpos($url, 'tots') !== false ) : ?>
+    <div>
+      <ul class="buttons">
         <li class="picarto">
           <a href="https://picarto.tv/avencri"></a>
         </li>
@@ -271,6 +338,8 @@
         <li class="twitter">
           <a href="https://twitter.com/avencri"></a>
         </li>
+      </ul>
+      <ul class="partners">
       </ul>
     </div>
 <?php endif; ?>
