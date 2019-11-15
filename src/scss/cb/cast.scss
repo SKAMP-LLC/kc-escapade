@@ -1,0 +1,152 @@
+$panel_color: #288d9e;
+$frame_color: #b1e3ec;
+$shadow_color: #146876;
+
+.cast-page {
+
+  .box {
+    border-radius: 20px;
+    color: $white;
+    height: 500px;
+    margin: 100px auto 0;
+    position: relative;
+    width: 90%;
+
+    div {
+      display: inline-block;
+    }
+
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3em;
+      text-align: center;
+    }
+
+    .image {
+      height: 640px;
+      position: absolute;
+      top: -60px;
+      width: 380px;
+    }
+
+    .stats {
+      line-height: 1.5em;
+      position: absolute;
+      text-align: left;
+      top: 40px;
+      width: 450px;
+    }
+
+    .stats.left {
+      left: 80px;
+    }
+
+    .stats.right {
+      left: 45%;
+    }
+
+    .image.left {
+      left: 20px;
+    }
+
+    .image.right {
+      right: 0px;
+    }
+
+    &:last-child {
+      margin-bottom: 100px;
+    }
+
+    &:before {
+      border-radius: 20px;
+      border: 20px solid $frame_color;
+      content: '';
+      height: 460px;
+      margin: 20px;
+      position: absolute;
+      top: 0px;
+      width: calc(100% - 40px);
+    }
+  }
+
+  .tina {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/cb/cast/cast_tina.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .yuki {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/cb/cast/cast_yuki.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .maya {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/cb/cast/cast_maya.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .kimi {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/cb/cast/cast_kimi.png');
+      background-repeat: no-repeat;
+    }
+  }
+  
+  .nekonny {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/cb/cast/cast_nekonny.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .alice {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/cb/cast/cast_alice.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .rose {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/cb/cast/cast_rose.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .taco {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/cb/cast/cast_taco.png');
+      background-repeat: no-repeat;
+    }
+  }
+  
+  .natives {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/cb/cast/cast_steve.png');
+      background-repeat: no-repeat;
+    }
+  }
+}

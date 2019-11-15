@@ -1,0 +1,80 @@
+$panel_color: #2e143f;
+$frame_color: #54306c;
+$shadow_color: #000000;
+
+.cast-page {
+
+  .box {
+    border-radius: 20px;
+    color: $white;
+    height: 500px;
+    margin: 100px auto 0;
+    position: relative;
+    width: 90%;
+
+    div {
+      display: inline-block;
+    }
+
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3em;
+      text-align: center;
+    }
+
+    .image {
+      height: 640px;
+      position: absolute;
+      top: -60px;
+      width: 380px;
+    }
+
+    .stats {
+      line-height: 1.5em;
+      position: absolute;
+      text-align: left;
+      top: 40px;
+      width: 450px;
+    }
+
+    .stats.left {
+      left: 80px;
+    }
+
+    .stats.right {
+      left: 45%;
+    }
+
+    .image.left {
+      left: 20px;
+    }
+
+    .image.right {
+      right: 0px;
+    }
+
+    &:last-child {
+      margin-bottom: 100px;
+    }
+
+    &:before {
+      border-radius: 20px;
+      border: 20px solid $frame_color;
+      content: '';
+      height: 460px;
+      margin: 20px;
+      position: absolute;
+      top: 0px;
+      width: calc(100% - 40px);
+    }
+  }
+
+  .ronald {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/theeye/cast/cast_ronald.png');
+      background-repeat: no-repeat;
+    }
+  }
+}

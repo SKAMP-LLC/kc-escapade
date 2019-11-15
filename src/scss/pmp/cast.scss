@@ -1,0 +1,98 @@
+$panel_color: #354e4b;
+$frame_color: #a19d94;
+$shadow_color: #172826;
+
+.cast-page {
+
+  .box {
+    border-radius: 20px;
+    color: $white;
+    height: 500px;
+    margin: 100px auto 0;
+    position: relative;
+    width: 90%;
+
+    div {
+      display: inline-block;
+    }
+
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 3em;
+      text-align: center;
+    }
+
+    .image {
+      height: 640px;
+      position: absolute;
+      top: -60px;
+      width: 380px;
+    }
+
+    .stats {
+      line-height: 1.5em;
+      position: absolute;
+      text-align: left;
+      top: 40px;
+      width: 450px;
+    }
+
+    .stats.left {
+      left: 80px;
+    }
+
+    .stats.right {
+      left: 45%;
+    }
+
+    .image.left {
+      left: 20px;
+    }
+
+    .image.right {
+      right: 0px;
+    }
+
+    &:last-child {
+      margin-bottom: 100px;
+    }
+
+    &:before {
+      border-radius: 20px;
+      border: 20px solid $frame_color;
+      content: '';
+      height: 460px;
+      margin: 20px;
+      position: absolute;
+      top: 0px;
+      width: calc(100% - 40px);
+    }
+  }
+
+  .jess {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/pmp/cast/cast_jess.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .drea {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/pmp/cast/cast_drea.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  .addy {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url('../../static/pmp/cast/cast_addy.png');
+      background-repeat: no-repeat;
+    }
+  }
+}
