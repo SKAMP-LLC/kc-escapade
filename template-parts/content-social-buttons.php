@@ -136,7 +136,7 @@
     </ul>
   </div>
 
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'rascals') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'rascals') !== false ) : ?>
   <div>
     <ul class="buttons">
       <li class="picarto">
@@ -174,8 +174,14 @@
       <li class="yoshsaga">
         <a href="https://yoshsaga.com"></a>
       </li>
+      <li class="artificialincident">
+        <a href="https://www.artificialincident.com"></a>
+      </li>
       <li class="draconiachronicles">
         <a href="http://thedraconiachronicles.studiokhimera.com"></a>
+      </li>
+      <li class="wukrii">
+        <a href="https://www.wukrii.com/"></a>
       </li>
     </ul>
   </div>
@@ -208,6 +214,9 @@
       <ul class="partners">
         <li class="mylifewithfel">
           <a href="https://mylifewithfel.com"></a>
+        </li>
+        <li class="wukrii">
+          <a href="https://www.wukrii.com/"></a>
         </li>
       </ul>
     </div>
@@ -247,7 +256,7 @@
       </ul>
     </div>
 
-    <?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false || strpos($url, 'knighthood') !== false ) : ?>
+    <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false || strpos($url, 'knighthood') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="picarto">
@@ -284,6 +293,9 @@
         </li>
         <li class="draconiachronicles">
           <a href="http://thedraconiachronicles.studiokhimera.com"></a>
+        </li>
+        <li class="wukrii">
+          <a href="https://www.wukrii.com/"></a>
         </li>
       </ul>
     </div>
