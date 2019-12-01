@@ -17,8 +17,10 @@
 get_header(); ?>
 
   <section class="three-column">
-    <div class="side-banner">
-        <a href="https://kemono.cafe"></a >
+    <div class="ad-container-ver">
+      <?php
+        get_template_part( 'template-parts/content', 'ad-banner-ver' );
+      ?>
     </div>
     <div id="primary" class="comic">
       <?php do_action('comic-area'); ?>
@@ -29,6 +31,10 @@ get_header(); ?>
       ?>
     </div>
   </section>
+
+  <?php
+    get_template_part( 'template-parts/content', 'ad-banner-hor' );
+  ?>
 
   <?php
     get_template_part( 'template-parts/content', 'cross-promotion' );

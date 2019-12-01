@@ -50,8 +50,11 @@
       width: 100% !important;
     }
   }
-  section.carousel, .main-navigation, .social-sidebar, .side-banner {
+  section.carousel, .main-navigation, .social-sidebar, .ad-container-ver {
     display: none !important;
+  }
+  .ad-container-hor {
+    display: block !important;
   }
   .cross-promotion {
     flex-direction: column;
@@ -80,8 +83,11 @@
   .comic {
     width: 100% !important;
   }
-  section.carousel, .main-navigation, .social-sidebar, .side-banner {
+  section.carousel, .main-navigation, .social-sidebar, .ad-container-ver {
     display: none !important;
+  }
+  .ad-container-hor {
+    display: block !important;
   }
   .cross-promotion {
     flex-direction: column;

@@ -26,9 +26,17 @@ body {
     color: transparent;
     display: block;
   }
-  .side-banner {
+  .ad-side-banner {
+    margin-bottom: 1em;
     a {
-      background-image: url('../../static/kc_banner_ver.png');
+      background-image: url('../../static/ad_banner/wukrii_banner_ver.gif');
+      height: 600px;
+      width: 160px;
+    }
+  }
+  .kc-side-banner {
+    a {
+      background-image: url('../../static/ad_banner/kc_banner_ver.png');
       height: 600px;
       width: 160px;
     }
@@ -75,6 +83,19 @@ body {
   }
 }
 
+.ad-container-hor {
+  display: none;
+  margin-top: 1em;
+  a {
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+    margin: 0 auto;
+    background-image: url('../../static/ad_banner/wukrii_banner_hor.gif');
+    height: 90px;
+    width: 360px;
+  }
+}
 .cross-promotion {
   display: flex;
   justify-content: space-evenly;
