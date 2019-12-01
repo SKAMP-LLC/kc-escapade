@@ -263,7 +263,7 @@ function escapade_scripts() {
     wp_enqueue_style( 'paprika-webpack-main-css', get_template_directory_uri() . '/dist/paprika.css', array( 'escapade-style' ), '20160816' );
   }
   // iMew Theme
-  else if (strpos($url, '###') !== false || strpos($url, 'imew') !== false) {
+  else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'imew') !== false) {
     wp_enqueue_script( 'imew-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/imew.js', array('jquery'), 1, false );
     wp_enqueue_style( 'imew-webpack-main-css', get_template_directory_uri() . '/dist/imew.css', array( 'escapade-style' ), '20160816' );
   }
@@ -288,7 +288,7 @@ function escapade_scripts() {
     wp_enqueue_style( 'pmp-webpack-main-css', get_template_directory_uri() . '/dist/pmp.css', array( 'escapade-style' ), '20160816' );
   }
   // Las Lindas Theme
-  else if (strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false) {
+  else if (strpos($url, '###') !== false || strpos($url, 'laslindas') !== false) {
     wp_enqueue_script( 'laslindas-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/laslindas.js', array('jquery'), 1, false );
     wp_enqueue_style( 'laslindas-webpack-main-css', get_template_directory_uri() . '/dist/laslindas.css', array( 'escapade-style' ), '20160816' );
   }
