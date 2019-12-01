@@ -86,14 +86,16 @@ body {
 .ad-container-hor {
   display: none;
   margin-top: 1em;
-  a {
-    background-repeat: no-repeat;
-    color: transparent;
-    display: block;
-    margin: 0 auto;
-    background-image: url('../../static/ad_banner/wukrii_banner_hor.gif');
-    height: 90px;
-    width: 360px;
+  .ad-bottom-banner {
+    a {
+      background-repeat: no-repeat;
+      color: transparent;
+      display: block;
+      margin: 0 auto;
+      background-image: url('../../static/ad_banner/wukrii_banner_hor.gif');
+      height: 90px;
+      width: 360px;
+    }
   }
 }
 .cross-promotion {

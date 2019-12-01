@@ -32,9 +32,11 @@ get_header(); ?>
     </div>
   </section>
 
-  <?php
-    get_template_part( 'template-parts/content', 'ad-banner-hor' );
-  ?>
+  <div class="ad-container-hor">
+    <?php
+      get_template_part( 'template-parts/content', 'ad-banner-hor' );
+    ?>
+  </div>
 
   <?php
     get_template_part( 'template-parts/content', 'cross-promotion' );
