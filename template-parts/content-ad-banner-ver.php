@@ -9,5 +9,8 @@
 ?>
 
 <div class="ad-side-banner">
-  <script type="text/javascript" src="https://www.comicad.net/r/i97cj7JFDd/"></script>
+  <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
+</div>
+<div class="kc-side-banner">
+  <a href="https://kemono.cafe/">
 </div>
