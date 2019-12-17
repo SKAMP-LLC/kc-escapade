@@ -154,8 +154,9 @@
           <!-- Primary Navigation & Social Menu -->
           <?php if ( has_nav_menu( 'primary' ) ) : ?>
           <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
+            <!-- Leaderboard -->
             <div class="banner">
-              <a href="https://www.patreon.com/KemonoCafe"></a>
+              <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
             </div>
             <?php
                 wp_nav_menu( array(

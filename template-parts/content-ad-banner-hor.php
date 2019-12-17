@@ -9,5 +9,5 @@
 ?>
 
 <div class="ad-bottom-banner">
-  <a href="https://www.wukrii.com/"></a >
+  <script type="text/javascript" src="https://www.comicad.net/r/6jhaH68kdD/"></script>
 </div>

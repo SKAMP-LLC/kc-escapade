@@ -9,8 +9,5 @@
 ?>
 
 <div class="ad-side-banner">
-  <a href="https://www.wukrii.com/"></a >
-</div>
-<div class="kc-side-banner">
-  <a href="https://kemono.cafe"></a >
+  <script type="text/javascript" src="https://www.comicad.net/r/i97cj7JFDd/"></script>
 </div>
