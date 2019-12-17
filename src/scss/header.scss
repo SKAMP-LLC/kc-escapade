@@ -29,6 +29,9 @@
         height: 90px;
         width: 728px;
       }
+      div:last-child {
+        display: none;
+      }
     }
   }  
 }

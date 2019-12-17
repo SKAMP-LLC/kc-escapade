@@ -12,5 +12,5 @@
   <script type="text/javascript" src="https://www.comicad.net/r/i97cj7JFDd/"></script>
 </div>
 <div class="kc-side-banner">
-  <a href="https://kemono.cafe/">
+  <a href="https://kemono.cafe/"></a>
 </div>
