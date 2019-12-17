@@ -34,7 +34,7 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Rascals &#169; 2019 Mastergodai All Rights Reserved</span>
       </footer>
-  <?php elseif ( strpos($url, '###') !== false || strpos($url, 'theeye') !== false ) : ?>
+  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false ) : ?>
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>The Eye of Ramalach &#169; 2019 Avencri All Rights Reserved</span>
       </footer>
@@ -42,7 +42,7 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Knighthood &#169; 2019 Chalo All Rights Reserved</span>
       </footer>
-  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false ) : ?>
+  <?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false ) : ?>
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Las Lindas &#169; 2019 Chalo All Rights Reserved</span>
       </footer>

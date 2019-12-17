@@ -208,7 +208,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'theeye') !== false ) : ?>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="ronald box">
@@ -223,7 +223,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'rascals') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'rascals') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="chrissy box">

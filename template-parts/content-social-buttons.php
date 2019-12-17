@@ -136,7 +136,7 @@
     </ul>
   </div>
 
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'rascals') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'rascals') !== false ) : ?>
   <div>
     <ul class="buttons">
       <li class="picarto">
@@ -186,7 +186,7 @@
     </ul>
   </div>
 
-  <?php elseif ( strpos($url, '###') !== false || strpos($url, 'theeye') !== false ) : ?>
+  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="picarto">
@@ -217,6 +217,15 @@
         </li>
         <li class="wukrii">
           <a href="https://www.wukrii.com/"></a>
+        </li>
+        <li class="studiokhimera">
+          <a href="https://studiokhimera.com/"></a>
+        </li>
+        <li class="mousechievous">
+          <a href="ttps://studiokhimera.com/mousechievous/"></a>
+        </li>
+        <li class="uberquest">
+          <a href="https://studiokhimera.com/uberquest/"></a>
         </li>
       </ul>
     </div>
@@ -352,6 +361,15 @@
         </li>
       </ul>
       <ul class="partners">
+        <li class="studiokhimera">
+          <a href="https://studiokhimera.com/"></a>
+        </li>
+        <li class="mousechievous">
+          <a href="ttps://studiokhimera.com/mousechievous/"></a>
+        </li>
+        <li class="uberquest">
+          <a href="https://studiokhimera.com/uberquest/"></a>
+        </li>
       </ul>
     </div>
 <?php endif; ?>
