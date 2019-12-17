@@ -136,7 +136,7 @@
     </ul>
   </div>
 
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'rascals') !== false ) : ?>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'rascals') !== false ) : ?>
   <div>
     <ul class="buttons">
       <li class="picarto">
@@ -256,7 +256,7 @@
       </ul>
     </div>
 
-    <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false || strpos($url, 'knighthood') !== false ) : ?>
+    <?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false || strpos($url, 'knighthood') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="picarto">

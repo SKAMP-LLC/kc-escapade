@@ -70,7 +70,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="mora box">
@@ -219,6 +219,38 @@
           <h2>Age: 30</h2>
           <h2>Profession: Historian</h2>
           <p>The illegitimate son of a famous adventurer, Ron was raised by his aunt and with little involvement from his father. Smart but really insecure about his own abilities, he is a hard worker that values knowledge and the preservation of history and facts. This caused him to be quite the introverted person and he has some difficulty creating new friendships, but the ones he does manage to make grow to be really strong bonds.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'rascals') !== false ) : ?>
+  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="cast-page">
+      <div class="chrissy box">
+        <div class="right image"></div>
+        <div class="left stats">
+          <h1>Chrissy McCloud</h1>
+          <h2>Age:  24</h2>
+          <h2>“Bitchnuggets”</h2>
+          <p>Chrissy is your average girl next door. She has a nasty habit of not knowing how to make up her mind on certain issues and jumping to conclusions too fast. Going to college was a fresh start for her on what was a very emotional draining High school year.On her first night of collage she met Quick in a very awkward situation causing her to think of him as a pervert; but over time Chrissy has developed deep feelings for Quick and after a drunken agreement between Jazmin and Raven she is now part of sharing him between the two.</p>
+        </div>
+      </div>
+      <div class="reiko box">
+        <div class="left image"></div>
+        <div class="right stats">
+          <h1>Reiko Usagi</h1>
+          <h2>Age: 25 </h2>
+          <h2>“Like what you see?”</h2>
+          <p>A fun personality and a dirty mind makes Reiko the trickster of her group. Hailing from a long line of ninjas, she proved herself a prodigy; being able to master complex techniques with ease. After graduating the Godai Academy of Ninjutsu she followed her classmate and crush Skye westwards and has grown so accustomed to the new lifestyle there that she is reluctant to go back to Japan and take her mother’s place as head of the Academy.</p>
+        </div>
+      </div>
+      <div class="jazmin box">
+        <div class="right image"></div>
+        <div class="left stats">
+          <h1>Jazmin Usagi </h1>
+          <h2>Age:  24</h2>
+          <h2>“I have no time for your games”</h2>
+          <p>Jazmin is second in line to take over the Godai Academy. and is frustrated that its been handed to Reiko who obviously is not taking the role seriously. Jazmin is very well much more mature than her older sister Reiko and is not afraid to lay it out for anyone that annoys her. When she first arrived she met Quick and he annoyed her with his wishy washy ways. but over time began to develop feelings towards him, and after a drunken agreement with Chrissy and Raven she is now in a three way relationship with them.</p>
         </div>
       </div>
     </div>
