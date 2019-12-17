@@ -155,9 +155,7 @@
           <?php if ( has_nav_menu( 'primary' ) ) : ?>
           <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
             <!-- Leaderboard -->
-            <div class="banner">
-              <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
-            </div>
+            <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
             <?php
                 wp_nav_menu( array(
                   'theme_location' => 'primary',
