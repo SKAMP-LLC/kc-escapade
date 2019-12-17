@@ -9,5 +9,5 @@
 ?>
 
 <div class="ad-bottom-banner">
-  <script type="text/javascript" src="https://www.comicad.net/r/6jhaH68kdD/"></script>
+  <script type="text/javascript" src="https://www.comicad.net/r/a2C5651bHA/"></script>
 </div>
