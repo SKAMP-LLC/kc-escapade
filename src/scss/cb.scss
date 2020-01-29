@@ -9,7 +9,7 @@
 
 body {
   background-color: rgb(9, 180, 232);
-  background-image: url('../../static/cb/background.png');
+  background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cb_background.png');
   background-position: top;
   background-repeat: no-repeat;
   color: $off_white;
@@ -17,12 +17,12 @@ body {
 
 .cross-promotion {
   a {
-    background-image: url('../../static/cb/spotlight_banner_2.png');
+    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cb_spotlight_banner_2.png');
     &:first-child {
-      background-image: url('../../static/cb/spotlight_banner_1.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cb_spotlight_banner_1.png');
     }
     &:last-child {
-      background-image: url('../../static/cb/spotlight_banner_3.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cb_spotlight_banner_3.png');
     }
   }
 }
@@ -31,7 +31,7 @@ body {
   .logo {
     margin: 0 auto;
     a {
-      background-image: url('../../static/cb/comic_logo_mobile.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/cb_comic_logo_mobile.png');
     }
   }
 }

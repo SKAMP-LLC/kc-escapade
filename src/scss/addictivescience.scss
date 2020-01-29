@@ -8,19 +8,19 @@
 @import './addictivescience/partners.scss';
 
 body {
-  background-image: url('../../static/addictivescience/background.png');
+  background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/addictivescience_background.png');
   background-position: center;
   color: $off_white;
 }
 
 .cross-promotion {
   a {
-    background-image: url('../../static/addictivescience/spotlight_banner_2.png');
+    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/addictivescience_spotlight_banner_2.png');
     &:first-child {
-      background-image: url('../../static/addictivescience/spotlight_banner_1.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/addictivescience_spotlight_banner_1.png');
     }
     &:last-child {
-      background-image: url('../../static/addictivescience/spotlight_banner_3.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/addictivescience_spotlight_banner_3.png');
     }
   }
 }
@@ -36,7 +36,7 @@ body {
   .logo {
     margin: 0 auto;
     a {
-      background-image: url('../../static/addictivescience/comic_logo_mobile.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/addictivescience_comic_logo_mobile.png');
     }
   }
 }

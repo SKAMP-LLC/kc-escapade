@@ -9,7 +9,7 @@
 
 body {
   background-color: #a4125d;
-  background-image: url('../../static/rascals/background.png');
+  background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_background.png');
   background-position: bottom;
   background-repeat: no-repeat;
   color: $off_white;
@@ -17,12 +17,12 @@ body {
 
 .cross-promotion {
   a {
-    background-image: url('../../static/rascals/spotlight_banner_2.png');
+    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_2.png');
     &:first-child {
-      background-image: url('../../static/rascals/spotlight_banner_1.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_1.png');
     }
     &:last-child {
-      background-image: url('../../static/rascals/spotlight_banner_3.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_3.png');
     }
   }
 }
@@ -31,7 +31,7 @@ body {
   .logo {
     margin: 0 auto;
     a {
-      background-image: url('../../static/rascals/comic_logo_mobile.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_comic_logo_mobile.png');
     }
   }
 }

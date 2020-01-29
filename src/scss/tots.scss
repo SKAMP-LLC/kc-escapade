@@ -9,19 +9,19 @@
 
 body {
   background-color: #000;
-  background: url('../../static/tots/background.png') no-repeat center center fixed;
+  background: url('https://kemono.cafe/wp-content/uploads/2020/01/tots_background.png') no-repeat center center fixed;
   color: $black;
   background-size: cover;
 }
 
 .cross-promotion {
   a {
-    background-image: url('../../static/tots/spotlight_banner_2.png');
+    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/tots_spotlight_banner_2.png');
     &:first-child {
-      background-image: url('../../static/tots/spotlight_banner_1.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/tots_spotlight_banner_1.png');
     }
     &:last-child {
-      background-image: url('../../static/tots/spotlight_banner_3.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/tots_spotlight_banner_3.png');
     }
   }
 }
@@ -30,7 +30,7 @@ body {
   .logo {
     margin: 0 auto;
     a {
-      background-image: url('../../static/tots/comic_logo_mobile.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/tots_comic_logo_mobile.png');
     }
   }
 }

@@ -8,19 +8,19 @@
 @import './paprika/partners.scss';
 
 body {
-  background-image: url('../../static/paprika/background.png');
+  background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/paprika_background.png');
   background-position: center;
   color: $off_white;
 }
 
 .cross-promotion {
   a {
-    background-image: url('../../static/paprika/spotlight_banner_2.png');
+    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/paprika_spotlight_banner_2.png');
     &:first-child {
-      background-image: url('../../static/paprika/spotlight_banner_1.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/paprika_spotlight_banner_1.png');
     }
     &:last-child {
-      background-image: url('../../static/paprika/spotlight_banner_3.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/paprika_spotlight_banner_3.png');
     }
   }
 }
@@ -29,7 +29,7 @@ body {
   .logo {
     margin: 0 auto;
     a {
-      background-image: url('../../static/paprika/comic_logo_mobile.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/paprika_comic_logo_mobile.png');
     }
   }
 }
