@@ -70,7 +70,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false ) : ?>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="mora box">
@@ -107,6 +107,15 @@
           <h2>Favorite Hobby: Collecting Firearms</h2>
           <h2>Fun Fact: Has the most nicknames. "Patches", "Alej" and "Boss"</h2>
           <p>Alejandra is Mora's childhood friend with a much more complicated adulthood. When Mora abandoned her home at a young age, Alejandra focused on her career and became a cold and calculating woman. It was only when Mora returned that she realized how wounded she was and how empty her life had become. Alejandra became obsessed at defeating her new "rival" to prove her superiority and that she had made all the correct decisions in life.</p>
+        </div>
+      </div>
+      <div class="tootsie box">
+        <div class="right image"></div>
+        <div class="left stats">
+          <h1>Tootsie</h1>
+          <h2>Favorite Cheese: Anything not served in a can.</h2>
+          <h2>Fun Fact: Somehow got a dairy company to build giant robots.</h2>
+          <p>Tootsie met Alejandra in college and has stayed by her side ever since as Alexadria Dairy's lead of R&D. She's a gifted engineer whose imagination often exceeds the practical limits of her job. Enamored by Alej's limitless ambition, Tootsie grew to love boss and has been more of a personal attendant than employee in recent years.</p>
         </div>
       </div>
     </div>
@@ -208,7 +217,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'theeye') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="ronald box">

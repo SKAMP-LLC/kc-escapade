@@ -2,6 +2,7 @@ $mora_color: #2d8a43;
 $minos_color: #2d8a43;
 $taffy_color: #2d8a43;
 $alej_color: #2d8a43;
+$tootsie_color: #2d8a43;
 $ll_green: #c4d97d;
 
 .cast-page {
@@ -102,4 +103,15 @@ $ll_green: #c4d97d;
       background-repeat: no-repeat;
     }
   }
+
+  .tootsie {
+    background-color: $tootsie_color;
+    .image {
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/04/tootsie_cast.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+
+  
 }
