@@ -178,7 +178,7 @@
         <a href="https://www.artificialincident.com"></a>
       </li>
       <li class="draconiachronicles">
-        <a href="http://thedraconiachronicles.studiokhimera.com"></a>
+        <a href="https://www.draconiachronicles.com/"></a>
       </li>
       <li class="wukrii">
         <a href="https://www.wukrii.com/"></a>
@@ -301,7 +301,7 @@
           <a href="https://bittersweetcandybowl.com"></a>
         </li>
         <li class="draconiachronicles">
-          <a href="http://thedraconiachronicles.studiokhimera.com"></a>
+          <a href="https://www.draconiachronicles.com/"></a>
         </li>
         <li class="wukrii">
           <a href="https://www.wukrii.com/"></a>
