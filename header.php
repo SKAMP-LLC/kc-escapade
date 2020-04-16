@@ -156,7 +156,7 @@
           <?php if ( has_nav_menu( 'primary' ) ) : ?>
           <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
             <!-- Leaderboard -->
-            <div class="leaderboard-ad">
+            <div class="top-nav-slot">
               <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
             </div>
             <?php
