@@ -222,7 +222,7 @@
           <a href="https://studiokhimera.com/"></a>
         </li>
         <li class="mousechievous">
-          <a href="ttps://studiokhimera.com/mousechievous/"></a>
+          <a href="https://studiokhimera.com/mousechievous/"></a>
         </li>
         <li class="uberquest">
           <a href="https://studiokhimera.com/uberquest/"></a>
