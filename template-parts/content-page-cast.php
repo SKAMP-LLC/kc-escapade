@@ -70,7 +70,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'laslindas') !== false ) : ?>
+<?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="mora box">
@@ -217,7 +217,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'theeye') !== false ) : ?>
+<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="ronald box">
@@ -225,8 +225,211 @@
           <h1>Ronald Rudentof</h1>
           <h2>Species: Urban Raccoon</h2>
           <h2>Age: 30</h2>
+          <h2>Height:  1.73 mts / 5.65 ft</h2>
+          <h2>Weight: 65 kgs / 143.2 lbs</h2>
           <h2>Profession: Historian</h2>
+          <h2>Affiliation: Hamilton Escarot Museum of History and Art</h2>
+          <h2>Location: Neon City, Fanfolia</h2>
           <p>The illegitimate son of a famous adventurer, Ron was raised by his aunt and with little involvement from his father. Smart but really insecure about his own abilities, he is a hard worker that values knowledge and the preservation of history and facts. This caused him to be quite the introverted person and he has some difficulty creating new friendships, but the ones he does manage to make grow to be really strong bonds.</p>
+          <p>Not physically impressive or strong, he was a frequent target of bullies, but he made a deal with Ben to deal with that. Ben acted as Ron’s bodyguard, in exchange for Ron’s help with his studies. Ron’s intelligence makes him an excellent tutor, and he’s also acted as tutor for Ben’s sister Miranda, and is trying to help Marianne presently.</p>
+          <p>Ron feels like he has something to prove to the world, but unlike his father he is not comfortable being in the spotlight.</p>
+        </div>
+        <div class="image"></div>
+      </div>
+      <div class="ben box">
+      <div class="image"></div>
+        <div class="stats">
+          <h1>Benjamin Johnson</h1>
+          <h2>Species: Magpie</h2>
+          <h2>Age: 30</h2>
+          <h2>Height:  1.84 mts / 6.00 ft</h2>
+          <h2>Weight: 85 kgs / 187.4 lbs</h2>
+          <h2>Profession: Real Estate Agent</h2>
+          <h2>Affiliation: None</h2>
+          <h2>Location: Neon City, Fanfolia</h2>
+          <p>Being raised in poverty, Ben grew up having to learn to live on his own merits with wit and cunning. While he has street smarts and charm, he was never a brilliant student, and was in danger of repeating fourth grade if it wasn’t for his chance meeting with Ron (while swiping his homework and changing the name) and an agreement to defend him from bullies in exchange for tutoring. While begrudgingly accepting at first, Ben and Ron grew to be best friends.</p>
+          <p>The first born of a single mother, Ben has two younger slacker brothers and a youngest little sister that he spoils. As the oldest man in his family, he had to work hard to help his mother support the rest of his siblings and even managed to put his little sister Miranda through college, while he didn’t go past high school level education. Ben is proud of his sacrifice.</p>
+          <p>Even if he didn’t get professional education, Ben has a silver tongue and keeps in optimal physical condition. This allows him to parlay his charms into a real estate career, plus plenty of womanizing. He is also very well connected in less savoury parts of town, allowing him some some easy access to “services” he may need in the future.</p>
+        </div>
+      </div>
+      <div class="alex box">
+        <div class="stats">
+          <h1>Alexandria Fahr</h1>
+          <h2>Species: Ferret</h2>
+          <h2>Age: 30</h2>
+          <h2>Height:  1.70 mts / 5.57 ft</h2>
+          <h2>Weight: 53 kgs / 116.84 lbs</h2>
+          <h2>Profession: Artist Agent and Gallery Owner</h2>
+          <h2>Affiliation: None</h2>
+          <h2>Location: Neon City, Fanfolia</h2>
+          <p>The only child and heir to her family’s business. Alex grew up with all the luxuries she would ever need or want in her life, but with little to no affection from her parents. She always had a taste for the dark and weird, which caused her to be a bit of a pariah in her private school, which resulted in rumors and nicknames like “witch girl” and “weird Alex”.</p>
+          <p>After becoming of age, she realized that the sole expectation of her in life was to get married  and have a kid to pass on the family name and business. Suddenly the cold reality of the arranged marriage between her parents dawned on her and was made worse upon the realization that her future would be the same. This caused Alex to become bitter and sarcastic in a rebellious way.</p>
+          <p>By the time she reached college, Alex’s personality kept people away from her and caused even more unsavory rumors to be spread. Then she met Ron, who also had issues with his family, and the two started a very strong friendship. Alex’s view of the world changed upon the realization that she could still be rebellious towards her family but not be a douche to others at the same time. Alex used her fund trust to start her own art gallery, and uses a more amicable persona to make contacts and friends in the art world. She still doesn’t care what others think of her and is very happy about living life in her own terms.</p>
+        </div>
+        <div class="image"></div>
+      </div>
+      <div class="mayte box">
+        <div class="image"></div>
+        <div class="stats">
+          <h1>Mayte of the Mah Tribe</h1>
+          <h2>Species: Lake Serpent</h2>
+          <h2>Age: 223</h2>
+          <h2>Height:  1.80 mts / 6.00 ft</h2>
+          <h2>Weight: 135 kgs / 297.62 lbs</h2>
+          <h2>Profession: Water Mage with a specialization in Morph magic</h2>
+          <h2>Affiliation: The Wardens of Segen</h2>
+          <h2>Location: Segen, Firesands</h2>
+          <p>Mayte was born and lived all of her life inside the ruins of Segen. Ages ago, her ancestors allied with the Deivon Lord Ramalach and received extensive knowledge in the magic arts in return. But the reality of Ramalach’s conquest of Firesands caused discord between his followers. Akbar, the highest ranked priest, convinced the others to seal Ramalach and save Firesands. While Akbar’s deed saved his people, his family line was considered tainted, and they served as the wardens of Ramalach’s seal in a secret location in the middle of the vast desert. Mayte, as a member of Akbar’s bloodline, was raised with her ancestors knowledge of Morph magic to prevent the Deivon from ever being released.</p>
+          <p>Mayte lived a happy life with her family and quickly showed a mastery in the art of magic from a young age, showing great promise as a mage in the future. The secrecy and isolation was not a problem for her, until the outside world destroyed her home and her family. During a war between the country of Contamanea and Firesands, a chemical weapon attack was used on the water supplies of her land. Due to her kind being aquatic dragons, the damage was immediate and devastating, killing most of the wardens. Only Mayte and her grandmother survived by chance.</p>
+          <p>Mayte spent the following years learning from her grandmother until her passing. Now she is alone and is the only living warden. When fate brought Ron to Segen, she tried to act upon her duty, but ultimately failed. Now, she has no goal in life and struggles to learn to adapt to a world completely alien to her.</p>
+        </div>
+      </div>
+      <div class="marianne box">
+        <div class="stats">
+          <h1>Marianne Duval</h1>
+          <h2>Species: Forest Raccoon</h2>
+          <h2>Age: 21</h2>
+          <h2>Height:  1.87 mts / 6.13 ft</h2>
+          <h2>Weight: 80 kgs / 176.13 lbs</h2>
+          <h2>Profession: Modern Art Major / Tour Guide</h2>
+          <h2>Affiliation: Hamilton Escarot Museum of History and Art</h2>
+          <h2>Location: Oakenfield, Fanfolia</h2>
+          <p>Marianne is the product of an accidental pregnancy of her teenage mother, Minerva, whose fickle lifestyle created a parade of stepfathers for her daughter. Marianne grew up an only child and over time she picked up skills from both her mother and many stepfathers, giving Marianne a very diverse set of skills and hobbies from many walks of life. Marianne truly shines with her physical strength and excels at sports.</p>
+          <p>Being raised in such a troubled home, Marianne grew up bitter and resorted to abusing her strength. She bullied a young Fiona, who ultimately ended up becoming her best friend after both of them ended up playing on the same little league hockey team. Marianne grew to become a regional star goalie in the league.</p>
+          <p>Marianne’s fiery personality drives her to give little thought to long-term plans, which caused her to impulsively chase easy money from a photo shoot for an explicit calendar. The following scandal cost Marianne her position on the hockey team, her sports scholarship, and made her a pariah in her town.</p>
+          <p>Marianne decided to move to Neon City to become financially independent and start over. A small town girl in the big city, she now takes any job she can to pay for her professional studies and get rent money. She now shares an apartment with Fio and works a very busy schedule trying to make ends meet.</p>
+        </div>
+        <div class="image"></div>
+      </div>
+      <div class="ramalach box">
+        <div class="image"></div>
+        <div class="stats">
+          <h1>Ramalach</h1>
+          <h2>Species: Deivon</h2>
+          <h2>Age: N/A</h2>
+          <h2>Height:  1.20 mts / 3.93 ft</h2>
+          <h2>Weight: 15 kgs / 33.03 lbs</h2>
+          <h2>Profession: Deivon Lord and figure head for the “Doomsayers” cult</h2>
+          <h2>Affiliation: The Doomsayers</h2>
+          <h2>Location: The Sacred City, Firesands</h2>
+          <p>Little is known about Ramalach’s origin and history. Like all Deivons, he first gained sentience in a different plane of existence, and discovered his control over chaos magic. As a Deivon, he feeds on the souls of other beings and is a follower of a cosmic entity known as The Son of the Void. This creature is worshiped by the Deivons as it travels from world to world consuming everything in it’s path while the souls are released for the Deivons to claim. Many became ambassadors for their god, traveling to other worlds in advance to prepare them for the arrival of their god.</p>
+          <p>Ramalach was one of four Deivon lords to arrive on Crisald for conquest in preparation for the future arrival of The Son. Unlike the aggressive methods of the other 3 Deivon lords, Ramalach believes in fair trade and mutual benefit. He grew in power by offering his would-be servants what they wanted the most, in exchange of their service, and in a short time he managed to grow a gigantic army of followers that took over most of Firesands. But Ramalach’s complete trust in his followers and his deals was his undoing, as he was unable to grasp the possibility of betrayal from within his trusted inner circle.</p>
+          <p>He was stabbed with an enchanted dagger that is constantly draining him from his power and is now fused to his body, weakening him permanently. He was also sealed in a pocket dimension inside a stone statue, but a crack on his prison caused the gateway to be transferred to Ronald’s forehead. But Ramalach has awakened to learn that he is de-powered, and that the Son of the Void and the whole Deivon race are no more. Ramalach has no goal in life at the moment and is just trying to cope with his new reality.</p>
+        </div>
+      </div>
+      <div class="fio box">
+        <div class="stats">
+          <h1>Fiona Maple</h1>
+          <h2>Species: Beaver</h2>
+          <h2>Age: 21</h2>
+          <h2>Height: 1.70 mts / 5.57 ft</h2>
+          <h2>Weight: 65 kgs / 143.2 lbs</h2>
+          <h2>Profession: Culinary Student / Tour Guide</h2>
+          <h2>Affiliation: Hamilton Escarot Museum of History and Art</h2>
+          <h2>Location: Oakenfield, Fanfolia</h2>
+          <p>Fiona grew up in nature, and roughing it is in her blood. Her mother passed away at a young age, leading to her being raised by her father and elder brother. As a lumberjack, her father taught her all about the great outdoors, and Fio always felt most at home running around outside, catching bugs, climbing trees, and swimming. She was a sweet, kind child, but her awkward lisp and cheerful nature made her a target for a young Marianne, who was working out her youthful aggression. However, after unknowingly joining the same little league hockey team, they eventually became best friends.</p>
+          <p>Fio is a very handy person, and enjoys woodworking as a hobby. But her great passion in life is cooking, and even as a child she wanted to become a professional chef. Leaving home to attend a culinary school in Neon City, Marianne, seeking a clean break from her old life, came with her. They live together, and although Fio wishes Marianne would clean up after herself more, they get along just fine.</p>
+          <p>She currently works as a tour guide at the museum, along with Marianne and two other friends of theirs from home. Her dream is to open her own restaurant one day, but she feels she has a long way to go before she’s ready for that, both in terms of skill and finances. Unfortunately for her, life in the big city is proving to be far less exciting than she hoped for, and boredom is her arch enemy.</p>
+        </div>
+        <div class="image"></div>
+      </div>
+      <div class="wallace box">
+        <div class="image"></div>
+        <div class="stats">
+          <h1>Wallace Mc Neil</h1>
+          <h2>Species: Llama</h2>
+          <h2>Age: 58</h2>
+          <h2>Height: 2.20 mts / 7.21 ft</h2>
+          <h2>Weight: 118 kgs / 261.48 lbs</h2>
+          <h2>Profession: Mercenary / Adventurer</h2>
+          <h2>Affiliation: The Bossanova</h2>
+          <h2>Location: Islas Esmeralda, Playaback</h2>
+          <p>Wallace grew up listening to stories about the adventures of his best friend (Ramon's) father. Both of them imagined themselves becoming great adventurers, and grew up preparing for undertaking such an endeavor. Unlike the sickly Ramon, Wallace was physically strong and able to follow their dreams.</p>
+          <p>Once they became adults, Ramon founded Wonders 3, a mercenary group that recruited people looking to prove themselves and take on the kinds of missions Ramon could never do himself. Wallace was invited to join by his best friend, but decided against it. Taking the seat of a manager meant he would be sending others out to live the life he wanted to lead.</p>
+          <p>With the resources he had, Wallace created The Bossanova, a group of adventurers and researchers whose mission was to explore new lands, find riches and salvage goods. The Bossanova crew began taking odd jobs to get the funds for its members personal projects, and Wallace lived for the thrill of discovery. His loud and boisterous personality turned him into a natural leader of a small, but very tight group, that gives their all to their dreams.</p>
+        </div>
+      </div>
+      <div class="jane box">
+        <div class="stats">
+          <h1>Jane Xerno the First</h1>
+          <h2>Species: Jackalope</h2>
+          <h2>Age: 74</h2>
+          <h2>Height: 1.67 mts / 5.47 ft</h2>
+          <h2>Weight: 57 kgs / 125.66 lbs</h2>
+          <h2>Profession: Queen of Fanfolia</h2>
+          <h2>Affiliation: Fanfolian Kingdom</h2>
+          <h2>Location: Kant, Fanfolia</h2>
+          <p>Jane was born the only child of King Joseph Xerno of Fanfolia. Overprotected and sheltered as a kid, she grew up with an insatiable curiosity to learn about everything and everyone. Jane’s natural charisma and charm trained her in negotiation, and she quickly learned what to say to get what she wanted. But still, she was never allowed to leave the royal palace.</p>
+          <p>During a world fair, she managed to sneak away from her escorts and wander around on her own terms. Here she met Catlen, a young man that fought and survived The Contamanean War, and their fates became entwined for the rest of their lives. Along with Catlen and their other companions, Jane adventured across the world, fought enemies, helped those in need, learned  truths of the world, and even managed to defeat a decayed god.</p>
+          <p>All this helped Jane grow as a person, and the people whose hearts she touched became life long companions. But she also learned the hard truths of life, and how her father’s secretive actions were a danger to the rest of the world. Jane loved her father, but she could not deny the corruption in their kingdom. King Joseph tried to exert control over his increasingly rebellious daughter, finally arranging a marriage to a loyal soldier, Jane fled Fanfolia with Catlen, earning her friend a bounty on his head.</p>
+          <p>After a couple of years in hiding, Deivons from another world invaded Crisald, and the arrival of The Son of the Void spelled doom for everyone.  Jane returned to her old home seeking her father’s help, but she arrived too late, and witnessed his murder at the hands of their Deivon enemies.  After an emotional breakdown, Jane realized her new role, and rallied the people of Fanfolia as their Queen, to fight the invaders.</p>
+          <p>The battle was near-impossible, as there was little chance of matching the power of the Son of the Void. The tide turned when, the decayed god Zoron reappeared, offering to Jane his help against the god of the Deivons. Having no alternative, Jane agreed and became Zoron’s avatar.  Together, they managed to fight the Son of the Void to a perpetual stalemate.</p>
+          <p>Now as the avatar of the Lord of the Green, Jane has gained control over plantlife and stopped aging. As long as she is loved and worshipped by her people, she can give strength to Zoron so he can keep hold the Son of the Void at bay. The reality of her situation has taken a toll on Jane as her loved ones grow old and pass away. Though she has gradually become less attached to normal people, she manages to keep a happy face to the public for she knows the burden she carries will help the rest.</p>
+        </div>
+        <div class="image"></div>
+      </div>
+      <div class="gretta box">
+        <div class="image"></div>
+        <div class="stats">
+          <h1>Gretta Anaya</h1>
+          <h2>Species: Holstein Cow</h2>
+          <h2>Age: 35</h2>
+          <h2>Height: 1.80 mts / 6.00 ft</h2>
+          <h2>Weight: Weight: 115 kgs / 253.53 lbs</h2>
+          <h2>Profession: Mercenary</h2>
+          <h2>Affiliation: Wonders 3</h2>
+          <h2>Location: Villa de Zapata, Playaback</h2>
+          <p>Gretta is a bombastic tomboy that always had a knack for overcoming impossible challenges. From a young age she studied different martial arts and fighting techniques, and developing over time the ability to pinpoint the weak spot of any target and utterly devastate them with nothing but her fists.</p>
+          <p>Due to this unique ability and an innate thirst for adventure, she was contacted by the head of Wonders 3 to join their group as a mercenary for hire. Gretta leapt at the chance with glee and quickly rose in rank and reputation among the other members, and giving her enough prestige to choose her own assignments and teammates. Gretta’s life was pretty much all she ever wanted.</p>
+          <p>That changed when she met Hernan, an overweight but charming chef, during one of her vacations. The pair quickly fell in love and got married. To her surprise, she managed to find a perfect balance between her home life and work life, despite long hours away from her husband. The couple have plans to start a family but Gretta’s job keeps her unable to commit to this idea for now. She plans on taking one last job before taking a leave and start the new step in her life.</p>
+        </div>
+      </div>
+      <div class="velia box">
+        <div class="stats">
+          <h1>Velia Mauser</h1>
+          <h2>Species: Yellowjacket Wasp</h2>
+          <h2>Age: 23</h2>
+          <h2>Height: 1.50 mts / 4.92 ft</h2>
+          <h2>Weight: 31 kgs / 68.34 lbs</h2>
+          <h2>Profession: Mercenary</h2>
+          <h2>Affiliation: Wonders 3</h2>
+          <h2>Location: Chromstadt, Contamanea</h2>
+          <p>Able to predict trajectories and the movement of a target, Velia was always a natural sharpshooter. But this highly-specialized gift created difficulties in life, as Velia has difficulties socializing and regarding other people as more than potential threats.  Her main interest in life is towards her guns, the discussion of which can often be offputting to outsiders.  As a result, she is unable to properly express herself and her emotions, leaving her a loner and unable to comprehend why people avoid her.</p>
+          <p>Having few ties to her family and no friends at all, she began traveling around her country and participating in local marksmanship tournaments.  She quickly gained a reputation, and earned the attention of a fellow gun enthusiast named Vencrina. Vencrina, one of the triumvirate of Wonders 3, invited Velia into the mercenary group and took a special interest in mentoring her in the skills of a mercenary.</p>
+          <p>As Vencrina’s most promising apprentice, the young wasp rose through into ranks of the Wonders 3 and ended up paired with Gretta, who was able to pierce through Velia’s emotional wall and got to know the real her. The two formed a strong bond, and Velia is able to open up to Gretta in a way she is unable to do with other members of the team. While still occasionally unable to express herself to her new friend, Velia considers Gretta to be vital to her growth as a person, and and makes a point to join the cow on any of her endeavors.</p>
+        </div>
+        <div class="image"></div>
+      </div>
+      <div class="pierre box">
+      <div class="image"></div>
+        <div class="stats">
+          <h1>Pierre</h1>
+          <h2>Species: Green Basilisk</h2>
+          <h2>Age: 33</h2>
+          <h2>Height: 1.75 mts / 5.74 ft</h2>
+          <h2>Weight: 63 kgs / 138.89 lbs</h2>
+          <h2>Profession: Mercenary</h2>
+          <h2>Affiliation: Wonders 3</h2>
+          <h2>Location: Ferrer, Fontalia?</h2>
+          <p>Little is known about Pierre, and nobody is aware of how he actually joined Wonders 3. His life story changes from time to time, depending on the person he's talking to and how much effort he feels like putting in. He claims to be from Fontalia, but he makes grammatical errors in the language and his accent slips now and again. Still, there is some truth hidden within the different versions of his history, but nobody knows for sure which parts can be relied upon.</p>
+          <p>Pierre is renowned for his quick wit and agility, as well as being someone you can’t fully trust. He has a posh affect and thinks highly of himself. He also has quite the strict selection of missioms and carries a reputation of accomplishing any task at any cost. He prides himself on having a perfect track record and rose through the ranks via a careful selection of missions and partners that he knew would allow him to further his goals. It is known that he has little tolerance for failure and easily loses his temper if things don’t go his way. Needless to say, much of the organization has only unkind words for the man behind his back.</p>
+          <p>Noticing the rapid development of Gretta’s reputation within the Wonders 3, Pierre was quick to sweet talk her into as partnership.  Though a relationship of convenience, Pierre seems to hold both Gretta and her constant companion, Velia, in the highest regard.  Despite respect for their skills, Pierre holds no personal connection to his teammates, and is willing to sacrifice them, if needed, to reach his goal.  Two of the few Wonders 3 associates unaware of Pierre's reputation, both Gretta and Velia trust him implicitly, perhaps to their own detriment.</p>
+        </div>
+      </div>
+      <div class="virginia box">
+        <div class="stats">
+          <h1>Virginia O’Raelly</h1>
+          <h2>Species: Mouse</h2>
+          <h2>Age: 30</h2>
+          <h2>Height: 1.58 mts / 5.2 ft</h2>
+          <h2>Weight: 52 kgs / 114.64 lbs</h2>
+          <h2>Profession: Gynecologist</h2>
+          <h2>Affiliation: None</h2>
+          <h2>Location: Mirkwood, Fanfolia</h2>
+          <p>Born the fourth child of an investment banker and a psychologist, Ginny grew up in the lap of luxury, surrounded by her siblings.  Of course, with three older siblings and a baby sister not long after her own birth, Ginny often found herself neglected by her parents, already busy with the hectic nature of their jobs.</p>
+          <p>On the occasions he visited his sister, Eugene O'Raelly noticed his young niece buried in books and all but mute.  Sensing an opportunity, he took her with him to meet his friend and colleague, Alexei Rudentof, and introduced Ginny to Alexei's similarly introverted son, Ronald.  The pair of dorky youngsters hit it off immediately, with Ginny emerging from her shell as the unexpected alpha female of their pairing.</p>
+          <p>Ginny saw Ron every summer and a few times in the interim, and they remained steadfast friends, even subscribing to an MMORPG together to always keep in touch.  As she grew older, a series of incidents led to Ginny developing deeper feelings for Ron, but unfortunately, her family had other plans.  Her parents, ever-concerned with maintaining their social status as pureblood mice, pushed for Ginny to begin a relationship with a charming mouse boy they met while visiting her med school.</p>
+          <p>Too meek to oppose her parents' desires, Ginny can only rebel against the unwanted marriage by continuously pushing off her own wedding.  Though she has no problem with Wesley, she still harbors a deep crush for her childhood friend.  With the resurgence of the Rudentof family name, first with Alexei's death and the news of Ron's successful expedition to Firesands, Ginny seeks the raccoon out once more to relive her glory days.</p>
         </div>
         <div class="image"></div>
       </div>
