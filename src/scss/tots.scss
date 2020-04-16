@@ -30,7 +30,9 @@ body {
   .logo {
     margin: 0 auto;
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/tots_comic_logo_mobile.png');
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/tots_comic_logo_mobile.png') !important;
+      height: 160px !important;
+      width: 372px !important;
     }
   }
 }
