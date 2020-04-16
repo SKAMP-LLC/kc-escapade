@@ -9,7 +9,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <div class="about-page">
+  <div class="archive-page">
     <section>
       <?php
       the_content();

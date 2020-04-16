@@ -1,0 +1,22 @@
+.archive-page {
+  section {
+    color: $black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .comic-archive-thumbnail, .comic-list {
+      margin-bottom: .5em;
+      .comic-archive-date {
+        margin-right: .5em;
+      }
+      .comic-archive-title {
+        a {
+          text-decoration: none;
+        }
+      }
+      .comic-archive-date {
+        display: none;
+      }
+    }
+  }
+}
