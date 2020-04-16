@@ -218,9 +218,6 @@
         <li class="wukrii">
           <a href="https://www.wukrii.com/"></a>
         </li>
-        <li class="studiokhimera">
-          <a href="https://studiokhimera.com/"></a>
-        </li>
         <li class="mousechievous">
           <a href="https://studiokhimera.com/mousechievous/"></a>
         </li>
@@ -361,9 +358,6 @@
         </li>
       </ul>
       <ul class="partners">
-        <li class="studiokhimera">
-          <a href="https://studiokhimera.com/"></a>
-        </li>
         <li class="mousechievous">
           <a href="ttps://studiokhimera.com/mousechievous/"></a>
         </li>
