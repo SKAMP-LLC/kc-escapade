@@ -18,7 +18,7 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Paprika &#169; 2020 Nekonny All Rights Reserved</span>
       </footer>
-  <?php elseif ( strpos($url, '###') !== false || strpos($url, 'imew') !== false ) : ?>
+  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'imew') !== false ) : ?>
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>iMew &#169; 2020 Nekonny All Rights Reserved</span>
       </footer>
@@ -34,7 +34,7 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Rascals &#169; 2020 Mastergodai All Rights Reserved</span>
       </footer>
-  <?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false ) : ?>
+  <?php elseif ( strpos($url, '###') !== false || strpos($url, 'theeye') !== false ) : ?>
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>The Eye of Ramalach &#169; 2020 Avencri All Rights Reserved</span>
       </footer>
