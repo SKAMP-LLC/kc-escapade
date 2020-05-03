@@ -1,60 +1,18 @@
-.picarto {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/picarto.png');
+.ad-container-hor {
+  display: none;
+  margin-top: 1em;
+  .ad-bottom-banner {
+    a {
+      display: block;
+      margin: 0 auto;
+      height: 160px;
+      width: 360px;
+    }
   }
-}
-.fur-affinity {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/furaffinity.png');
+
+  @include respond-to("md") {
   }
-}
-.deviant-art {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/deviantart.png');
-  }
-}
-.instagram {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/instagram.png');
-  }
-}
-.youtube {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/youtube.png');
-  }
-}
-.patreon {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/patreon.png');
-  }
-}
-.paypal {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/paypal.png');
-  }
-}
-.ko-fi {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/kofi.png');
-  }
-}
-.gumroad {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/gumroad.png');
-  }
-}
-.twitter {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/twitter.png');
-  }
-}
-.discord {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/discord.png');
-  }
-}
-.reddit {
-  a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/reddit.png');
+
+  @include respond-to("lg") {
   }
 }

@@ -55,4 +55,14 @@
       }
     }
   }
+
+  @include respond-to("md") {
+  }
+
+  @include respond-to("lg") {
+  }
+}
+
+.comments-area, .entry-footer, .entry-title {
+  display: none;
 }

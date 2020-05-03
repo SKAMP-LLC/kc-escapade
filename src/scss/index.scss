@@ -2,7 +2,9 @@
 
 @import './ad-sidebar.scss';
 @import './carousel.scss';
+@import './comic-navigation.scss';
 @import './content.scss';
+@import './cross-promotion.scss';
 @import './footer.scss';
 @import './header.scss';
 @import './social-sidebar.scss';
@@ -31,47 +33,6 @@ html, body {
   min-width: $project-min-width;
   max-width: $project-max-width;
   padding: $default-padding;
-}
-
-.ad-container-hor {
-  display: none;
-  margin-top: 1em;
-  .ad-bottom-banner {
-    a {
-      display: block;
-      margin: 0 auto;
-      height: 160px;
-      width: 360px;
-    }
-  }
-}
-.cross-promotion {
-  display: flex;
-  justify-content: space-evenly;
-  margin: .5em 0;
-  a {
-    height: 180px;
-    width: 360px;
-  }
-}
-
-.comments-area, .entry-footer, .entry-title {
-  display: none;
-}
-
-table#comic-nav-wrapper {
-  border-spacing: 0;
-  a, span {
-    background-repeat: no-repeat;
-    color: transparent;
-    display: block;
-    height: 50px;
-    width: 200px;
-  }
-  td {
-    margin: 0;
-    padding: 0;
-  }
 }
 
 /* Smartphones (portrait) ------------------------------------------------------------------------------------------- */

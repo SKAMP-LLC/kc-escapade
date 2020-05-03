@@ -1,0 +1,15 @@
+.cross-promotion {
+  display: flex;
+  justify-content: space-evenly;
+  margin: .5em 0;
+  a {
+    height: 180px;
+    width: 360px;
+  }
+
+  @include respond-to("md") {
+  }
+
+  @include respond-to("lg") {
+  }
+}

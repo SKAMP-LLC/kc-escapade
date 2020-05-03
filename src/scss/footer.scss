@@ -2,4 +2,10 @@
   color: $black;
   line-height: 3em;
   text-align: center;
+
+  @include respond-to("md") {
+  }
+
+  @include respond-to("lg") {
+  }
 }

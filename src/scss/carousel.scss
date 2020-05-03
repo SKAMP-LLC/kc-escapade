@@ -87,4 +87,10 @@
     background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_right.png');
     right: -62px;
   }
+
+  @include respond-to("md") {
+  }
+
+  @include respond-to("lg") {
+  }
 }
