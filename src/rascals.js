@@ -1,1 +1,1 @@
-import './scss/rascals.scss';
+import './scss/rascals/index.scss';

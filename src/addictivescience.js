@@ -1,1 +1,1 @@
-import './scss/addictivescience.scss';
+import './scss/addictivescience/index.scss';

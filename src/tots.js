@@ -1,1 +1,1 @@
-import './scss/tots.scss';
+import './scss/tots/index.scss';

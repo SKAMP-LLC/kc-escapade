@@ -1,11 +1,11 @@
-@import './palette.scss';
-@import './theeye/cast.scss';
-@import './theeye/comic-archive.scss';
-@import './theeye/comic-navigation.scss';
-@import './theeye/comic.scss';
-@import './theeye/footer.scss';
-@import './theeye/header.scss';
-@import './theeye/partners.scss';
+@import '../palette.scss';
+@import './cast.scss';
+@import './comic-archive.scss';
+@import './comic-navigation.scss';
+@import './comic.scss';
+@import './footer.scss';
+@import './header.scss';
+@import './partners.scss';
 
 body {
   background-color: #000;

@@ -1,1 +1,1 @@
-import './scss/imew.scss';
+import './scss/imew/index.scss';

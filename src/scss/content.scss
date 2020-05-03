@@ -1,0 +1,58 @@
+.three-column {
+  display: flex;
+  justify-content: center;
+  a {
+    background-repeat: no-repeat;
+    display: block;
+  }
+  .ad-side-banner {
+    margin-bottom: 1em;
+  }
+  .kc-side-banner {
+    a {
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/kc_banner_ver.png');
+      height: 600px;
+      width: 160px;
+    }
+  }
+  .comic {
+    #comic-nav-wrapper {
+      width: 100%;
+    }
+    .comic-table {
+      #comic {
+        background: $off_white_opaque;
+        text-align: center;
+        img {
+          vertical-align: bottom;
+        }
+      }
+    }
+  }
+  .social-sidebar {
+    display: flex;
+    width: 140px;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+      width: 140px;
+      li {
+        list-style-type: none;
+      }
+    }
+    .buttons {
+      a {
+        height: 70px;
+        width: 70px;
+      }
+    }
+    .partners {
+      a {
+        height: 50px;
+        width: 140px;
+      }
+    }
+  }
+}

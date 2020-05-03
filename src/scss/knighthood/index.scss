@@ -1,11 +1,11 @@
-@import './palette.scss';
-@import './knighthood/cast.scss';
-@import './knighthood/comic-archive.scss';
-@import './knighthood/comic-navigation.scss';
-@import './knighthood/comic.scss';
-@import './knighthood/footer.scss';
-@import './knighthood/header.scss';
-@import './knighthood/partners.scss';
+@import '../palette.scss';
+@import './cast.scss';
+@import './comic-archive.scss';
+@import './comic-navigation.scss';
+@import './comic.scss';
+@import './footer.scss';
+@import './header.scss';
+@import './partners.scss';
 
 body {
   background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/knighthood_background.png');

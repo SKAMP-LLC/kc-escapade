@@ -1,1 +1,1 @@
-import './scss/theeye.scss';
+import './scss/theeye/index.scss';

@@ -1,11 +1,11 @@
-@import './palette.scss';
-@import './paprika/cast.scss';
-@import './paprika/comic-archive.scss';
-@import './paprika/comic-navigation.scss';
-@import './paprika/comic.scss';
-@import './paprika/footer.scss';
-@import './paprika/header.scss';
-@import './paprika/partners.scss';
+@import '../palette.scss';
+@import './cast.scss';
+@import './comic-archive.scss';
+@import './comic-navigation.scss';
+@import './comic.scss';
+@import './footer.scss';
+@import './header.scss';
+@import './partners.scss';
 
 body {
   background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/paprika_background.png');
