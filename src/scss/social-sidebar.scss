@@ -1,5 +1,21 @@
 .social-sidebar {
+  display: none;
+  width: 140px;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    li {
+      list-style-type: none;
+    }
+  }
   .buttons {
+    a {
+      height: 70px;
+      width: 70px;
+    }
     .picarto {
       a {
         background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/picarto.png');
@@ -59,10 +75,19 @@
       a {
         background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/reddit.png');
       }
-    }    
+    }   
+  }
+  .partners {
+    a {
+      height: 50px;
+      width: 140px;
+    }
   }
 
   @include respond-to("md") {
+    .social-sidebar {
+      display: flex;
+    }
   }
 
   @include respond-to("lg") {

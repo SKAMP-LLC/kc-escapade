@@ -1,0 +1,16 @@
+#primary {
+  width: 100%;
+  .comic-table {
+    #comic {
+      img {
+        width: 100%;
+      }
+    }
+  }  
+}
+
+@include respond-to("md") {
+}
+
+@include respond-to("lg") {
+}

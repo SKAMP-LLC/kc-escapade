@@ -1,7 +1,10 @@
 @import './palette.scss';
 
+@import './ad-horizontal.scss';
 @import './ad-sidebar.scss';
 @import './carousel.scss';
+@import './comments.scss';
+@import './comic.scss';
 @import './comic-navigation.scss';
 @import './content.scss';
 @import './cross-promotion.scss';
@@ -32,92 +35,4 @@ html, body {
   margin: 0 auto;
   min-width: $project-min-width;
   max-width: $project-max-width;
-  padding: $default-padding;
-}
-
-/* Smartphones (portrait) ------------------------------------------------------------------------------------------- */
-@media only screen and (max-width : 420px) and (orientation : portrait) {
-  table#comic-nav-wrapper {  
-    text-align: center;
-    a, span {
-      color: inherit !important;
-      display: inline !important;
-      font-size: 1.2em;
-      line-height: 50px;
-      text-decoration: none;
-    }
-    span {
-      color: #999999 !important;
-    }
-    .comic-nav-first {
-      background-image: none !important;
-    }
-    .comic-nav-previous {
-      background-image: none !important;
-    }
-    .comic-nav-next {
-      background-image: none !important;
-    }
-    .comic-nav-last {
-      background-image: none !important;
-    }
-  }
-  
-  body {
-    overflow-x: hidden;
-  }
-  .logo {
-    height: 160px !important;
-    width: 372px !important;
-  }
-  .comic {
-    width: 100% !important;
-    img {
-      width: 100% !important;
-    }
-  }
-  section.carousel, .main-navigation, .social-sidebar, .ad-container-ver {
-    display: none !important;
-  }
-  .ad-container-hor {
-    display: block !important;
-  }
-  .cross-promotion {
-    flex-direction: column;
-  }
-  .spotlight {
-    margin: 1em auto;
-  }
-  table#comic-nav-wrapper {
-    .comic-nav {
-      max-width: 80px;
-    }
-  }
-}
-
-/* Tablet (portrait) ------------------------------------------------------------------------------------------------ */
-@media only screen and (min-width : 421px) and (max-width : 1024px) and (orientation : portrait) {
-  body {
-    overflow-x: hidden;
-  }
-  .comic {
-    width: 100% !important;
-  }
-  section.carousel, .main-navigation, .social-sidebar, .ad-container-ver {
-    display: none !important;
-  }
-  .ad-container-hor {
-    display: block !important;
-  }
-  .cross-promotion {
-    flex-direction: column;
-  }
-  .spotlight {
-    margin: 1em auto;
-  }
-  table#comic-nav-wrapper {
-    .comic-nav {
-      max-width: 80px;
-    }
-  }
 }

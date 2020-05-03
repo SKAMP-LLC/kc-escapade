@@ -1,10 +1,14 @@
 .cross-promotion {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-  margin: .5em 0;
+  margin-top: $default-margin;
+
   a {
+    @include image-link();
     height: 180px;
     width: 360px;
+    margin: $default-margin auto 0;
   }
 
   @include respond-to("md") {

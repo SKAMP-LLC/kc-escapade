@@ -1,14 +1,5 @@
-.ad-container-hor {
+.ad-container-ver {
   display: none;
-  margin-top: 1em;
-  .ad-bottom-banner {
-    a {
-      display: block;
-      margin: 0 auto;
-      height: 160px;
-      width: 360px;
-    }
-  }
 
   @include respond-to("md") {
   }

@@ -1,32 +1,51 @@
 .site-header-main {
-  display: flex;
-  justify-content: space-between;
   .logo {
     a {
-      background-repeat: no-repeat;
-      color: transparent;
-      display: block;
-      height: 160px;
-      width: 372px;
-      margin-top: 22px;
-    }
-  }
-  .main-navigation {
-    ul {
-      display: flex;
-      justify-content: space-around;
-      li {
-        list-style-type: none;
-        a {
-          color: $shadow_black;
-          font-size: 2em;
-          text-decoration: none;
-        }
-      }
+      @include image-link();
+      height: 144px;
+      width: 335px;
+      margin: 0 auto;
     }
   }
 
+  // Top Horizontal Ad Banner
+  .top-nav-slot {
+    display: none;
+  }
+
+  // Site Navigaton (About / Archive ...etc)
+  .menu-primary-navigation-container {
+    display: none;
+  }
+}
+
   @include respond-to("md") {
+    .site-header-main {
+      display: flex;
+      justify-content: space-between;
+      .logo {
+        a {
+          background-repeat: no-repeat;
+          color: transparent;
+          display: block;
+          height: 160px;
+          width: 372px;
+        }
+      }
+      .main-navigation {
+        ul {
+          display: flex;
+          justify-content: space-around;
+          li {
+            list-style-type: none;
+            a {
+              color: $shadow_black;
+              font-size: 2em;
+              text-decoration: none;
+            }
+          }
+        }
+      }
   }
 
   @include respond-to("lg") {

@@ -13,7 +13,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-  <section class="three-column">
+  <section class="content">
     <div class="ad-container-ver">
       <?php
         get_template_part( 'template-parts/content', 'ad-banner-ver' );
