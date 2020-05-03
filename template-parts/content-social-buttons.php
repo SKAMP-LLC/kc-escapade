@@ -13,7 +13,8 @@
 <?php 
   global $wp;
   $url = home_url( add_query_arg( array(), $wp->request ) );
-  if ( strpos($url, '###') !== false || strpos($url, 'paprika') !== false ) : ?>
+  global $development_theme;
+  if ( $development_theme == 'paprika' || strpos($url, 'paprika') !== false ) : ?>
   <div>
     <ul class="buttons">
       <li class="picarto">
@@ -60,7 +61,7 @@
     </ul>
   </div>
 
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'imew') !== false ) : ?>
+<?php elseif ( $development_theme == 'imew' || strpos($url, 'imew') !== false ) : ?>
   <div>
     <ul class="buttons">
       <li class="picarto">
@@ -95,7 +96,7 @@
     </ul>
   </div>
 
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'cb') !== false ) : ?>
+<?php elseif ( $development_theme == 'cb' || strpos($url, 'cb') !== false ) : ?>
   <div>
     <ul class="buttons">
       <li class="picarto">
@@ -136,7 +137,7 @@
     </ul>
   </div>
 
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'rascals') !== false ) : ?>
+<?php elseif ( $development_theme == 'rascals' || strpos($url, 'rascals') !== false ) : ?>
   <div>
     <ul class="buttons">
       <li class="picarto">
@@ -186,7 +187,7 @@
     </ul>
   </div>
 
-  <?php elseif ( strpos($url, '###') !== false || strpos($url, 'theeye') !== false ) : ?>
+  <?php elseif ( $development_theme == 'theeye' || strpos($url, 'theeye') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="picarto">
@@ -227,7 +228,7 @@
       </ul>
     </div>
 
-  <?php elseif ( strpos($url, '###') !== false || strpos($url, 'pmp') !== false ) : ?>
+  <?php elseif ( $development_theme == 'pmp' || strpos($url, 'pmp') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="picarto">
@@ -262,7 +263,7 @@
       </ul>
     </div>
 
-    <?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false || strpos($url, 'knighthood') !== false ) : ?>
+    <?php elseif ( $development_theme == 'laslindas' || $development_theme == 'knighthood' || strpos($url, 'laslindas') !== false || strpos($url, 'knighthood') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="picarto">
@@ -306,7 +307,7 @@
       </ul>
     </div>
 
-    <?php elseif ( strpos($url, '###') !== false || strpos($url, 'addictivescience') !== false ) : ?>
+    <?php elseif ( $development_theme == 'addictivescience' || strpos($url, 'addictivescience') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="picarto">
@@ -332,7 +333,7 @@
       </ul>
     </div>
 
-    <?php elseif ( strpos($url, '###') !== false || strpos($url, 'tots') !== false ) : ?>
+    <?php elseif ( $development_theme == 'tots' || strpos($url, 'tots') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="picarto">

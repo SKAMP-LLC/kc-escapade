@@ -11,7 +11,8 @@
 <?php 
   global $wp;
   $url = home_url( add_query_arg( array(), $wp->request ) );
-  if ( strpos($url, '###') !== false || strpos($url, 'paprika') !== false ) : ?>
+  global $development_theme;
+  if ( $development_theme == 'paprika' || strpos($url, 'paprika') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="tina box">
@@ -70,7 +71,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'laslindas') !== false ) : ?>
+<?php elseif ( $development_theme == 'laslindas' || strpos($url, 'laslindas') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="mora box">
@@ -120,7 +121,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'pmp') !== false ) : ?>
+<?php elseif ( $development_theme == 'pmp' || strpos($url, 'pmp') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="jess box">
@@ -149,7 +150,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'cb') !== false ) : ?>
+<?php elseif ( $development_theme == 'cb' || strpos($url, 'cb') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="tina box">
@@ -217,7 +218,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, 'kemono-cafe-comic.local') !== false || strpos($url, 'theeye') !== false ) : ?>
+<?php elseif ( $development_theme == 'theeye' || strpos($url, 'theeye') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="ronald box">
@@ -435,7 +436,7 @@
       </div>
     </div>
   </article>
-<?php elseif ( strpos($url, '###') !== false || strpos($url, 'rascals') !== false ) : ?>
+<?php elseif ( $development_theme == 'rascals' || strpos($url, 'rascals') !== false ) : ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="cast-page">
       <div class="chrissy box">

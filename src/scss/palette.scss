@@ -1,5 +1,39 @@
+// Colors
 $black: #000000;
 $off_white_opaque: rgba(240, 240, 240, 0.4);
 $off_white: #F0F0F0;
 $shadow_black: #222222;
 $white: #FFFFFF;
+
+// Constants
+$default-border-radius: 5px;
+$default-margin: 10px;
+$default-padding: 10px;
+$project-min-width: 380px;
+$project-max-width: 1080px;
+$breakpoints: (
+  'md':  ( min-width:  767px ),
+  'lg': ( min-width:  992px ),
+) !default;
+
+// Mixins
+// https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  }
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+@mixin image-link() {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: transparent;
+  display: block;
+}
