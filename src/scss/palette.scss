@@ -13,6 +13,7 @@ $project-min-width: 380px;
 $project-max-width: 1080px;
 $breakpoints: (
   'sm':  ( max-width:  766px ),
+  'sm-md':  ( max-width:  991px ),
   'md':  ( min-width:  767px ),
   'lg': ( min-width:  992px ),
 ) !default;

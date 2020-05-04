@@ -2,6 +2,7 @@
   #comic-nav-wrapper {
     border-spacing: 0;  
     text-align: center;
+    width: 100%;
     a, span {
       color: inherit;
       display: inline;
@@ -19,7 +20,7 @@
     }
   }
 
-  @include respond-to("sm") {
+  @include respond-to("sm-md") {
     #comic-nav-wrapper {
       .comic-nav-container {
         .comic-nav-first {
@@ -39,6 +40,9 @@
   }
 
   @include respond-to("md") {
+  }
+
+  @include respond-to("lg") {
     #comic-nav-wrapper {  
       a, span {
         @include image-link();
@@ -50,8 +54,5 @@
         padding: 0;
       }
     }
-  }
-
-  @include respond-to("lg") {
   }
 }

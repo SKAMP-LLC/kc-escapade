@@ -5,39 +5,21 @@
   .content {
     display: flex;
     justify-content: center;
-    a {
-      background-repeat: no-repeat;
-      display: block;
-    }
-    .ad-side-banner {
-      margin-bottom: 1em;
-    }
-    .kc-side-banner {
-      a {
-        background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/kc_banner_ver.png');
-        height: 600px;
-        width: 160px;
+  }
+
+  @include respond-to("md") {
+    .content {
+      .comic {
+        width: 60%;
       }
     }
-    .comic {
-      #comic-nav-wrapper {
-        width: 100%;
+  }
+
+  @include respond-to("lg") {
+    .content {
+      .comic {
+        width: 800px;
       }
-      .comic-table {
-        #comic {
-          background: $off_white_opaque;
-          text-align: center;
-          img {
-            vertical-align: bottom;
-          }
-        }
-      }
-    }
-  
-    @include respond-to("md") {
-    }
-  
-    @include respond-to("lg") {
     }
   }
 }

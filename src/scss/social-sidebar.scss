@@ -13,6 +13,7 @@
   }
   .buttons {
     a {
+      @include image-link();
       height: 70px;
       width: 70px;
     }
@@ -79,15 +80,14 @@
   }
   .partners {
     a {
+      @include image-link();
       height: 50px;
       width: 140px;
     }
   }
 
   @include respond-to("md") {
-    .social-sidebar {
-      display: flex;
-    }
+    display: flex;
   }
 
   @include respond-to("lg") {

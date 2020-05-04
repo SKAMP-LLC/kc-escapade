@@ -1,16 +1,27 @@
 #primary {
-  width: 100%;
   .comic-table {
     #comic {
+      background: $off_white_opaque;
+      text-align: center;
       img {
+        vertical-align: bottom;
         width: 100%;
       }
     }
-  }  
+  }
+
+  @include respond-to("md") {
+    .comic-table {
+      #comic {
+        img {
+          width: inherit;
+        }
+      }
+    }
+  }
+  
+  @include respond-to("lg") {
+  } 
 }
 
-@include respond-to("md") {
-}
 
-@include respond-to("lg") {
-}

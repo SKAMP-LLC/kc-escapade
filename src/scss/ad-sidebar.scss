@@ -1,7 +1,21 @@
 .ad-container-ver {
   display: none;
 
+  .ad-side-banner {
+    margin-bottom: 1em;
+  }
+
+  .kc-side-banner {
+    a {
+      @include image-link();
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/kc_banner_ver.png');
+      height: 600px;
+      width: 160px;
+    }
+  }
+
   @include respond-to("md") {
+    display: block;
   }
 
   @include respond-to("lg") {

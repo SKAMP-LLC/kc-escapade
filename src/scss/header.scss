@@ -17,38 +17,46 @@
   .menu-primary-navigation-container {
     display: none;
   }
-}
 
   @include respond-to("md") {
-    .site-header-main {
-      display: flex;
-      justify-content: space-between;
-      .logo {
-        a {
-          background-repeat: no-repeat;
-          color: transparent;
-          display: block;
-          height: 160px;
-          width: 372px;
-        }
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      a {
+        background-repeat: no-repeat;
+        color: transparent;
+        display: block;
+        height: 160px;
+        width: 372px;
       }
-      .main-navigation {
-        ul {
-          display: flex;
-          justify-content: space-around;
-          li {
-            list-style-type: none;
-            a {
-              color: $shadow_black;
-              font-size: 2em;
-              text-decoration: none;
-            }
+    }
+    .main-navigation {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+          list-style-type: none;
+          a {
+            color: $shadow_black;
+            font-size: 2em;
+            text-decoration: none;
           }
         }
       }
+    }
   }
 
   @include respond-to("lg") {
+    .top-nav-slot {
+      display: block !important;
+    }
+
+    .menu-primary-navigation-container {
+      display: block !important;
+    }
   }
 }
+
+
+
 
