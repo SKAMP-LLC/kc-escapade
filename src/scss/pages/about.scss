@@ -1,5 +1,7 @@
-#comments {
-  display: none;
+.about-page {
+  h2.empty {
+    text-align: center;
+  }
 
   @include respond-to("md") {
   }

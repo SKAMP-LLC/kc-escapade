@@ -1,5 +1,9 @@
 .cast-page {
   margin-top: $default-margin;
+
+  h2.empty {
+    text-align: center;
+  }
   
   .box {
     border-radius: $default-border-radius;
