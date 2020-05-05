@@ -1,3 +1,10 @@
 #comments {
   display: none;
+
+  @include respond-to("md") {
+    display: block;
+  }
+
+  @include respond-to("lg") {
+  }
 }

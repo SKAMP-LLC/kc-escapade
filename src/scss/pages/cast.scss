@@ -1,38 +1,51 @@
 .cast-page {
-  margin-top: 1em;
+  margin-top: $default-margin;
   
   .box {
-    border-radius: 20px;
+    border-radius: $default-border-radius;
     color: $white;
+    align-items: center;
     display: flex;
-    position: relative;
+    flex-direction: column;
     justify-content: center;
-    margin: 0 auto 3em;
+    margin: 0 auto $default-margin * 3;
+    position: relative;
     width: 90%;
     z-index: 10;
 
-    h1 {
-      font-family: 'Roboto Slab', serif;
-      font-size: 2.25em;
-      margin-top: 1em;
-      text-align: center;
-    }
-
-    h2 {
-      font-size: 1.25em;
-    }
-
     .image {
+      @include image-link();
       height: 640px;
       width: 380px;
       z-index: 12;
     }
 
+    & > div.stats:nth-child(2n-1) {
+      margin-top: $default-margin * 3;
+    }
+
+    & > div.stats:nth-child(2n) {
+      margin-bottom: $default-margin * 3;
+    }
+
     .stats {
       line-height: 1.5em;
-      text-align: left;
-      padding: 1em 1em 2em;
-      width: 450px;
+      max-width: 200px;
+      text-align: center;
+
+      h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 2.25em;
+        text-align: center;
+      }
+  
+      h2 {
+        font-size: 1em;
+      }
+
+      p {
+        display: none;
+      }
     }
 
     &:last-child {
@@ -40,14 +53,44 @@
     }
 
     &:before {
-      border-radius: 20px;
+      border-radius: $default-border-radius;
       content: '';
       height: calc(100% - 30px);
-      margin-top: 15px;
       position: absolute;
-      top: 0px;
+      top: 15px;
+      left: 15px;
       width: calc(100% - 30px);
       z-index: 11;
+    }
+  }
+
+  @include respond-to("md") {
+    .box {
+      flex-direction: row;
+      padding: $default-padding;
+      .stats {
+        max-width: 50%;
+        padding: 35px;
+        text-align: left;
+
+        p {
+          display: block !important;
+        }
+      }
+
+      & > div.stats:nth-child(2n-1) {
+        margin-top: 0;
+      }
+  
+      & > div.stats:nth-child(2n) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  @include respond-to("lg") {
+    .box {
+      align-items: flex-start;
     }
   }
 }
