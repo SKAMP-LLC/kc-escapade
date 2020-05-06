@@ -26,7 +26,7 @@
  */
 
    // Choices are: paprika | imew | rascals | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots
-   $development_theme = '###';
+   $development_theme = 'laslindas';
 
 /**
  * Escapade only works in WordPress 4.4 or later.

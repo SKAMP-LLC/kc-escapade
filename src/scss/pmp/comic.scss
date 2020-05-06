@@ -1,3 +1,15 @@
-.content {
-  margin-top: 0.5em;
+@include respond-to('md') {
+  .content {
+    margin-top: 0.5em;
+
+    #primary {
+      .comic-table {
+        #comic {
+          img {
+            width: inherit;
+          }
+        }
+      }
+    }
+  }
 }
