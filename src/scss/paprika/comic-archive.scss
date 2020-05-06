@@ -3,11 +3,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    .comic-archive-thumbnail, .comic-list {
-      margin-bottom: .5em;
+
+    .comic-archive-thumbnail,
+    .comic-list {
+      margin-bottom: 0.5em;
+
       .comic-archive-date {
-        margin-right: .5em;
+        margin-right: 0.5em;
       }
+
       .comic-archive-title {
         a {
           color: $off_white;

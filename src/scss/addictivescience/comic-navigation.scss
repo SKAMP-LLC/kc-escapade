@@ -13,3 +13,13 @@ table#comic-nav-wrapper {
   }
 }
 
+@include respond-to('sm-md') {
+  table#comic-nav-wrapper {
+    a {
+      color: #000000 !important;
+    }
+    span {
+      color: #999999 !important;
+    }
+  }
+}

@@ -1,9 +1,9 @@
 // Colors
 $black: #000000;
 $off_white_opaque: rgba(240, 240, 240, 0.4);
-$off_white: #F0F0F0;
+$off_white: #f0f0f0;
 $shadow_black: #222222;
-$white: #FFFFFF;
+$white: #ffffff;
 
 // Constants
 $default-border-radius: 5px;
@@ -12,10 +12,18 @@ $default-padding: 10px;
 $project-min-width: 360px;
 $project-max-width: 1080px;
 $breakpoints: (
-  'sm':  ( max-width:  766px ),
-  'sm-md':  ( max-width:  991px ),
-  'md':  ( min-width:  767px ),
-  'lg': ( min-width:  992px ),
+  'sm': (
+    max-width: 766px,
+  ),
+  'sm-md': (
+    max-width: 991px,
+  ),
+  'md': (
+    min-width: 767px,
+  ),
+  'lg': (
+    min-width: 992px,
+  ),
 ) !default;
 
 // Mixins
@@ -25,8 +33,7 @@ $breakpoints: (
     @media #{inspect(map-get($breakpoints, $breakpoint))} {
       @content;
     }
-  }
-  @else {
+  } @else {
     @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
         + "Available breakpoints are: #{map-keys($breakpoints)}.";
   }

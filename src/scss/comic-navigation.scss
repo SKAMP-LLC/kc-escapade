@@ -1,9 +1,11 @@
-#comic-head, #comic-foot {
+#comic-head,
+#comic-foot {
   #comic-nav-wrapper {
-    border-spacing: 0;  
+    border-spacing: 0;
     text-align: center;
     width: 100%;
-    a, span {
+    a,
+    span {
       color: inherit;
       display: inline;
       font-size: 1.2em;
@@ -20,7 +22,7 @@
     }
   }
 
-  @include respond-to("sm-md") {
+  @include respond-to('sm-md') {
     #comic-nav-wrapper {
       .comic-nav-container {
         .comic-nav-first {
@@ -38,13 +40,10 @@
       }
     }
   }
-
-  @include respond-to("md") {
-  }
-
-  @include respond-to("lg") {
-    #comic-nav-wrapper {  
-      a, span {
+  @include respond-to('lg') {
+    #comic-nav-wrapper {
+      a,
+      span {
         @include image-link();
         height: 50px;
         width: 200px;

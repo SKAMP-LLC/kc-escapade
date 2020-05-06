@@ -10,7 +10,7 @@
     }
   }
 
-  @include respond-to("md") {
+  @include respond-to('md') {
     .comic-table {
       #comic {
         img {
@@ -19,9 +19,4 @@
       }
     }
   }
-  
-  @include respond-to("lg") {
-  } 
 }
-
-

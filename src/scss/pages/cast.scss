@@ -4,11 +4,11 @@
   h2.empty {
     text-align: center;
   }
-  
+
   .box {
+    align-items: center;
     border-radius: $default-border-radius;
     color: $white;
-    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,9 +40,10 @@
       h1 {
         font-family: 'Roboto Slab', serif;
         font-size: 2.25em;
+        line-height: 1em;
         text-align: center;
       }
-  
+
       h2 {
         font-size: 1em;
       }
@@ -68,7 +69,7 @@
     }
   }
 
-  @include respond-to("md") {
+  @include respond-to('md') {
     .box {
       flex-direction: row;
       padding: $default-padding;
@@ -85,14 +86,14 @@
       & > div.stats:nth-child(2n-1) {
         margin-top: 0;
       }
-  
+
       & > div.stats:nth-child(2n) {
         margin-bottom: 0;
       }
     }
   }
 
-  @include respond-to("lg") {
+  @include respond-to('lg') {
     .box {
       align-items: flex-start;
     }

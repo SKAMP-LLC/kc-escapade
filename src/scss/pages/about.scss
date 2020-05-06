@@ -2,10 +2,4 @@
   h2.empty {
     text-align: center;
   }
-
-  @include respond-to("md") {
-  }
-
-  @include respond-to("lg") {
-  }
 }

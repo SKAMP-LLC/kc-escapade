@@ -10,6 +10,7 @@
 @import './cross-promotion.scss';
 @import './footer.scss';
 @import './header.scss';
+@import './site-navigation.scss';
 @import './social-sidebar.scss';
 
 @import './pages/about.scss';
@@ -20,11 +21,14 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;

@@ -5,16 +5,6 @@
 }
 
 #menu-primary-navigation.primary-menu {
-  margin: 0;
-  padding: 0;
-  a {
-    background-repeat: no-repeat;
-    color: transparent;
-    display: block;
-    height: 70px;
-    width: 182px;
-  }
-
   .menu-item:nth-child(1) {
     a {
       background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_text_menu_1.png');
@@ -33,6 +23,15 @@
   .menu-item:nth-child(4) {
     a {
       background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_text_menu_4.png');
+    }
+  }
+}
+
+@include respond-to('sm-md') {
+  .logo {
+    margin: 0 auto;
+    a {
+      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_comic_logo_mobile.png') !important;
     }
   }
 }

@@ -25,19 +25,11 @@ body {
     }
   }
 }
+
 .comic {
   .comic-table {
     #comic {
       background: $black !important;
-    }
-  }
-}
-
-@media only screen and (max-device-width : 1024px) and (orientation : portrait) {
-  .logo {
-    margin: 0 auto;
-    a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/addictivescience_comic_logo_mobile.png') !important;
     }
   }
 }

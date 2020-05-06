@@ -3,8 +3,8 @@
   position: relative;
   margin: 0 auto;
   max-width: 970px;
-    min-width: 970px;
-    width: 970px;
+  min-width: 970px;
+  width: 970px;
   .comic_slot {
     height: 180px;
     width: 130px;
@@ -87,11 +87,5 @@
   .next_slot {
     background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_right.png');
     right: -62px;
-  }
-
-  @include respond-to("md") {
-  }
-
-  @include respond-to("lg") {
   }
 }

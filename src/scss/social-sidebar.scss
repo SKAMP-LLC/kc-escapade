@@ -76,7 +76,7 @@
       a {
         background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/reddit.png');
       }
-    }   
+    }
   }
   .partners {
     a {
@@ -86,10 +86,7 @@
     }
   }
 
-  @include respond-to("md") {
+  @include respond-to('md') {
     display: flex;
-  }
-
-  @include respond-to("lg") {
   }
 }

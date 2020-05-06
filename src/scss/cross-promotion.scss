@@ -11,10 +11,7 @@
     width: 360px;
   }
 
-  @include respond-to("md") {
-  }
-
-  @include respond-to("lg") {
+  @include respond-to('lg') {
     flex-direction: row;
   }
 }

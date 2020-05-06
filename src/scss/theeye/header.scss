@@ -1,11 +1,7 @@
 .site-header-main {
-  display: block;
   .logo {
     a {
       background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/theeye_comic_logo.png');
-      height: 452px;
-      margin: 0 auto;
-      width: 728px;
     }
   }
 
@@ -16,16 +12,6 @@
   }
 
   #menu-primary-navigation.primary-menu {
-    margin: 0;
-    padding: 0;
-    a {
-      background-repeat: no-repeat;
-      color: transparent;
-      display: block;
-      height: 70px;
-      width: 182px;
-    }
-  
     .menu-item:nth-child(1) {
       a {
         background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/theeye_text_menu_1.png');
@@ -44,6 +30,28 @@
     .menu-item:nth-child(4) {
       a {
         background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/theeye_text_menu_4.png');
+      }
+    }
+  }
+
+  @include respond-to('sm-md') {
+    .logo {
+      margin: 0 auto;
+      a {
+        background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/theeye_comic_logo_mobile.png') !important;
+      }
+    }
+  }
+
+  @include respond-to('lg') {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    .logo {
+      a {
+        height: 452px !important;
+        width: 728px !important;
       }
     }
   }

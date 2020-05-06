@@ -17,7 +17,7 @@ header.site-header {
     }
   }
 
-  @include respond-to("md") {
+  @include respond-to('md') {
     .site-header-main {
       .logo {
         a {
@@ -45,8 +45,7 @@ header.site-header {
     }
   }
 
-
-  @include respond-to("lg") {
+  @include respond-to('lg') {
     .site-header-main {
       display: flex;
       justify-content: space-between;
@@ -54,11 +53,11 @@ header.site-header {
 
       .logo {
         a {
-          height: 160px !important;
-          width: 372px !important;
+          height: 160px;
+          width: 372px;
         }
       }
-      
+
       .top-nav-slot {
         display: block !important;
       }
@@ -69,6 +68,3 @@ header.site-header {
     }
   }
 }
-
-
-
