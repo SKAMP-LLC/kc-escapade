@@ -10,7 +10,35 @@ header.site-header {
     }
 
     .main-navigation {
-      display: none;
+      margin: 0 auto;
+      max-width: 90%;
+
+      #menu-primary-navigation.primary-menu {
+        margin: 0;
+        padding: 0;
+      }
+
+      .top-nav-slot {
+        display: none;
+        min-height: 110px;
+        text-align: center;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-around;
+
+        li {
+          list-style-type: none;
+
+          a {
+            color: $shadow_black;
+            font-size: 1.5em;
+            line-height: 2em;
+            text-decoration: none;
+          }
+        }
+      }
     }
   }
 
@@ -24,30 +52,15 @@ header.site-header {
       }
 
       .main-navigation {
-        display: block !important;
-
-        #menu-primary-navigation.primary-menu {
-          margin: 0;
-          padding: 0;
-        }
-
         .top-nav-slot {
-          min-height: 110px;
-          text-align: center;
+          display: block;
         }
 
         ul {
-          display: flex;
-          justify-content: space-around;
-
           li {
-            list-style-type: none;
-
             a {
-              color: $shadow_black;
               font-size: 2em;
               line-height: 2em;
-              text-decoration: none;
             }
           }
         }
