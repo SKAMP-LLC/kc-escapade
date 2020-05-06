@@ -4,16 +4,13 @@ header.site-header {
       a {
         @include image-link();
         height: 144px;
-        width: 335px;
         margin: 0 auto;
+        width: 335px;
       }
     }
 
     .main-navigation {
       display: none;
-      .top-nav-slot {
-        min-height: 110px;
-      }
     }
   }
 
@@ -21,22 +18,35 @@ header.site-header {
     .site-header-main {
       .logo {
         a {
-          background-repeat: no-repeat;
-          color: transparent;
-          display: block;
           height: 160px;
           width: 372px;
         }
       }
+
       .main-navigation {
+        display: block !important;
+
+        #menu-primary-navigation.primary-menu {
+          margin: 0;
+          padding: 0;
+        }
+
+        .top-nav-slot {
+          min-height: 110px;
+          text-align: center;
+        }
+
         ul {
           display: flex;
           justify-content: space-around;
+
           li {
             list-style-type: none;
+
             a {
               color: $shadow_black;
               font-size: 2em;
+              line-height: 2em;
               text-decoration: none;
             }
           }
@@ -58,12 +68,14 @@ header.site-header {
         }
       }
 
-      .top-nav-slot {
-        display: block !important;
-      }
-
       .main-navigation {
-        display: block !important;
+        #menu-primary-navigation.primary-menu {
+          a {
+            @include image-link();
+            height: 70px;
+            width: 182px;
+          }
+        }
       }
     }
   }
