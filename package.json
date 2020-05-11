@@ -4,7 +4,8 @@
   "description": "Wordpress theme for Kemono Cafe",
   "main": "index.js",
   "scripts": {
-    "serve": "./node_modules/.bin/webpack --watch"
+    "build": "npx webpack",
+    "serve": "npx webpack --watch"
   },
   "repository": {
     "type": "git",
