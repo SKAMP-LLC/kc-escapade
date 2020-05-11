@@ -46,4 +46,8 @@ get_header(); ?>
     get_template_part( 'template-parts/content', 'carousel' );
   ?>
 
+  <?php
+      get_template_part( 'template-parts/content', 'comic-list' );
+  ?>
+
 <?php get_footer(); ?>
