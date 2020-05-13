@@ -7,6 +7,7 @@
   padding: $default-padding;
   .comic-archive-chapter-wrap {
     display: flex;
+    flex-direction: column;
     align-items: center;
     .comic-archive-thumbnail {
       order: 1;
@@ -34,6 +35,12 @@
     }
     .comic-archive-date {
       display: none;
+    }
+  }
+
+  @include respond-to("md") {
+    .comic-archive-chapter-wrap {
+      flex-direction: row;
     }
   }
 }
