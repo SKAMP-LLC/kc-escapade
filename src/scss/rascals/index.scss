@@ -8,10 +8,11 @@
 @import "./partners.scss";
 
 body {
-  background-color: #a4125d;
+  background-color: $magenta;
   background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_background.png");
   background-position: bottom;
   background-repeat: no-repeat;
+  background-size: cover;
   color: $off_white;
 }
 

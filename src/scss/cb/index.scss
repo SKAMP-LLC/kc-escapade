@@ -11,8 +11,9 @@
 body {
   background-color: rgb(9, 180, 232);
   background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/cb_background.png");
-  background-position: top;
+  background-position: bottom;
   background-repeat: no-repeat;
+  background-size: cover;
   color: $off_white;
 }
 
