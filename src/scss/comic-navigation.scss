@@ -22,7 +22,7 @@
     }
   }
 
-  @include respond-to('sm-md') {
+  @include respond-to("sm-md") {
     #comic-nav-wrapper {
       .comic-nav-container {
         .comic-nav-first {
@@ -40,7 +40,7 @@
       }
     }
   }
-  @include respond-to('lg') {
+  @include respond-to("lg") {
     #comic-nav-wrapper {
       a,
       span {

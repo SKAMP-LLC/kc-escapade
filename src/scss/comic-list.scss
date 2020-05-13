@@ -36,68 +36,68 @@
 
   .slot_0 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_00.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_00.png");
     }
   }
 
   .slot_1 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_01.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_01.png");
     }
   }
 
   .slot_2 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_02.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_02.png");
     }
   }
 
   .slot_3 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_03.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_03.png");
     }
   }
 
   .slot_4 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_04.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_04.png");
     }
   }
 
   .slot_5 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_05.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_05.png");
     }
   }
 
   .slot_6 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_06.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_06.png");
     }
   }
 
   .slot_7 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_07.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_07.png");
     }
   }
 
   .slot_8 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_08.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_08.png");
     }
   }
 
   .slot_9 {
     div.thumbnail {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_09.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_09.png");
     }
   }
 
-  @include respond-to('md') {
+  @include respond-to("md") {
     display: none;
   }
 
-  @include respond-to('lg') {
+  @include respond-to("lg") {
   }
 }

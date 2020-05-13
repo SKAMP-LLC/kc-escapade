@@ -1,1 +1,1 @@
-import './scss/paprika/index.scss';
+import "./scss/paprika/index.scss";

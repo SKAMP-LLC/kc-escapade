@@ -1,38 +1,38 @@
 .logo {
   a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/knighthood_comic_logo.png');
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/knighthood_comic_logo.png");
   }
 }
 
-@include respond-to('sm-md') {
+@include respond-to("sm-md") {
   .logo {
     margin: 0 auto;
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/knighthood_comic_logo_mobile.png') !important;
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/knighthood_comic_logo_mobile.png") !important;
     }
   }
 }
 
-@include respond-to('lg') {
+@include respond-to("lg") {
   #menu-primary-navigation.primary-menu {
     .menu-item:nth-child(1) {
       a {
-        background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/knighthood_text_menu_1.png');
+        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/knighthood_text_menu_1.png");
       }
     }
     .menu-item:nth-child(2) {
       a {
-        background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/knighthood_text_menu_2.png');
+        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/knighthood_text_menu_2.png");
       }
     }
     .menu-item:nth-child(3) {
       a {
-        background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/knighthood_text_menu_3.png');
+        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/knighthood_text_menu_3.png");
       }
     }
     .menu-item:nth-child(4) {
       a {
-        background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/knighthood_text_menu_4.png');
+        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/knighthood_text_menu_4.png");
       }
     }
   }

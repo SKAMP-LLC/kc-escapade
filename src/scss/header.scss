@@ -42,7 +42,7 @@ header.site-header {
     }
   }
 
-  @include respond-to('md') {
+  @include respond-to("md") {
     .site-header-main {
       .logo {
         a {
@@ -68,7 +68,7 @@ header.site-header {
     }
   }
 
-  @include respond-to('lg') {
+  @include respond-to("lg") {
     .site-header-main {
       display: flex;
       justify-content: space-between;

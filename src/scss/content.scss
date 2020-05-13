@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  @include respond-to('md') {
+  @include respond-to("md") {
     .content {
       .comic {
         width: 60%;
@@ -15,7 +15,7 @@
     }
   }
 
-  @include respond-to('lg') {
+  @include respond-to("lg") {
     .content {
       .comic {
         width: 800px;

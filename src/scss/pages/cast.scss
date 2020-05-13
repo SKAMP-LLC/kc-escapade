@@ -38,7 +38,7 @@
       text-align: center;
 
       h1 {
-        font-family: 'Roboto Slab', serif;
+        font-family: "Roboto Slab", serif;
         font-size: 2.25em;
         line-height: 1em;
         text-align: center;
@@ -59,7 +59,7 @@
 
     &:before {
       border-radius: $default-border-radius;
-      content: '';
+      content: "";
       height: calc(100% - 30px);
       position: absolute;
       top: 15px;
@@ -69,7 +69,7 @@
     }
   }
 
-  @include respond-to('md') {
+  @include respond-to("md") {
     .box {
       flex-direction: row;
       padding: $default-padding;
@@ -93,7 +93,7 @@
     }
   }
 
-  @include respond-to('lg') {
+  @include respond-to("lg") {
     .box {
       align-items: flex-start;
     }
