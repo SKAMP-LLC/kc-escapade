@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for horizontal ad banners
+ * The template for horizontal ad banners.
  *
  * @package WordPress
  * @subpackage Escapade

@@ -12,16 +12,16 @@ $default-padding: 10px;
 $project-min-width: 360px;
 $project-max-width: 1080px;
 $breakpoints: (
-  'sm': (
+  "sm": (
     max-width: 766px,
   ),
-  'sm-md': (
+  "sm-md": (
     max-width: 991px,
   ),
-  'md': (
+  "md": (
     min-width: 767px,
   ),
-  'lg': (
+  "lg": (
     min-width: 992px,
   ),
 ) !default;

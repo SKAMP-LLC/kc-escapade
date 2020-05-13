@@ -1,20 +1,20 @@
-@import './palette.scss';
+@import "./palette.scss";
 
-@import './ad-horizontal.scss';
-@import './ad-sidebar.scss';
-@import './carousel.scss';
-@import './comic-list.scss';
-@import './comments.scss';
-@import './comic.scss';
-@import './comic-navigation.scss';
-@import './content.scss';
-@import './cross-promotion.scss';
-@import './footer.scss';
-@import './header.scss';
-@import './social-sidebar.scss';
-@import './pages/about.scss';
-@import './pages/archive.scss';
-@import './pages/cast.scss';
+@import "./ad-horizontal.scss";
+@import "./ad-sidebar.scss";
+@import "./carousel.scss";
+@import "./comic-list.scss";
+@import "./comments.scss";
+@import "./comic.scss";
+@import "./comic-navigation.scss";
+@import "./content.scss";
+@import "./cross-promotion.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./social-sidebar.scss";
+@import "./pages/about.scss";
+@import "./pages/archive.scss";
+@import "./pages/cast.scss";
 
 html {
   box-sizing: border-box;
@@ -35,7 +35,7 @@ body {
 }
 
 #page {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0 auto;
   min-width: $project-min-width;
   max-width: $project-max-width;

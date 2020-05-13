@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for cross promotions.
+ * The template for vertical ad banners.
  *
  * @package WordPress
  * @subpackage Escapade

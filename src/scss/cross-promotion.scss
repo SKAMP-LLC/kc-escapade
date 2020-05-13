@@ -11,7 +11,7 @@
     width: 360px;
   }
 
-  @include respond-to('md') {
+  @include respond-to("md") {
     flex-direction: row;
   }
 }

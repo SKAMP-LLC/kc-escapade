@@ -17,57 +17,57 @@
   }
   .slot_0 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_00.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_00.png");
     }
   }
   .slot_1 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_01.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_01.png");
     }
   }
   .slot_2 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_02.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_02.png");
     }
   }
   .slot_3 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_03.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_03.png");
     }
   }
   .slot_4 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_04.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_04.png");
     }
   }
   .slot_5 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_05.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_05.png");
     }
   }
   .slot_6 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_06.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_06.png");
     }
   }
   .slot_7 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_07.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_07.png");
     }
   }
   .slot_8 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_08.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_08.png");
     }
   }
   .slot_9 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_09.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_09.png");
     }
   }
   .slot_10 {
     a {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_10.jpg');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_10.jpg");
     }
   }
   .control {
@@ -81,18 +81,18 @@
     width: 62px;
   }
   .previous_slot {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_left.png');
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_left.png");
     left: -62px;
   }
   .next_slot {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/comic_link_right.png');
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_right.png");
     right: -62px;
   }
 
-  @include respond-to('md') {
+  @include respond-to("md") {
     display: block;
   }
 
-  @include respond-to('lg') {
+  @include respond-to("lg") {
   }
 }

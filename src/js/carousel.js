@@ -1,4 +1,4 @@
-import Siema from 'siema';
+import Siema from "siema";
 
 document.addEventListener("DOMContentLoaded", () => {
   const number_of_comics = 10;
@@ -7,6 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
     loop: true,
     startIndex: Math.floor(Math.random() * number_of_comics),
   });
-  document.querySelector('.previous_slot').addEventListener('click', () => comicSlots.prev());
-  document.querySelector('.next_slot').addEventListener('click', () => comicSlots.next());
+  document
+    .querySelector(".previous_slot")
+    .addEventListener("click", () => comicSlots.prev());
+  document
+    .querySelector(".next_slot")
+    .addEventListener("click", () => comicSlots.next());
 });

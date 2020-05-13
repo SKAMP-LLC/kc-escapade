@@ -1,15 +1,15 @@
-@import '../palette.scss';
-@import './cast.scss';
-@import './comic-archive.scss';
-@import './comic-navigation.scss';
-@import './comic.scss';
-@import './footer.scss';
-@import './header.scss';
-@import './partners.scss';
+@import "../palette.scss";
+@import "./cast.scss";
+@import "./comic-archive.scss";
+@import "./comic-navigation.scss";
+@import "./comic.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./partners.scss";
 
 body {
   background-color: #a4125d;
-  background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_background.png');
+  background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_background.png");
   background-position: bottom;
   background-repeat: no-repeat;
   color: $off_white;
@@ -17,12 +17,12 @@ body {
 
 .cross-promotion {
   a {
-    background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_2.png');
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_2.png");
     &:first-child {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_1.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_1.png");
     }
     &:last-child {
-      background-image: url('https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_3.png');
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_3.png");
     }
   }
 }
