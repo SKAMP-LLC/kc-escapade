@@ -1,8 +1,8 @@
 .archive-page {
-  background-color: $off_white_opaque;
+  background-color: $off_white_opaque_strong;
   border-radius: $default-border-radius;
   border: 2px solid $off_white;
-  color: $off_white;
+  color: $black;
   margin-top: $default-margin;
   padding: $default-padding;
   .comic-archive-chapter-wrap {
@@ -29,7 +29,7 @@
       order: 4;
       .comic-archive-title {
         a {
-          color: $off_white;
+          color: $black;
         }
       }
     }
