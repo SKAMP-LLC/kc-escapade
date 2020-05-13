@@ -1,23 +1,39 @@
 .archive-page {
-  section {
-    color: $black;
+  background-color: $off_white_opaque;
+  border-radius: $default-border-radius;
+  border: 2px solid $off_white;
+  color: $off_white;
+  margin-top: $default-margin;
+  padding: $default-padding;
+  .comic-archive-chapter-wrap {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    .comic-archive-thumbnail,
-    .comic-list {
-      margin-bottom: 0.5em;
-      .comic-archive-date {
-        margin-right: 0.5em;
+    align-items: center;
+    .comic-archive-thumbnail {
+      order: 1;
+      img {
+        border-radius: $default-border-radius;
       }
+    }
+    .comic-archive-chapter {
+      order: 2;
+      text-align: center;
+      width: 25%;
+    }
+    .comic-archive-chapter-description {
+      order: 3;
+      padding: $default-padding;
+      width: 50%;
+    }
+    .comic-archive-list-wrap {
+      order: 4;
       .comic-archive-title {
         a {
-          text-decoration: none;
+          color: $off_white;
         }
       }
-      .comic-archive-date {
-        display: none;
-      }
+    }
+    .comic-archive-date {
+      display: none;
     }
   }
 }
