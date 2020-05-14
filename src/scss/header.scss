@@ -21,6 +21,17 @@ header.site-header {
         display: none;
         min-height: 110px;
         text-align: center;
+
+        & > div {
+          display: flex;
+          flex-direction: column;
+          & > div:first-child() {
+            order: 2;
+          }
+          & > div:last-child() {
+            order: 1;
+          }
+        }
       }
 
       ul {

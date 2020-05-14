@@ -1,12 +1,12 @@
 .social-sidebar {
   display: none;
-  width: 130px;
+  width: 120px;
   ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    width: 130px;
+    width: 120px;
     li {
       list-style-type: none;
     }
@@ -14,8 +14,8 @@
   .buttons {
     a {
       @include image-link();
-      height: 65px;
-      width: 65px;
+      height: 60px;
+      width: 60px;
     }
     .picarto {
       a {
@@ -81,8 +81,8 @@
   .partners {
     a {
       @include image-link();
-      height: 46px;
-      width: 130px;
+      height: 43px;
+      width: 120px;
     }
   }
 
