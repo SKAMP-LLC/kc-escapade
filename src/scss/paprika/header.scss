@@ -26,7 +26,14 @@
 }
 
 @include respond-to("lg") {
+  #site-navigation {
+    margin: 0;
+  }
   #menu-primary-navigation.primary-menu {
+    a {
+      height: 66px !important;
+      width: 170px !important;
+    }
     .menu-item:nth-child(1) {
       a {
         background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_text_menu_1.png");

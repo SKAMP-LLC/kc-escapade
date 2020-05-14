@@ -70,13 +70,13 @@ header.site-header {
   @include respond-to("lg") {
     .site-header-main {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: flex-end;
 
       .logo {
         a {
-          height: 160px;
-          width: 372px;
+          height: 151px;
+          width: 352px;
         }
       }
 
@@ -84,8 +84,8 @@ header.site-header {
         #menu-primary-navigation.primary-menu {
           a {
             @include image-link();
-            height: 68px;
-            width: 177px;
+            height: 70px;
+            width: 182px;
           }
         }
       }
