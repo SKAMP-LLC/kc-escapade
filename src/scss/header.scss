@@ -11,7 +11,6 @@ header.site-header {
 
     .main-navigation {
       margin: 0 auto;
-      max-width: 90%;
 
       #menu-primary-navigation.primary-menu {
         margin: 0;
@@ -85,8 +84,8 @@ header.site-header {
         #menu-primary-navigation.primary-menu {
           a {
             @include image-link();
-            height: 70px;
-            width: 182px;
+            height: 68px;
+            width: 177px;
           }
         }
       }
