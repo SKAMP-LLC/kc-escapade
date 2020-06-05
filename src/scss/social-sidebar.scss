@@ -79,6 +79,7 @@
     }
   }
   .kc-side-banner {
+    margin: $default-margin / 2 0;
     a {
       @include image-link();
       background-image: url("https://kemono.cafe/wp-content/uploads/2020/06/kc_banner.png");
