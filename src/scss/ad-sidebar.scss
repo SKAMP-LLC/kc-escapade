@@ -6,15 +6,6 @@
     min-height: 600px;
   }
 
-  .kc-side-banner {
-    a {
-      @include image-link();
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/kc_banner_ver.png");
-      height: 600px;
-      width: 160px;
-    }
-  }
-
   @include respond-to("md") {
     display: block;
   }

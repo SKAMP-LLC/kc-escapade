@@ -45,6 +45,9 @@
         <a href="https://twitter.com/nekonny"></a>
       </li>
     </ul>
+    <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
     <ul class="partners">
       <li class="twokinds">
         <a href="http://twokinds.keenspot.com"></a>
@@ -92,6 +95,9 @@
         <a href="https://twitter.com/nekonny"></a>
       </li>
     </ul>
+    <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
     <ul class="partners">
     </ul>
   </div>
@@ -127,6 +133,9 @@
         <a href="https://twitter.com/nekonny"></a>
       </li>
     </ul>
+    <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
     <ul class="partners">
       <li class="yoshsaga">
         <a href="https://yoshsaga.com"></a>
@@ -165,6 +174,9 @@
         <a href="https://twitter.com/Mastergodai"></a>
       </li>
     </ul>
+    <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
     <ul class="partners">
       <li class="twokinds">
         <a href="http://twokinds.keenspot.com"></a>
@@ -212,6 +224,9 @@
           <a href="https://twitter.com/avencri"></a>
         </li>
       </ul>
+      <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
       <ul class="partners">
         <li class="mylifewithfel">
           <a href="https://mylifewithfel.com"></a>
@@ -259,6 +274,9 @@
           <a href="https://twitter.com/nekonny"></a>
         </li>
       </ul>
+      <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
       <ul class="partners">
       </ul>
     </div>
@@ -285,6 +303,9 @@
           <a href="https://twitter.com/Chalodillo"></a>
         </li>
       </ul>
+      <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
       <ul class="partners">
         <li class="twokinds">
           <a href="http://twokinds.keenspot.com"></a>
@@ -326,6 +347,9 @@
           <a href="https://www.youtube.com/user/Goddot"></a>
         </li>
       </ul>
+      <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
       <ul class="partners">
         <li class="atarmslength">
           <a href="http://atarmslength.net"></a>
@@ -358,6 +382,9 @@
           <a href="https://twitter.com/avencri"></a>
         </li>
       </ul>
+      <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
       <ul class="partners">
         <li class="mousechievous">
           <a href="ttps://studiokhimera.com/mousechievous/"></a>
