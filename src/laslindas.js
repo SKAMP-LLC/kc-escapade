@@ -1,1 +1,1 @@
-import "./scss/laslindas/index.scss";
+import './scss/laslindas/index.scss';

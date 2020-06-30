@@ -1,1 +1,1 @@
-import "./scss/knighthood/index.scss";
+import './scss/knighthood/index.scss';
