@@ -1,1 +1,1 @@
-import "./scss/pmp/index.scss";
+import './scss/pmp/index.scss';

@@ -1,16 +1,16 @@
-import Siema from "siema";
+import Siema from 'siema';
 
-document.addEventListener("DOMContentLoaded", () => {
-  const number_of_comics = 10;
+document.addEventListener('DOMContentLoaded', () => {
+  const numberOfComics = 10;
   const comicSlots = new Siema({
     perPage: 7,
     loop: true,
-    startIndex: Math.floor(Math.random() * number_of_comics),
+    startIndex: Math.floor(Math.random() * numberOfComics),
   });
   document
-    .querySelector(".previous_slot")
-    .addEventListener("click", () => comicSlots.prev());
+    .querySelector('.previous_slot')
+    .addEventListener('click', () => comicSlots.prev());
   document
-    .querySelector(".next_slot")
-    .addEventListener("click", () => comicSlots.next());
+    .querySelector('.next_slot')
+    .addEventListener('click', () => comicSlots.next());
 });
