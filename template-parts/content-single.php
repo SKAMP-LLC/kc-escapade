@@ -21,6 +21,19 @@
     </div>
     <div id="primary" class="comic">
       <?php do_action('comic-area'); ?>
+      <?php if(!empty(get_the_content())): ?>
+      <div class="post-content">
+        <header>
+          <span class="author">
+            <?php the_author(); ?>
+          </span>
+          <span class="date">
+            <?php the_date(); ?>
+          </span>
+        </header>
+        <?php the_content(); ?>
+      </div>
+      <?php endif; ?>
     </div>
     <div class="social-sidebar">
       <?php

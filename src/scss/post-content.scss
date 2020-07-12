@@ -1,0 +1,39 @@
+.post-content {
+  background-color: $slate_black;
+  border-radius: $default-border-radius;
+  color: $white;
+  margin: $default_margin 0;
+  padding: $default_padding;
+  width: 100%;
+
+  a {
+    color: $blue;
+  }
+  
+  header {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .alignleft {
+    float: left;
+    margin: $default_margin;
+  }
+
+  .alignright {
+    float: right;
+    margin: $default_margin;
+  }
+
+  .aligncenter {
+    display: block;
+    margin: 0 auto;
+    margin: $default_margin;
+  }
+
+}

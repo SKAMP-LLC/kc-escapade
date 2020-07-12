@@ -1,24 +1,24 @@
-const path = require("path");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  mode: "production",
+  mode: 'production',
   entry: {
-    addictivescience: "./src/addictivescience.js",
-    cb: "./src/cb.js",
-    knighthood: "./src/knighthood.js",
-    main: "./src/index.js",
-    imew: "./src/imew.js",
-    laslindas: "./src/laslindas.js",
-    paprika: "./src/paprika.js",
-    pmp: "./src/pmp.js",
-    rascals: "./src/rascals.js",
-    theeye: "./src/theeye.js",
-    tots: "./src/tots.js",
+    addictivescience: './src/addictivescience.js',
+    cb: './src/cb.js',
+    knighthood: './src/knighthood.js',
+    main: './src/index.js',
+    imew: './src/imew.js',
+    laslindas: './src/laslindas.js',
+    paprika: './src/paprika.js',
+    pmp: './src/pmp.js',
+    rascals: './src/rascals.js',
+    theeye: './src/theeye.js',
+    tots: './src/tots.js',
   },
   output: {
-    filename: "[name].js",
-    path: __dirname + "/dist",
+    filename: '[name].js',
+    path: __dirname + '/dist',
   },
   module: {
     rules: [
@@ -26,9 +26,12 @@ module.exports = {
         test: /\.js$/,
         exclude: /(node_modules)/,
         use: {
-          loader: "babel-loader",
+          loader: 'babel-loader',
           options: {
-            presets: ["env"],
+            presets: ['@babel/preset-env'],
+            plugins: [
+              '@babel/transform-runtime'
+            ]
           },
         },
       },
@@ -36,16 +39,16 @@ module.exports = {
         test: /\.scss$/,
         use: [
           MiniCssExtractPlugin.loader,
-          "css-loader",
-          "postcss-loader",
-          "sass-loader",
+          'css-loader',
+          'postcss-loader',
+          'sass-loader',
         ],
       },
       {
         test: /\.(png|jpg|gif)$/,
         use: [
           {
-            loader: "file-loader",
+            loader: 'file-loader',
             options: {},
           },
         ],
@@ -54,8 +57,8 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css",
+      filename: '[name].css',
+      chunkFilename: '[id].css',
     }),
   ],
 };
