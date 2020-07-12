@@ -52,7 +52,7 @@ header.site-header {
       .main-navigation {
         .top-nav-slot {
           display: block;
-          margin-bottom: 0;
+          margin: 0;
         }
 
         ul {
@@ -81,18 +81,6 @@ header.site-header {
       }
 
       .main-navigation {
-        .top-nav-slot {
-          & > div {
-            display: flex;
-            flex-direction: column;
-            div:first-child() {
-              order: 2;
-            }
-            div:last-child() {
-              order: 1;
-            }
-          }
-        }
         #menu-primary-navigation.primary-menu {
           a {
             @include image-link();
