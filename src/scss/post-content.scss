@@ -3,7 +3,7 @@
   border-radius: $default-border-radius;
   color: $white;
   margin: $default_margin 0;
-  padding: $default_padding;
+  padding: $default_padding * 2;
   width: 100%;
 
   a {
@@ -14,6 +14,7 @@
     font-size: 1.5em;
     display: flex;
     justify-content: space-between;
+    margin-bottom: $default_margin * 3;
   }
 
   img {
