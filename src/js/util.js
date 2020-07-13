@@ -1,11 +1,9 @@
 import settings from './settings.js';
 
-export function callAPI (char, emotion) {
+export function createURL (char, emotion) {
   const url = new URL(`${settings.apiURL}`);
   url.searchParams.append('key', `${char}_${emotion}`);
-  return fetch(url, {
-    method: 'GET',
-  });
+  return url;
 }
 
 export function getTemplate (key) {
@@ -13,7 +11,7 @@ export function getTemplate (key) {
     case 'left':
       return `<div class="emote_wrapper left {{{character_name_class}}}">
                 <div class="emote">
-                  <img id="{{{uuid}}}" src="{{{URL}}}" />
+                  <img src="{{{url}}}" />
                   <span class="nameplate">{{{character_name}}}</span>
                 </div>
                 <div class="dialog">{{{character_dialog}}}</div>
@@ -22,7 +20,7 @@ export function getTemplate (key) {
       return `<div class="emote_wrapper right {{{character_name_class}}}">
                 <div class="dialog">{{{character_dialog}}}</div>
                 <div class="emote">
-                  <img id="{{{uuid}}}" src="{{{URL}}}" />
+                  <img src="{{{url}}}" />
                   <span class="nameplate">{{{character_name}}}</span>
                 </div>
               </div>`;
