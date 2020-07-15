@@ -162,6 +162,22 @@ emote {
   }
 }
 
+// Tina, Yuki, Ruby, Nekonny, Megan, Kobe dialog
+.tina, .yuki, .ruby, .nekonny, .megan, .kobe {
+  .dialog {
+    background-color: $paprika_orange;
+    color: $off_white;
+
+    &::after {
+      border-color: $paprika_orange transparent transparent transparent;
+    }
+  }
+
+  .nameplate {
+    color: $paprika_orange;
+  }
+}
+
 @include respond-to("md") {
 
 }
