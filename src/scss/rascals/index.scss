@@ -9,11 +9,11 @@
 @import "./post-content.scss";
 
 body {
-  background-color: $magenta;
+  background-attachment: fixed;
+  background-color: #666666;
   background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_background.png");
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
   color: $off_white;
 }
 

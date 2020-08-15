@@ -49,8 +49,9 @@
         gtag('config', 'UA-152386556-10');
       </script>
       <title>Rascals | A Furry Webcomic by Mastergodai</title>
-      <meta name="description" content="Follow the crazy antics of a group of friends from different backgrounds as they grow and experience the ups and downs of days dealing with Love triangles, misunderstood situations, annoying jobs and nosy parents. Will all of them find a happy ending in this crazy thing we call Life? Let's join them and find out!">
-      <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, comedy, humor, drama, Mastergodai, rascals, rascals webcomic">
+      <meta name="description" content="Follow the crazy antics of a group of friends from different backgrounds as they grow and experience the ups and downs of days dealing with Love triangles, misunderstood situations, annoying jobs and nosy parents. Will all of them find a happy ending in this crazy thing we call Life? Let's join them and find out!" />
+      <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, comedy, humor, drama, Mastergodai, rascals, rascals webcomic" />
+      <meta name="archive-binge" content="ab_5f35e6e5381ed1.13121948" />
     <?php elseif ( $development_theme == 'theeye' || strpos($url, 'theeye') !== false ) : ?>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152386556-11"></script>
       <script>
