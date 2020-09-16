@@ -1,0 +1,38 @@
+$panel_color: #fd5ba4;
+$frame_color: #ffb7d8;
+$shadow_color: #c10057;
+
+.cast-page {
+  .box {
+    &:before {
+      border: 20px solid $frame_color;
+    }
+  }
+
+  .chrissy {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_cast_chrissy.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .reiko {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_cast_reiko.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .jazmin {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_cast_jazmin.png");
+      background-repeat: no-repeat;
+    }
+  }
+}

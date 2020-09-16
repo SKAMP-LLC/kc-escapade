@@ -1,0 +1,30 @@
+@import "../palette.scss";
+@import "./archive.scss";
+@import "./cast.scss";
+@import "./comic-navigation.scss";
+@import "./comic.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./partners.scss";
+@import "./post-content.scss";
+
+body {
+  background-attachment: fixed;
+  background-color: #666666;
+  background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_background.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  color: $off_white;
+}
+
+.cross-promotion {
+  a {
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_2.png");
+    &:first-child {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_1.png");
+    }
+    &:last-child {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_spotlight_banner_3.png");
+    }
+  }
+}
