@@ -35,6 +35,10 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Rascals &#169; 2020 Mastergodai All Rights Reserved</span>
       </footer>
+  <?php elseif ( $development_theme == 'knuckleup' || strpos($url, 'knuckle-up') !== false ) : ?>
+    <footer id="colophon" class="site-footer" role="contentinfo">
+      <span>Knuckle Up &#169; 2020 Mastergodai All Rights Reserved</span>
+    </footer>
   <?php elseif ( $development_theme == 'theeye' || strpos($url, 'theeye') !== false ) : ?>
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>The Eye of Ramalach &#169; 2020 Avencri All Rights Reserved</span>

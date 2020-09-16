@@ -7,6 +7,7 @@ module.exports = {
     addictivescience: './src/addictivescience.js',
     cb: './src/cb.js',
     knighthood: './src/knighthood.js',
+    knuckleup: './src/knuckleup.js',
     main: './src/index.js',
     imew: './src/imew.js',
     laslindas: './src/laslindas.js',
@@ -18,7 +19,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: __dirname + '/dist',
+    path: path.resolve(__dirname, './dist'),
   },
   module: {
     rules: [

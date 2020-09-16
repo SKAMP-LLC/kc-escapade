@@ -25,7 +25,7 @@
  * @since Escapade 1.0
  */
 
-   // Choices are: paprika | imew | rascals | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots
+   // Choices are: paprika | imew | rascals | knuckleup | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots
    $development_theme = '###';
 
 /**
@@ -281,6 +281,11 @@ function escapade_scripts() {
   else if ($development_theme == 'rascals' || strpos($url, 'rascals') !== false) {
     wp_enqueue_script( 'rascals-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/rascals.js', array('jquery'), 1, false );
     wp_enqueue_style( 'rascals-webpack-main-css', get_template_directory_uri() . '/dist/rascals.css', array( 'escapade-style' ), '20160816' );
+  }
+  // Knuckle Up Theme
+  else if ($development_theme == 'knuckleup' || strpos($url, 'knuckle-up') !== false) {
+    wp_enqueue_script( 'knuckleup-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/knuckleup.js', array('jquery'), 1, false );
+    wp_enqueue_style( 'knuckleup-webpack-main-css', get_template_directory_uri() . '/dist/knuckleup.css', array( 'escapade-style' ), '20160816' );
   }
   // The Eye of Ramalach Theme
   else if ($development_theme == 'theeye' || strpos($url, 'theeye') !== false) {

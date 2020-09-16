@@ -36,6 +36,12 @@
     <a class="spotlight" href="https://gumroad.com/mastergodai"></a>
     <a class="spotlight" href="https://picarto.tv/mastergodai"></a>
   </section>
+<?php elseif ( $development_theme == 'knuckleup' || strpos($url, 'knuckle-up') !== false ) : ?>
+  <section class="cross-promotion">
+    <a class="spotlight" href="https://www.youtube.com/user/playorgodai"></a>
+    <a class="spotlight" href="https://gumroad.com/mastergodai"></a>
+    <a class="spotlight" href="https://picarto.tv/mastergodai"></a>
+  </section>
 <?php elseif ( $development_theme == 'theeye' || strpos($url, 'theeye') !== false ) : ?>
   <section class="cross-promotion">
     <a class="spotlight" href="https://www.patreon.com/avencri"></a>

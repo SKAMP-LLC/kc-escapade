@@ -146,7 +146,7 @@
     </ul>
   </div>
 
-<?php elseif ( $development_theme == 'rascals' || strpos($url, 'rascals') !== false ) : ?>
+<?php elseif ( $development_theme == 'rascals' || $development_theme == 'knuckleup' || strpos($url, 'rascals') || strpos($url, 'knuckle-up') !== false ) : ?>
   <div>
     <ul class="buttons">
       <li class="picarto">
