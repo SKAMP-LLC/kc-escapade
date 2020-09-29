@@ -202,7 +202,7 @@
     </ul>
   </div>
 
-  <?php elseif ( $development_theme == 'theeye' || strpos($url, 'theeye') !== false ) : ?>
+  <?php elseif ( $development_theme == 'theeye' || $development_theme == 'tots' || strpos($url, 'theeye') !== false || strpos($url, 'tots') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="picarto">
@@ -356,44 +356,6 @@
       <ul class="partners">
         <li class="atarmslength">
           <a href="http://atarmslength.net"></a>
-        </li>
-      </ul>
-    </div>
-
-    <?php elseif ( $development_theme == 'tots' || strpos($url, 'tots') !== false ) : ?>
-    <div>
-      <ul class="buttons">
-        <li class="picarto">
-          <a href="https://picarto.tv/avencri"></a>
-        </li>
-        <li class="fur-affinity">
-          <a href="https://www.furaffinity.net/user/avencri/"></a>
-        </li>
-        <li class="deviant-art">
-          <a href="https://www.deviantart.com/avencri"></a>
-        </li>
-        <li class="patreon">
-          <a href="https://www.patreon.com/avencri"></a>
-        </li>
-        <li class="paypal">
-          <a href="https://www.paypal.com/paypalme2/avencri"></a>
-        </li>
-        <li class="ko-fi">
-          <a href="https://ko-fi.com/Avencri"></a>
-        </li>
-        <li class="twitter">
-          <a href="https://twitter.com/avencri"></a>
-        </li>
-      </ul>
-      <div class="kc-side-banner">
-        <a href="https://kemono.cafe/"></a>
-      </div>
-      <ul class="partners">
-        <li class="mousechievous">
-          <a href="ttps://studiokhimera.com/mousechievous/"></a>
-        </li>
-        <li class="uberquest">
-          <a href="https://studiokhimera.com/uberquest/"></a>
         </li>
       </ul>
     </div>
