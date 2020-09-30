@@ -5,13 +5,6 @@
 }
 
 @include respond-to("sm-md") {
-  .logo {
-    margin: 0 auto;
-    a {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/laslindas_comic_logo_mobile.png") !important;
-    }
-  }
-
   .site-header-main {
     .main-navigation {
       ul {
@@ -20,31 +13,6 @@
             color: $off_white !important;
           }
         }
-      }
-    }
-  }
-}
-
-@include respond-to("lg") {
-  #menu-primary-navigation.primary-menu {
-    .menu-item:nth-child(1) {
-      a {
-        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/laslindas_text_menu_1.png");
-      }
-    }
-    .menu-item:nth-child(2) {
-      a {
-        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/laslindas_text_menu_2.png");
-      }
-    }
-    .menu-item:nth-child(3) {
-      a {
-        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/laslindas_text_menu_3.png");
-      }
-    }
-    .menu-item:nth-child(4) {
-      a {
-        background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/laslindas_text_menu_4.png");
       }
     }
   }

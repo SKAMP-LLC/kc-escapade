@@ -9,24 +9,25 @@
 ?>
 
 <div class="wrapper">
-  <?php 
-    global $wp;
-    $url = home_url( add_query_arg( array(), $wp->request ) );
-    global $development_theme;
-    if ( $development_theme == 'paprika' || strpos($url, 'paprika') !== false ) : ?>
-    <div>
-      <!-- Primary Navigation -->
-      <?php if ( has_nav_menu( 'primary' ) ) : ?>
-      <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
+  <div>
+    <!-- Primary Navigation -->
+    <?php if ( has_nav_menu( 'primary' ) ) : ?>
+    <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
 
-        <?php
-            wp_nav_menu( array(
-              'theme_location' => 'primary',
-              'menu_class'     => 'primary-menu',
-            ) );
-          ?>
-      </nav>
-      <?php endif; ?>
+      <?php
+          wp_nav_menu( array(
+            'theme_location' => 'primary',
+            'menu_class'     => 'primary-menu',
+          ) );
+        ?>
+    </nav>
+    <?php endif; ?>
+    <?php 
+      global $wp;
+      $url = home_url( add_query_arg( array(), $wp->request ) );
+      global $development_theme;
+      if ( $development_theme == 'paprika' || strpos($url, 'paprika') !== false ) : ?>
+      
       <ul class="buttons">
         <li class="picarto">
           <a href="https://picarto.tv/Nekonny"></a>

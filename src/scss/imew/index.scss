@@ -11,19 +11,19 @@
 @import "./site-navigation.scss";
 
 body {
-  background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/imew_background.png");
+  background-image: url("https://kemono.cafe/wp-content/uploads/2020/09/imew_background_v3.png");
   background-position: center;
   color: $off_white;
 }
 
 .cross-promotion {
   a {
-    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/imew_spotlight_banner_2.png");
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/09/imew_spotlight_banner_1_v3.png");
     &:first-child {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/imew_spotlight_banner_4.png");
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/09/imew_spotlight_banner_3_v3.png");
     }
     &:last-child {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/imew_spotlight_banner_3.png");
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/09/imew_spotlight_banner_2_v3.png");
     }
   }
 }
