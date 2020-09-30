@@ -8,6 +8,6 @@
  */
 ?>
 
-<div class="ad-bottom-banner">
+<div class="cards">
   <script type="text/javascript" src="https://www.comicad.net/r/a2C5651bHA/"></script>
 </div>

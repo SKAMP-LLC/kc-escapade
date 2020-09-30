@@ -161,27 +161,14 @@
       <header id="masthead" class="site-header" role="banner">
         <div class="site-header-main">
 
-          <!-- Logo -->
           <div class="logo">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
             </a>
           </div>
 
-          <!-- Primary Navigation & Social Menu -->
-          <?php if ( has_nav_menu( 'primary' ) ) : ?>
-          <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'tudor' ); ?>">
-            <!-- Leaderboard -->
-            <div class="top-nav-slot">
-              <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
-            </div>
-            <?php
-                wp_nav_menu( array(
-                  'theme_location' => 'primary',
-                  'menu_class'     => 'primary-menu',
-                ) );
-              ?>
-          </nav>
-          <?php endif; ?>
+          <div class="top-bar">
+            <script type="text/javascript" src="https://www.comicad.net/r/6Bcj0095JF/"></script>
+          </div>
 
         </div>
       </header>

@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for vertical ad banners.
+ * The template for the KC left sidebar.
  *
  * @package WordPress
  * @subpackage Escapade
@@ -8,6 +8,6 @@
  */
 ?>
 
-<div class="ad-side-banner">
+<div class="skyscraper">
   <script type="text/javascript" src="https://www.comicad.net/r/i97cj7JFDd/"></script>
 </div>

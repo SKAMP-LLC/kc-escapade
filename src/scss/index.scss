@@ -1,7 +1,6 @@
 @import "./palette.scss";
 
-@import "./ad-horizontal.scss";
-@import "./ad-sidebar.scss";
+@import "./bottom-bar.scss";
 @import "./carousel.scss";
 @import "./comic-list.scss";
 @import "./comic-navigation.scss";
@@ -12,8 +11,10 @@
 @import "./emote.scss";
 @import "./footer.scss";
 @import "./header.scss";
+@import "./left-sidebar.scss";
 @import "./post-content.scss";
-@import "./social-sidebar.scss";
+@import "./right-sidebar.scss";
+
 @import "./pages/about.scss";
 @import "./pages/archive.scss";
 @import "./pages/cast.scss";

@@ -14,9 +14,9 @@
 	</header><!-- .entry-header -->
 
   <section class="content">
-    <div class="ad-container-ver">
+    <div class="left-sidebar">
       <?php
-        get_template_part( 'template-parts/content', 'ad-banner-ver' );
+        get_template_part( 'template-parts/content', 'left-sidebar' );
       ?>
     </div>
     <div id="primary" class="comic">
@@ -35,16 +35,16 @@
       </div>
       <?php endif; ?>
     </div>
-    <div class="social-sidebar">
+    <div class="right-sidebar">
       <?php
-        get_template_part( 'template-parts/content', 'social-buttons' );
+        get_template_part( 'template-parts/content', 'right-sidebar' );
       ?>
     </div>
   </section>
 
-  <div class="ad-container-hor">
+  <div class="bottom-bar">
     <?php
-      get_template_part( 'template-parts/content', 'ad-banner-hor' );
+      get_template_part( 'template-parts/content', 'bottom-bar' );
     ?>
   </div>
 

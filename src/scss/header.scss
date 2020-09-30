@@ -1,44 +1,23 @@
 header.site-header {
   .site-header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     .logo {
       a {
         @include image-link();
-        height: 144px;
-        margin: 0 auto;
-        width: 335px;
+        height: 104px;
+        width: 360px;
       }
     }
 
-    .main-navigation {
-      margin: 0 auto;
-
-      #menu-primary-navigation.primary-menu {
-        margin: 0;
-        padding: 0;
-      }
-
-      .top-nav-slot {
-        background-color: rgba(255,255,255,.2);
-        text-align: center;
-        margin: 1em;
-        min-height: 90px;
-      }
-
-      ul {
-        display: flex;
-        justify-content: space-around;
-
-        li {
-          list-style-type: none;
-
-          a {
-            color: $shadow_black;
-            font-size: 1.5em;
-            line-height: 2em;
-            text-decoration: none;
-          }
-        }
-      }
+    .top-bar {
+      background-color: rgba(255,255,255,.2);
+      text-align: center;
+      margin: 1em;
+      min-height: 90px;
+      min-width: 728px;
     }
   }
 
@@ -46,49 +25,8 @@ header.site-header {
     .site-header-main {
       .logo {
         a {
-          height: 160px;
-          width: 372px;
-        }
-      }
-
-      .main-navigation {
-        .top-nav-slot {
-          display: block;
-          margin: 0;
-        }
-
-        ul {
-          li {
-            a {
-              font-size: 2em;
-              line-height: 2em;
-            }
-          }
-        }
-      }
-    }
-  }
-
-  @include respond-to("lg") {
-    .site-header-main {
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-
-      .logo {
-        a {
-          height: 151px;
-          width: 352px;
-        }
-      }
-
-      .main-navigation {
-        #menu-primary-navigation.primary-menu {
-          a {
-            @include image-link();
-            height: 70px;
-            width: 182px;
-          }
+          height: 231px;
+          width: 800px;
         }
       }
     }
