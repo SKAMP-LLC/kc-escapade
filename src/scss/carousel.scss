@@ -89,10 +89,7 @@
     right: -62px;
   }
 
-  @include respond-to("md") {
-    display: block;
-  }
-
   @include respond-to("lg") {
+    display: block;
   }
 }

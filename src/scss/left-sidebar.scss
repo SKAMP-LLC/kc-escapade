@@ -2,10 +2,7 @@
   display: none;
 
   .skyscraper {
-    background-color: rgba(255,255,255,.2);
     margin-bottom: 1em;
-    min-height: 600px;
-    min-width: 160px;
   }
 
   @include respond-to("md") {

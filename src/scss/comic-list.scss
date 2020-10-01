@@ -94,10 +94,7 @@
     }
   }
 
-  @include respond-to("md") {
-    display: none;
-  }
-
   @include respond-to("lg") {
+    display: none;
   }
 }
