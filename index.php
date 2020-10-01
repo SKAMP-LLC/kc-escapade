@@ -65,3 +65,9 @@ get_header(); ?>
   ?>
 
 <?php get_footer(); ?>
+
+<?php if ( has_tag('NSFW') ) : ?>
+  <?php
+    get_template_part( 'template-parts/content', 'nsfw-modal' );
+  ?>
+<?php endif; ?>
