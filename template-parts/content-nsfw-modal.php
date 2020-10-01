@@ -9,5 +9,5 @@
 ?>
 
 <div class="modal">
-  <span>This page has been marked as NSFW. Click to view.</span>
+  <span>This page has been marked as NSFW.<br/> <br/>Click to view.</span>
 </div>
