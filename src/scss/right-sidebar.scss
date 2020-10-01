@@ -115,12 +115,14 @@
         @include image-link();
         background-image: url("https://kemono.cafe/wp-content/uploads/2020/06/kc_banner.png");
         height: 214px;
+        width: 120px;
       }
     }
     .partners {
       a {
         @include image-link();
         height: 43px;
+        width: 120px;
       }
     }
   }
