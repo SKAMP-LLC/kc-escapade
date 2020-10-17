@@ -1,17 +1,10 @@
 .logo {
   a {
-    background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_comic_logo.png");
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/10/knuckleup_logo.png");
   }
 }
 
 @include respond-to("sm-md") {
-  .logo {
-    margin: 0 auto;
-    a {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/rascals_comic_logo_mobile.png") !important;
-    }
-  }
-
   .site-header-main {
     .main-navigation {
       ul {

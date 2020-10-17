@@ -62,7 +62,7 @@
         gtag('config', 'UA-152386556-12');
       </script>
       <title>Knuckle Up | A Furry Webcomic by Mastergodai</title>
-      <meta name="description" content="To be added" />
+      <meta name="description" content="After an incident involving an inexperienced space wizard, things got wierd for space bounty hunters Hawk and Rushana. Now, in order to revert the 	&ldquo;curse&rdquo;, they must embark on a quest spanning the galaxy... Hang in there Hawke, you're not as hot as you think you look!" />
       <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, comedy, humor, drama, Mastergodai, knuckleup, knuckleup webcomic" />
       <meta name="archive-binge" content="" />
     <?php elseif ( $development_theme == 'theeye' || strpos($url, 'theeye') !== false ) : ?>
