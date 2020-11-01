@@ -259,7 +259,7 @@
         </div>
       <ul class="partners">
         <li class="twc">
-          <a href="https://www.topwebcomics.com/vote/26468"></a>
+          <a href="https://www.topwebcomics.com/vote/26471"></a>
         </li>
         <li class="twokinds">
           <a href="http://twokinds.keenspot.com"></a>
@@ -315,7 +315,7 @@
         </div>
         <ul class="partners">
           <li class="twc">
-            <a href="https://www.topwebcomics.com/vote/26468"></a>
+            <a href="https://www.topwebcomics.com/vote/7985"></a>
           </li>
           <li class="mylifewithfel">
             <a href="https://mylifewithfel.com"></a>
