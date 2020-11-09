@@ -155,14 +155,14 @@
           <a href="https://kemono.cafe/"></a>
         </div>
       <ul class="partners">
+        <li class="twc">
+          <a href="https://www.topwebcomics.com/vote/8890"></a>
+        </li>
         <li class="yoshsaga">
           <a href="https://yoshsaga.com"></a>
         </li>
         <li class="artificialincident">
           <a href="https://artificialincident.com"></a>
-        </li>
-        <li class="twc">
-          <a href="https://www.topwebcomics.com/vote/8890"></a>
         </li>
       </ul>
     </div>
@@ -412,7 +412,7 @@
         </div>
         <ul class="partners">
           <li class="twc">
-            <a href="https://www.topwebcomics.com/vote/26468"></a>
+            <a href="http://topwebcomics.com/vote/26467"></a>
           </li>
         </ul>
       </div>
