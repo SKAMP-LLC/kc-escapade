@@ -47,5 +47,17 @@
       <div class="thumbnail"></div>
       <span>Tina of the South</span>
     </a>
+    <a href="https://www.desertfoxcomics.net/" class="comic_list_item slot_10">
+      <div class="thumbnail"></div>
+      <span>Desert Fox Comics</span>
+    </a>
+    <a href="https://knuckle-up.kemono.cafe/" class="comic_list_item slot_11">
+      <div class="thumbnail"></div>
+      <span>Knuckle Up</span>
+    </a>
+    <a href="https://kemono.cafe/category/story/" class="comic_list_item slot_12">
+      <div class="thumbnail"></div>
+      <span>Kemono Cafe Stories</span>
+    </a>
   </div>
 </section>

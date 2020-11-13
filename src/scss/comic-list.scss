@@ -94,6 +94,24 @@
     }
   }
 
+  .slot_10 {
+    div.thumbnail {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/comic_link_10.jpg");
+    }
+  }
+
+  .slot_11 {
+    div.thumbnail {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/10/comic_link_11.png");
+    }
+  }
+
+  .slot_12 {
+    div.thumbnail {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/11/kc_comic_link_01_v3.jpg");
+    }
+  }
+
   @include respond-to("lg") {
     display: none;
   }

@@ -60,14 +60,14 @@ get_header(); ?>
     get_template_part( 'template-parts/content', 'carousel' );
   ?>
 
+  <?php get_footer(); ?>
+
   <?php
-      get_template_part( 'template-parts/content', 'comic-list' );
+    get_template_part( 'template-parts/content', 'comic-list' );
   ?>
 
-<?php get_footer(); ?>
-
-<?php if ( has_tag('NSFW') ) : ?>
-  <?php
-    get_template_part( 'template-parts/content', 'nsfw-modal' );
-  ?>
-<?php endif; ?>
+  <?php if ( has_tag('NSFW') ) : ?>
+    <?php
+      get_template_part( 'template-parts/content', 'nsfw-modal' );
+    ?>
+  <?php endif; ?>

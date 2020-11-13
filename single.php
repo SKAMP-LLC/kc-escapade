@@ -46,8 +46,14 @@ get_header(); ?>
 
 	</main><!-- .site-main -->
 
-	<?php get_sidebar( 'content-bottom' ); ?>
-
 </div><!-- .content-area -->
 
-<?php get_footer(); ?>
+<?php
+  get_template_part( 'template-parts/content', 'comic-list' );
+?>
+
+<?php if ( has_tag('NSFW') ) : ?>
+  <?php
+    get_template_part( 'template-parts/content', 'nsfw-modal' );
+  ?>
+<?php endif; ?>
