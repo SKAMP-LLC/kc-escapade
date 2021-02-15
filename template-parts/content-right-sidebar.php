@@ -60,9 +60,6 @@
       <div class="kc-side-banner">
         <a href="https://kemono.cafe/"></a>
       </div>
-      <div class="can-partners">
-        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-      </div>
       <ul class="partners">
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/26468"></a>
@@ -80,6 +77,9 @@
           <a href="https://artificialincident.com"></a>
         </li>
       </ul>
+      <div class="can-partners">
+        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+      </div>
     </div>
 
   <?php elseif ( $development_theme == 'imew' || strpos($url, 'imew') !== false ) : ?>
@@ -116,14 +116,14 @@
       <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
       </div>
-      <div class="can-partners">
-        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-      </div>
       <ul class="partners">
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/26469"></a>
         </li>
       </ul>
+      <div class="can-partners">
+        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+      </div>
     </div>
 
   <?php elseif ( $development_theme == 'cb' || strpos($url, 'cb') !== false ) : ?>
@@ -159,7 +159,7 @@
       </ul>
       <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
-        </div>
+      </div>
       <ul class="partners">
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/8890"></a>
@@ -171,6 +171,9 @@
           <a href="https://artificialincident.com"></a>
         </li>
       </ul>
+      <div class="can-partners">
+        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+      </div>
     </div>
 
   <?php elseif ( $development_theme == 'rascals' || strpos($url, 'rascals') ) : ?>
@@ -204,9 +207,6 @@
       <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
       </div>
-      <div class="can-partners">
-        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-      </div>
       <ul class="partners">
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/9929"></a>
@@ -233,6 +233,9 @@
           <a href="https://tapas.io/series/IOtters"></a>
         </li>      
       </ul>
+      <div class="can-partners">
+        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+      </div>
     </div>
 
     <?php elseif ( $development_theme == 'knuckleup' || strpos($url, 'knuckle-up') !== false ) : ?>
@@ -266,9 +269,6 @@
       <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
       </div>
-      <div class="can-partners">
-        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-      </div>
       <ul class="partners">
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/26471"></a>
@@ -295,6 +295,9 @@
           <a href="https://tapas.io/series/IOtters"></a>
         </li>      
       </ul>
+      <div class="can-partners">
+        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+      </div>
     </div>
 
     <?php elseif ( $development_theme == 'theeye' || strpos($url, 'theeye') !== false ) : ?>
@@ -325,9 +328,6 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
         <ul class="partners">
           <li class="twc">
             <a href="https://www.topwebcomics.com/vote/7985"></a>
@@ -345,6 +345,9 @@
             <a href="https://studiokhimera.com/uberquest/"></a>
           </li>
         </ul>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+        </div>
       </div>
 
       <?php elseif ( $development_theme == 'tots' || strpos($url, 'tots') !== false ) : ?>
@@ -375,9 +378,6 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
         <ul class="partners">
           <li class="mylifewithfel">
             <a href="https://mylifewithfel.com"></a>
@@ -392,6 +392,9 @@
             <a href="https://studiokhimera.com/uberquest/"></a>
           </li>
         </ul>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+        </div>
       </div>
 
     <?php elseif ( $development_theme == 'pmp' || strpos($url, 'pmp') !== false ) : ?>
@@ -428,14 +431,14 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
         <ul class="partners">
           <li class="twc">
             <a href="http://topwebcomics.com/vote/26467"></a>
           </li>
         </ul>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+        </div>
       </div>
 
       <?php elseif ( $development_theme == 'laslindas' || strpos($url, 'laslindas') !== false ) : ?>
@@ -463,9 +466,6 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
         <ul class="partners">
           <li class="twc">
             <a href="https://www.topwebcomics.com/vote/13696"></a>
@@ -489,6 +489,9 @@
             <a href="https://www.wukrii.com/"></a>
           </li>
         </ul>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+        </div>
       </div>
 
       <?php elseif ( $development_theme == 'knighthood' || strpos($url, 'knighthood') !== false ) : ?>
@@ -516,9 +519,6 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
         <ul class="partners">
           <li class="twokinds">
             <a href="http://twokinds.keenspot.com"></a>
@@ -539,6 +539,9 @@
             <a href="https://www.wukrii.com/"></a>
           </li>
         </ul>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+        </div>
       </div>
 
       <?php elseif ( $development_theme == 'addictivescience' || strpos($url, 'addictivescience') !== false ) : ?>
@@ -563,14 +566,14 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
         <ul class="partners">
           <li class="atarmslength">
             <a href="http://atarmslength.net"></a>
           </li>
         </ul>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+        </div>
       </div>
   <?php endif; ?>
 </div>
