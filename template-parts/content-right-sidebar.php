@@ -58,8 +58,11 @@
         </li>
       </ul>
       <div class="kc-side-banner">
-          <a href="https://kemono.cafe/"></a>
-        </div>
+        <a href="https://kemono.cafe/"></a>
+      </div>
+      <div class="can-partners">
+        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+      </div>
       <ul class="partners">
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/26468"></a>
@@ -112,7 +115,10 @@
       </ul>
       <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
-        </div>
+      </div>
+      <div class="can-partners">
+        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+      </div>
       <ul class="partners">
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/26469"></a>
@@ -197,7 +203,10 @@
       </ul>
       <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
-        </div>
+      </div>
+      <div class="can-partners">
+        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+      </div>
       <ul class="partners">
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/9929"></a>
@@ -256,7 +265,10 @@
       </ul>
       <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
-        </div>
+      </div>
+      <div class="can-partners">
+        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+      </div>
       <ul class="partners">
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/26471"></a>
@@ -313,6 +325,9 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+        </div>
         <ul class="partners">
           <li class="twc">
             <a href="https://www.topwebcomics.com/vote/7985"></a>
@@ -359,6 +374,9 @@
         </ul>
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
+        </div>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
         </div>
         <ul class="partners">
           <li class="mylifewithfel">
@@ -410,6 +428,9 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+        </div>
         <ul class="partners">
           <li class="twc">
             <a href="http://topwebcomics.com/vote/26467"></a>
@@ -441,6 +462,9 @@
         </ul>
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
+        </div>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
         </div>
         <ul class="partners">
           <li class="twc">
@@ -492,6 +516,9 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
+        </div>
         <ul class="partners">
           <li class="twokinds">
             <a href="http://twokinds.keenspot.com"></a>
@@ -535,6 +562,9 @@
         </ul>
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
+        </div>
+        <div class="can-partners">
+          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
         </div>
         <ul class="partners">
           <li class="atarmslength">
