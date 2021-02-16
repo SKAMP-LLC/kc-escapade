@@ -77,9 +77,6 @@
           <a href="https://artificialincident.com"></a>
         </li>
       </ul>
-      <div class="can-partners">
-        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-      </div>
     </div>
 
   <?php elseif ( $development_theme == 'imew' || strpos($url, 'imew') !== false ) : ?>
@@ -121,9 +118,6 @@
           <a href="https://www.topwebcomics.com/vote/26469"></a>
         </li>
       </ul>
-      <div class="can-partners">
-        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-      </div>
     </div>
 
   <?php elseif ( $development_theme == 'cb' || strpos($url, 'cb') !== false ) : ?>
@@ -171,9 +165,6 @@
           <a href="https://artificialincident.com"></a>
         </li>
       </ul>
-      <div class="can-partners">
-        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-      </div>
     </div>
 
   <?php elseif ( $development_theme == 'rascals' || strpos($url, 'rascals') ) : ?>
@@ -233,9 +224,6 @@
           <a href="https://tapas.io/series/IOtters"></a>
         </li>      
       </ul>
-      <div class="can-partners">
-        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-      </div>
     </div>
 
     <?php elseif ( $development_theme == 'knuckleup' || strpos($url, 'knuckle-up') !== false ) : ?>
@@ -295,9 +283,6 @@
           <a href="https://tapas.io/series/IOtters"></a>
         </li>      
       </ul>
-      <div class="can-partners">
-        <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-      </div>
     </div>
 
     <?php elseif ( $development_theme == 'theeye' || strpos($url, 'theeye') !== false ) : ?>
@@ -345,9 +330,6 @@
             <a href="https://studiokhimera.com/uberquest/"></a>
           </li>
         </ul>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
       </div>
 
       <?php elseif ( $development_theme == 'tots' || strpos($url, 'tots') !== false ) : ?>
@@ -392,9 +374,6 @@
             <a href="https://studiokhimera.com/uberquest/"></a>
           </li>
         </ul>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
       </div>
 
     <?php elseif ( $development_theme == 'pmp' || strpos($url, 'pmp') !== false ) : ?>
@@ -436,9 +415,6 @@
             <a href="http://topwebcomics.com/vote/26467"></a>
           </li>
         </ul>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
       </div>
 
       <?php elseif ( $development_theme == 'laslindas' || strpos($url, 'laslindas') !== false ) : ?>
@@ -489,9 +465,6 @@
             <a href="https://www.wukrii.com/"></a>
           </li>
         </ul>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
       </div>
 
       <?php elseif ( $development_theme == 'knighthood' || strpos($url, 'knighthood') !== false ) : ?>
@@ -539,9 +512,6 @@
             <a href="https://www.wukrii.com/"></a>
           </li>
         </ul>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
       </div>
 
       <?php elseif ( $development_theme == 'addictivescience' || strpos($url, 'addictivescience') !== false ) : ?>
@@ -571,9 +541,6 @@
             <a href="http://atarmslength.net"></a>
           </li>
         </ul>
-        <div class="can-partners">
-          <script type="text/javascript" src="https://www.comicad.net/r/25UaiAuEGF/"></script>
-        </div>
       </div>
   <?php endif; ?>
 </div>
