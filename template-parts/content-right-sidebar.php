@@ -61,6 +61,9 @@
         <a href="https://kemono.cafe/"></a>
       </div>
       <ul class="partners">
+        <li class="thedepths">
+          <a href="https://www.thedepthscomic.com/"></a>
+        </li>
         <li class="twc">
           <a href="https://www.topwebcomics.com/vote/26468"></a>
         </li>
