@@ -59,5 +59,9 @@
       <div class="thumbnail"></div>
       <span>Kemono Cafe Stories</span>
     </a>
+    <a href="https://kemono.cafe/katboxinn/" class="comic_list_item slot_13">
+      <div class="thumbnail"></div>
+      <span>Katbox Inn</span>
+    </a>
   </div>
 </section>
