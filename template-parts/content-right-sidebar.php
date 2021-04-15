@@ -467,6 +467,9 @@
           <li class="wukrii">
             <a href="https://www.wukrii.com/"></a>
           </li>
+          <li class="uberquest">
+            <a href="https://studiokhimera.com/uberquest/"></a>
+          </li>
         </ul>
       </div>
 
