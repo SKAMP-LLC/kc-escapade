@@ -447,7 +447,7 @@
         </div>
         <ul class="partners">
           <li class="twc">
-            <a href="https://www.topwebcomics.com/vote/13696"></a>
+            <a href="https://topwebcomics.com/vote/26707"></a>
           </li>
           <li class="twokinds">
             <a href="http://twokinds.keenspot.com"></a>
@@ -499,6 +499,9 @@
           <a href="https://kemono.cafe/"></a>
         </div>
         <ul class="partners">
+          <li class="twc">
+            <a href="https://www.topwebcomics.com/vote/26708"></a>
+          </li>
           <li class="twokinds">
             <a href="http://twokinds.keenspot.com"></a>
           </li>
