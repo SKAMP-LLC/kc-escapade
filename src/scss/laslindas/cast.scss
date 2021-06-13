@@ -3,6 +3,8 @@ $minos_color: #2d8a43;
 $taffy_color: #2d8a43;
 $alej_color: #2d8a43;
 $tootsie_color: #2d8a43;
+$digit_color: #2d8a43;
+$phi_color: #2d8a43;
 $ll_green: #c4d97d;
 
 .cast-page {
@@ -48,6 +50,22 @@ $ll_green: #c4d97d;
     background-color: $tootsie_color;
     .image {
       background-image: url("https://kemono.cafe/wp-content/uploads/2020/04/tootsie_cast.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .digit {
+    background-color: $digit_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/06/GrownDigit.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .phi {
+    background-color: $phi_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/06/GrownPhi.png");
       background-repeat: no-repeat;
     }
   }

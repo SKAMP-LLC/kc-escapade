@@ -472,6 +472,24 @@
         </div>
         <div class="image"></div>
       </div>
+      <div class="digit box">
+        <div class="stats">
+          <h1>Digit</h1>
+          <h2>Spirit Type: Aura</h2>
+          <h2>Fun Fact: Resident Spirits drw power from sunlight when outside of their spirit gems.</h2>
+          <p>Digit is Mora's resident spirit and the caretaker of Las Lindas. Digit's bond to Mora provides her with much of the data she needs to grow, as Resident spirits are symbiotic and need another lifeform to evolve and change. Digit seems to have inhereted much of Mora's personality through the bond, loving attention and being confident and quick with her choices. Digit has just recently attained her second-tier of evolution thanks to Mora's acceptance and love.</p>
+        </div>
+        <div class="image"></div>
+      </div>
+      <div class="phi box">
+        <div class="stats">
+          <h1>Phi</h1>
+          <h2>Spirit Type: Analysis.</h2>
+          <h2>Fun Fact: Spirits can be bound to only one person and eventually grow to resemble their bondmate.</h2>
+          <p>Phi is Alejandra's resident spirit and the caretaker of Alej's mansion. Phi's resident gem was dormant for a long period of time thanks to Alej's personal issues. Once Alejandra abandoned her obsessions and learned how to move forward in life, Phi was able to bond to Alejandra and be born. Phi is currently friends with Digit and is coaxing Alej to to follow her dreams.</p>
+        </div>
+        <div class="image"></div>
+      </div>
     </div>
   </article>
 <?php elseif ( $development_theme == 'knighthood' || strpos($url, 'knighthood') !== false ) : ?>
