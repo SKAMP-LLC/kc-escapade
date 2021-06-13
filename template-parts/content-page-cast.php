@@ -484,7 +484,7 @@
       <div class="phi box">
         <div class="stats">
           <h1>Phi</h1>
-          <h2>Spirit Type: Analysis.</h2>
+          <h2>Spirit Type: Warp</h2>
           <h2>Fun Fact: Spirits can be bound to only one person and eventually grow to resemble their bondmate.</h2>
           <p>Phi is Alejandra's resident spirit and the caretaker of Alej's mansion. Phi's resident gem was dormant for a long period of time thanks to Alej's personal issues. Once Alejandra abandoned her obsessions and learned how to move forward in life, Phi was able to bond to Alejandra and be born. Phi is currently friends with Digit and is coaxing Alej to to follow her dreams.</p>
         </div>
