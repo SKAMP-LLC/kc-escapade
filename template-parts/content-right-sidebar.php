@@ -225,7 +225,10 @@
         </li>
         <li class="iotters">
           <a href="https://tapas.io/series/IOtters"></a>
-        </li>      
+        </li>
+        <li class="thedepths">
+          <a href="https://www.thedepthscomic.com/"></a>
+        </li>        
       </ul>
     </div>
 
@@ -284,7 +287,10 @@
         </li>
         <li class="iotters">
           <a href="https://tapas.io/series/IOtters"></a>
-        </li>      
+        </li>   
+        <li class="thedepths">
+          <a href="https://www.thedepthscomic.com/"></a>
+        </li>    
       </ul>
     </div>
 
