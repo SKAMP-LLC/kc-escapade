@@ -14,7 +14,7 @@
   <html <?php language_attributes(); ?> class="no-js">
 
   <head>
-    <?php 
+    <?php
       global $wp;
       $url = home_url( add_query_arg( array(), $wp->request ) );
       global $development_theme;
@@ -142,6 +142,17 @@
       <title>Tina of the South | A Furry Webcomic by Avencri</title>
       <meta name="description" content="Terra Rica is home to great riches for those willing to brave the harsh landscape. For some, however, arid deserts are the least of their worries. As a child, Tina Winchester lost everything to a sinister killer. Now, as a bounty hunter, Tina sets out on a quest for revenge, to bring her father's killer to justice. But her efforts quickly attract the ire of a secret cabal that plots to undermine the very foundations of Terra Rica itself.">
       <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, drama, avencri, tina of the south">
+    <?php elseif ( $development_theme == 'bethellium' || strpos($url, 'bethellium') !== false ) : ?>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JEWSCGY2DE"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-JEWSCGY2DE');
+      </script>
+      <title>Bethellium | Fantasy Furry Webcomic</title>
+      <meta name="description" content="When Master Alchemist Zoana is invited to the secret city of Bethellium under false pretenses, she finds only fear and suspicion. In a world where magic is almost extinct. Why is the secret art of alchemy so feared? What secrets lie hidden in the last magic city of the world?">
+      <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, drama, abluedeer, bethellium">
     <?php endif; ?>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -153,11 +164,11 @@
     <?php wp_head(); ?>
   </head>
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700" rel="stylesheet">
 
   <body <?php body_class(); ?>>
     <div id="page" class="site">
-      
+
       <header id="masthead" class="site-header" role="banner">
         <div class="site-header-main">
 
@@ -172,5 +183,5 @@
 
         </div>
       </header>
-      
+
       <div id="content" class="site-content">

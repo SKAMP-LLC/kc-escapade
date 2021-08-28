@@ -22,12 +22,12 @@
         ?>
     </nav>
     <?php endif; ?>
-    <?php 
+    <?php
       global $wp;
       $url = home_url( add_query_arg( array(), $wp->request ) );
       global $development_theme;
       if ( $development_theme == 'paprika' || strpos($url, 'paprika') !== false ) : ?>
-      
+
       <ul class="buttons">
         <li class="picarto">
           <a href="https://picarto.tv/Nekonny"></a>
@@ -228,7 +228,7 @@
         </li>
         <li class="thedepths">
           <a href="https://www.thedepthscomic.com/"></a>
-        </li>        
+        </li>
       </ul>
     </div>
 
@@ -287,7 +287,7 @@
         </li>
         <li class="iotters">
           <a href="https://tapas.io/series/IOtters"></a>
-        </li>  
+        </li>
       </ul>
     </div>
 
@@ -551,6 +551,59 @@
         <ul class="partners">
           <li class="atarmslength">
             <a href="http://atarmslength.net"></a>
+          </li>
+        </ul>
+      </div>
+
+      <?php elseif ( $development_theme == 'bethellium' || strpos($url, 'bethellium') !== false ) : ?>
+      <div>
+        <ul class="buttons">
+          <li class="twitter">
+            <a href="https://twitter.com/ABD_artist"></a>
+          </li>
+          <li class="gumroad">
+            <a href="https://gumroad.com/abd#"></a>
+          </li>
+          <li class="ko-fi">
+            <a href="https://ko-fi.com/abluedeer"></a>
+          </li>
+          <li class="fur-affinity">
+            <a href="https://www.furaffinity.net/commissions/abluedeer/"></a>
+          </li>
+          <li class="deviant-art">
+            <a href="https://www.deviantart.com/a-bluedeer/"></a>
+          </li>
+          <li class="patreon">
+            <a href="https://www.patreon.com/dark_blue_workshop"></a>
+          </li>
+          <li class="picarto">
+            <a href="https://picarto.tv/DarkBlueWorkshop"></a>
+          </li>
+          <li class="youtube">
+            <a href="https://www.youtube.com/channel/UCK38edoeeIbkBaHj7TMk1Hw"></a>
+          </li>
+        </ul>
+        <div class="kc-side-banner">
+          <a href="https://kemono.cafe/"></a>
+        </div>
+        <ul class="partners">
+          <li class="bloodline">
+            <a href="http://w0lfmare.xepher.net/"></a>
+          </li>
+          <li class="cchan">
+            <a href="https://tapas.io/series/C-chans-a-Catgirl"></a>
+          </li>
+          <li class="moonlace">
+            <a href="https://moonlace.darkbluecomics.com/"></a>
+          </li>
+          <li class="rayfox">
+            <a href="https://www.rayfoxthecomic.com/"></a>
+          </li>
+          <li class="thedepths">
+            <a href="https://www.thedepthscomic.com/"></a>
+          </li>
+          <li class="wukrii">
+            <a href="https://www.wukrii.com/"></a>
           </li>
         </ul>
       </div>

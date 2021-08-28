@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php 
+<?php
   global $wp;
   $url = home_url( add_query_arg( array(), $wp->request ) );
   global $development_theme;
@@ -77,5 +77,11 @@
     <a class="spotlight" href="https://www.patreon.com/avencri"></a>
     <a class="spotlight" href="https://picarto.tv/avencri"></a>
     <a class="spotlight" href="https://theeye.kemono.cafe/"></a>
+  </section>
+<?php elseif ( $development_theme == 'bethellium' || strpos($url, 'bethellium') !== false ) : ?>
+  <section class="cross-promotion">
+    <a class="spotlight" href="https://landing.mailerlite.com/webforms/landing/w7s9n2"></a>
+    <a class="spotlight" href="https://www.patreon.com/dark_blue_workshop"></a>
+    <a class="spotlight" href="http://moonlace.darkbluecomics.com/"></a>
   </section>
 <?php endif; ?>

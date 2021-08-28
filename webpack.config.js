@@ -5,6 +5,7 @@ module.exports = {
   mode: 'production',
   entry: {
     addictivescience: './src/addictivescience.js',
+    bethellium: './src/bethellium.js',
     cb: './src/cb.js',
     knighthood: './src/knighthood.js',
     knuckleup: './src/knuckleup.js',

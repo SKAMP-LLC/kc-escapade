@@ -59,6 +59,10 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Tina of the South &#169; 2021 Avencri All Rights Reserved</span>
       </footer>
+  <?php elseif ( $development_theme == 'bethellium' || strpos($url, 'bethellium') !== false ) : ?>
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <span>Bethellium &#169; 2021 ABlueDeer All Rights Reserved</span>
+      </footer>
   <?php endif; ?>
 </div><!-- .site -->
 

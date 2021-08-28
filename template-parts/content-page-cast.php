@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php 
+<?php
   global $wp;
   $url = home_url( add_query_arg( array(), $wp->request ) );
   global $development_theme;
@@ -509,5 +509,54 @@
     <div class="cast-page">
       <h2 class="empty">This comic does not have a cast page yet.</h2>
     </div>
+  </article>
+<?php elseif ( $development_theme == 'bethellium' || strpos($url, 'bethellium') !== false ) : ?>
+  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="cast-page">
+      <div class="zoana box">
+        <div class="stats">
+          <h1>Zoana Aufenhurst</h1>
+          <h2>Heading</h2>
+          <h2>Heading</h2>
+          <p>Description</p>
+        </div>
+        <div class="image"></div>
+      </div>
+      <div class="elle box">
+        <div class="image"></div>
+        <div class="stats">
+          <h1>Elle Falina</h1>
+          <h2>Heading</h2>
+          <h2>Heading</h2>
+          <p>Description</p>
+        </div>
+      </div>
+      <div class="auri box">
+        <div class="stats">
+          <h1>Auri Ferrae</h1>
+          <h2>Heading</h2>
+          <h2>Heading</h2>
+          <p>Description</p>
+        </div>
+        <div class="image"></div>
+      </div>
+      <div class="sonette box">
+        <div class="image"></div>
+        <div class="stats">
+          <h1>Sonette</h1>
+          <h2>Heading</h2>
+          <h2>Heading</h2>
+          <p>Description</p>
+        </div>
+      </div>
+      <div class="katherine box">
+        <div class="stats">
+          <h1>Katherine Fiama Roselynn</h1>
+          <h2>Heading</h2>
+          <h2>Heading</h2>
+          <p>Description</p>
+        </div>
+        <div class="image"></div>
+      </div>
   </article>
 <?php endif; ?>

@@ -1,0 +1,19 @@
+.logo {
+  a {
+    background-image: url("https://kemono.cafe/wp-content/uploads/2021/08/bethellium_comic_logo_v3.png");
+  }
+}
+
+@include respond-to("sm-md") {
+  .site-header-main {
+    .main-navigation {
+      ul {
+        li {
+          a {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}

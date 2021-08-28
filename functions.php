@@ -25,7 +25,7 @@
  * @since Escapade 1.0
  */
 
-   // Choices are: paprika | imew | rascals | knuckleup | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots
+   // Choices are: paprika | imew | rascals | knuckleup | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots | bethellium
    $development_theme = '###';
 
 /**
@@ -103,7 +103,7 @@ function escapade_setup() {
 		'gallery',
 		'caption',
   ) );
-  
+
   // https://stackoverflow.com/questions/25491619/how-to-delete-margin-top-32px-important-from-twenty-twelve
   function remove_admin_login_header() {
     remove_action('wp_head', '_admin_bar_bump_cb');
@@ -276,7 +276,7 @@ function escapade_scripts() {
 
 	// WEBPACK - main.css
   wp_enqueue_style( 'escapade-webpack-main-css', get_template_directory_uri() . '/dist/main.css', array( 'escapade-style' ), '20160816' );
-  
+
   $url = site_url();
   global $development_theme;
 
@@ -334,6 +334,11 @@ function escapade_scripts() {
   else if ($development_theme == 'tots' || strpos($url, 'tots') !== false) {
     wp_enqueue_script( 'tots-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/tots.js', array('jquery'), 1, false );
     wp_enqueue_style( 'tots-webpack-main-css', get_template_directory_uri() . '/dist/tots.css', array( 'escapade-style' ), '20160816' );
+  }
+  // Tina of the South Theme
+  else if ($development_theme == 'bethellium' || strpos($url, 'bethellium') !== false) {
+    wp_enqueue_script( 'bethellium-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/bethellium.js', array('jquery'), 1, false );
+    wp_enqueue_style( 'bethellium-webpack-main-css', get_template_directory_uri() . '/dist/bethellium.css', array( 'escapade-style' ), '20160816' );
   }
 
 	// Load the Internet Explorer specific stylesheet.
