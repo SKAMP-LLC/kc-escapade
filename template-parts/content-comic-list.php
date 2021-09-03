@@ -63,5 +63,9 @@
       <div class="thumbnail"></div>
       <span>Katbox Inn</span>
     </a>
+    <a href="https://bethellium.kemono.cafe/" class="comic_list_item slot_14">
+      <div class="thumbnail"></div>
+      <span>Bethellium</span>
+    </a>
   </div>
 </section>
