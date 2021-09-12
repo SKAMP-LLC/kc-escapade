@@ -150,6 +150,15 @@
         gtag('js', new Date());
         gtag('config', 'G-JEWSCGY2DE');
       </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JVT14XLQWS"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-JVT14XLQWS');
+      </script>
       <title>Bethellium | Fantasy Furry Webcomic</title>
       <meta name="description" content="When Master Alchemist Zoana is invited to the secret city of Bethellium under false pretenses, she finds only fear and suspicion. In a world where magic is almost extinct. Why is the secret art of alchemy so feared? What secrets lie hidden in the last magic city of the world?">
       <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, drama, abluedeer, bethellium">
