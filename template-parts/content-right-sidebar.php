@@ -561,6 +561,12 @@
           <li class="twitter">
             <a href="https://twitter.com/ABD_artist"></a>
           </li>
+          <li class="newgrounds">
+            <a href=" https://abluedeer.newgrounds.com/"></a>
+          </li>
+          <li class="instagram">
+            <a href="https://www.instagram.com/a_blue_deer/"></a>
+          </li>
           <li class="gumroad">
             <a href="https://gumroad.com/abd#"></a>
           </li>
@@ -587,6 +593,9 @@
           <a href="https://kemono.cafe/"></a>
         </div>
         <ul class="partners">
+          <li class="twc">
+            <a href="https://www.topwebcomics.com/vote/25508"></a>
+          </li>
           <li class="bloodline">
             <a href="http://w0lfmare.xepher.net/"></a>
           </li>

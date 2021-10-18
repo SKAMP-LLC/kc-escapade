@@ -41,7 +41,7 @@
         }
       }
     }
-    
+
     .buttons {
       a {
         @include image-link();
@@ -66,6 +66,11 @@
       .instagram {
         a {
           background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/instagram.png");
+        }
+      }
+      .newgrounds {
+        a {
+          background-image: url("https://kemono.cafe/wp-content/uploads/2021/10/newgrounds.png");
         }
       }
       .youtube {
