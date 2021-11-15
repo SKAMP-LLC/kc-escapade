@@ -362,6 +362,9 @@
           <li class="twitter">
             <a href="https://twitter.com/avencri"></a>
           </li>
+          <li class="instagram">
+            <a href="https://www.instagram.com/avencri_eggmaster/"></a>
+          </li>
         </ul>
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
