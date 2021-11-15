@@ -182,8 +182,8 @@
         <li class="deviant-art">
           <a href="https://www.deviantart.com/mastergodai"></a>
         </li>
-        <li class="instagram">
-          <a href="https://www.instagram.com/mastergodai/"></a>
+        <li class="youtube">
+          <a href="https://www.youtube.com/channel/UCXhv4xTDfjixNT-yxMn44FA"></a>
         </li>
         <li class="youtube">
           <a href="https://www.youtube.com/user/playorgodai"></a>
@@ -244,8 +244,8 @@
         <li class="deviant-art">
           <a href="https://www.deviantart.com/mastergodai"></a>
         </li>
-        <li class="instagram">
-          <a href="https://www.instagram.com/mastergodai/"></a>
+        <li class="youtube">
+          <a href="https://www.youtube.com/channel/UCXhv4xTDfjixNT-yxMn44FA"></a>
         </li>
         <li class="youtube">
           <a href="https://www.youtube.com/user/playorgodai"></a>
