@@ -622,5 +622,25 @@
           </li>
         </ul>
       </div>
+    <?php elseif ( $development_theme == 'princessbunny' || strpos($url, 'princessbunny') !== false ) : ?>
+      <div>
+        <ul class="buttons">
+          <li class="twitter">
+            <a href="https://twitter.com/TheBunBunART"></a>
+          </li>
+          <li class="ko-fi">
+            <a href="https://ko-fi.com/thebunbunart"></a>
+          </li>
+          <li class="fur-affinity">
+            <a href="https://www.furaffinity.net/user/bunbun-art/"></a>
+          </li>
+          <li class="deviant-art">
+            <a href="https://www.deviantart.com/thebunbunart"></a>
+          </li>
+        </ul>
+        <div class="kc-side-banner">
+          <a href="https://kemono.cafe/"></a>
+        </div>
+      </div>
   <?php endif; ?>
 </div>

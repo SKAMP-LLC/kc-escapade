@@ -56,9 +56,9 @@
     <div class="comic_slot slot_14">
       <a href="https://bethellium.kemono.cafe/"></a>
     </div>
-    <div class="comic_slot slot_15">
+    <!-- <div class="comic_slot slot_15">
       <a href="https://princessbunny.kemono.cafe/"></a>
-    </div>
+    </div> -->
     <div class="comic_slot slot_0">
       <a href="https://imew.kemono.cafe/"></a>
     </div>
@@ -104,9 +104,9 @@
     <div class="comic_slot slot_14">
       <a href="https://bethellium.kemono.cafe/"></a>
     </div>
-    <div class="comic_slot slot_15">
+    <!-- <div class="comic_slot slot_15">
       <a href="https://princessbunny.kemono.cafe/"></a>
-    </div>
+    </div> -->
     <div class="comic_slot slot_0">
       <a href="https://imew.kemono.cafe/"></a>
     </div>
@@ -152,9 +152,9 @@
     <div class="comic_slot slot_14">
       <a href="https://bethellium.kemono.cafe/"></a>
     </div>
-    <div class="comic_slot slot_15">
+    <!-- <div class="comic_slot slot_15">
       <a href="https://princessbunny.kemono.cafe/"></a>
-    </div>
+    </div> -->
     <div class="comic_slot slot_0">
       <a href="https://imew.kemono.cafe/"></a>
     </div>
@@ -200,9 +200,9 @@
     <div class="comic_slot slot_14">
       <a href="https://bethellium.kemono.cafe/"></a>
     </div>
-    <div class="comic_slot slot_15">
+    <!-- <div class="comic_slot slot_15">
       <a href="https://princessbunny.kemono.cafe/"></a>
-    </div>
+    </div> -->
   </div>
   <div class="control next_slot"></div>
 </section>

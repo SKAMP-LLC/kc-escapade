@@ -1,64 +1,50 @@
-$panel_color: #c9615f;
-$frame_color: #fcbba3;
-$shadow_color: #5f0e0c;
+$panel_color: #567F92;
+$frame_color: #B2DEF4;
+$shadow_color: #001D2B;
 
 .cast-page {
+  color: #B2DEF4;
+  a {
+    color: #567F92;
+  }
   .box {
     &:before {
       border: 20px solid $frame_color;
     }
   }
 
-  .tina {
+  .ella {
     background-color: $panel_color;
     box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_tina.png");
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/princessbunny_cast_ella.png");
       background-repeat: no-repeat;
     }
   }
 
-  .yuki {
+  .haru {
     background-color: $panel_color;
     box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_yuki.png");
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/princessbunny_cast_haru.png");
       background-repeat: no-repeat;
     }
   }
 
-  .ruby {
+  .azeria {
     background-color: $panel_color;
     box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_ruby.png");
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/princessbunny_cast_azeria.png");
       background-repeat: no-repeat;
     }
   }
 
-  .ron {
+  .shanters {
     background-color: $panel_color;
     box-shadow: 5px 5px 5px 0px $shadow_color;
     .image {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_ron.png");
-      background-repeat: no-repeat;
-    }
-  }
-
-  .megan {
-    background-color: $panel_color;
-    box-shadow: 5px 5px 5px 0px $shadow_color;
-    .image {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_megan.png");
-      background-repeat: no-repeat;
-    }
-  }
-
-  .kobe {
-    background-color: $panel_color;
-    box-shadow: 5px 5px 5px 0px $shadow_color;
-    .image {
-      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_kobe.png");
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/princessbunny_cast_shanters.png");
       background-repeat: no-repeat;
     }
   }

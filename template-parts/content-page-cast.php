@@ -565,9 +565,15 @@
       <div class="ella box">
         <div class="stats">
           <h1>Ella</h1>
-          <h2>Heading</h2>
-          <h2>Heading</h2>
-          <p>Description</p>
+          <h2>Age: 21</h2>
+          <h2>Height: 128cm / 4’2”</h2>
+          <p>Personality: Hyperactive, positive, impulsive. Ella can’t stay still and gets easily distracted by pretty much anything. Cheerful, extremely optimistic and with very big dreams that she has no intention to give up on.</p>
+          <ul>
+            <li>She is vegan and addicted to carrots. Her companions must always be careful because she can’t stop eating carrots even though she is aware that so much sugar can be bad for her health.</li>
+            <li>She hates reading because it has to be done by staying still and quiet for a while. Challenging.</li>
+            <li>She sleeps very few hours, only when it's totally dark outside.</li>
+            <li>Ella tries to learn many things. Anything! She is not good at any but that won't stop her from learning new stuff</li>
+          </ul>
         </div>
         <div class="image"></div>
       </div>
@@ -575,27 +581,35 @@
         <div class="image"></div>
         <div class="stats">
           <h1>Haru</h1>
-          <h2>Heading</h2>
-          <h2>Heading</h2>
-          <p>Description</p>
+          <h2>Age: 23</h2>
+          <h2>Height: 135cm / 4’5”</h2>
+          <p>Personality: Haru had a childhood trauma so she gets scared very easily. She is quite paranoid about suspicious movements and is also afraid of meeting new people thinking they might harm her. Her guard is pretty much always up and in tension. Agesivity, even yelling or a loud noise, makes her jump and hiss, and maybe even cry if it’s too much. Besides that, in a normal routine when none of those things happen, she is sweet and fun, easy to make her laugh. She is caring and loves hugs from people she feels comfortable with.</p>
+          <ul>
+            <li>She is used to the food she ate at the mansion so mostly vegan dishes, but as soon as she gets out from there she goes back to her original carnivore diet.</li>
+            <li>She hates canines, from dogs to wolves or any other. She finds them irritating, annoying because of their overly friendly attitude. Haru thinks they are overreacting or faking just to be liked by many people.</li>
+          </ul>
         </div>
       </div>
       <div class="azeria box">
         <div class="stats">
           <h1>Azeria</h1>
-          <h2>Heading</h2>
-          <h2>Heading</h2>
-          <p>Description</p>
+          <h2>Age: 32</h2>
+          <h2>Height: 172cm / 5’8”</h2>
+          <p>Personality: Proud and mostly serious but deep inside she’s just a child. She is amused very easily but tries to hide it. This is due to the way she was strictly educated by her family, being part of a high social class Azeria was taught that a lady must behave that way and not reaction to idiotic jokes, considered by them as “garbage jokes”. Being with Shanters, however, is quite a challenge and it’s impossible to hold back her real personality but as years pass and many events happen, she is forced to get colder and all the things her parents taught her are now needed for survival.</p>
         </div>
         <div class="image"></div>
       </div>
       <div class="shanters box">
         <div class="image"></div>
         <div class="stats">
-          <h1>Shanders</h1>
-          <h2>Heading</h2>
-          <h2>Heading</h2>
-          <p>Description</p>
+          <h1>Shanters</h1>
+          <h2>Age: 33</h2>
+          <h2>Height: 196cm / 6’5”</h2>
+          <p>A little dumb sometimes, terrible at reading and following maps and he’s quite naive. Shanters trusts people too easily and gets easily fooled. He also has a hard time understanding sarcasm. Many times he is so determined to help anyone that he might even annoy the other person thinking maybe he wants something in exchange or to prove that he is best, but reality is very, very far from that: Shanters is just that genuinely good in heart.</p>
+          <ul>
+            <li>Lost his sense of smell, and with that, he can’t really feel different tastes either. He has trouble saying the difference between different tastes.</li>
+            <li>His ability to find his way around houses and cities is... null. Very poor.</li>
+          </ul>
         </div>
       </div>
   </article>
