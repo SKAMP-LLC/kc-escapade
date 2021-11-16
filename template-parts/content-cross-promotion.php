@@ -84,4 +84,10 @@
     <a class="spotlight" href="https://www.patreon.com/dark_blue_workshop"></a>
     <a class="spotlight" href="http://moonlace.darkbluecomics.com/"></a>
   </section>
+<?php elseif ( $development_theme == 'princessbunny' || strpos($url, 'princessbunny') !== false ) : ?>
+  <section class="cross-promotion">
+    <a class="spotlight" href="https://ko-fi.com/thebunbunart"></a>
+    <a class="spotlight" href="https://bun-bun.art/"></a>
+    <a class="spotlight" href="https://www.patreon.com/princess_bunny"></a>
+  </section>
 <?php endif; ?>

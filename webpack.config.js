@@ -14,6 +14,7 @@ module.exports = {
     laslindas: './src/laslindas.js',
     paprika: './src/paprika.js',
     pmp: './src/pmp.js',
+    princessbunny: './src/princessbunny.js',
     rascals: './src/rascals.js',
     theeye: './src/theeye.js',
     tots: './src/tots.js',

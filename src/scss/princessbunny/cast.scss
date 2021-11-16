@@ -1,0 +1,65 @@
+$panel_color: #c9615f;
+$frame_color: #fcbba3;
+$shadow_color: #5f0e0c;
+
+.cast-page {
+  .box {
+    &:before {
+      border: 20px solid $frame_color;
+    }
+  }
+
+  .tina {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_tina.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .yuki {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_yuki.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .ruby {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_ruby.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .ron {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_ron.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .megan {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_megan.png");
+      background-repeat: no-repeat;
+    }
+  }
+
+  .kobe {
+    background-color: $panel_color;
+    box-shadow: 5px 5px 5px 0px $shadow_color;
+    .image {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/01/paprika_cast_kobe.png");
+      background-repeat: no-repeat;
+    }
+  }
+}

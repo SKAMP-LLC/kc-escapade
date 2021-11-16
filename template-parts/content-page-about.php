@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php 
+<?php
   global $wp;
   $url = home_url( add_query_arg( array(), $wp->request ) );
   global $development_theme;

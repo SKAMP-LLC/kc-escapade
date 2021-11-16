@@ -63,6 +63,10 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Bethellium &#169; 2021 ABlueDeer All Rights Reserved</span>
       </footer>
+  <?php elseif ( $development_theme == 'princessbunny' || strpos($url, 'princessbunny') !== false ) : ?>
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <span>Princess Bunny &#169; 2021 bun-bun.art All Rights Reserved</span>
+      </footer>
   <?php endif; ?>
 </div><!-- .site -->
 

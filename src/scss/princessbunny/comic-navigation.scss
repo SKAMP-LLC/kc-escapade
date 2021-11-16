@@ -1,0 +1,16 @@
+table#comic-nav-wrapper {
+  background-color: $shadow_black;
+
+  .comic-nav-first {
+    background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/princessbunny_comic_nav_first_v3.png");
+  }
+  .comic-nav-previous {
+    background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/princessbunny_comic_nav_previous_v3.png");
+  }
+  .comic-nav-next {
+    background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/princessbunny_comic_nav_next_v3.png");
+  }
+  .comic-nav-last {
+    background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/princessbunny_comic_nav_last_v3.png");
+  }
+}
