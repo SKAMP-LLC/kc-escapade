@@ -3,6 +3,9 @@
     #comic {
       background: $off_white_opaque;
       text-align: center;
+      a {
+        width: 100%;
+      }
       img {
         vertical-align: bottom;
         width: 100%;
