@@ -1,4 +1,4 @@
-# Escapade Theme
+# KC Escapade Theme
 
 Wordpress theme for [Kemono Cafe](https://kemono.cafe/).
 

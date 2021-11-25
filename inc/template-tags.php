@@ -1,12 +1,12 @@
 <?php
 /**
- * Custom Escapade template tags
+ * Custom KC Escapade template tags
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 
 if ( ! function_exists( 'escapade_entry_meta' ) ) :
@@ -15,7 +15,7 @@ if ( ! function_exists( 'escapade_entry_meta' ) ) :
  *
  * Create your own escapade_entry_meta() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_entry_meta() {
 	if ( in_array( get_post_type(), array( 'post', 'attachment' ) ) ) {
@@ -30,7 +30,7 @@ if ( ! function_exists( 'escapade_entry_date' ) ) :
  *
  * Create your own escapade_entry_date() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_entry_date() {
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
@@ -58,7 +58,7 @@ if ( ! function_exists( 'escapade_entry_taxonomies' ) ) :
  *
  * Create your own escapade_entry_taxonomies() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_entry_taxonomies() {
 	$categories_list = get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'escapade' ) );
@@ -88,7 +88,7 @@ if ( ! function_exists( 'escapade_post_thumbnail' ) ) :
  *
  * Create your own escapade_post_thumbnail() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_post_thumbnail() {
 	if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
@@ -120,7 +120,7 @@ if ( ! function_exists( 'escapade_excerpt' ) ) :
 	 *
 	 * Create your own escapade_excerpt() function to override in a child theme.
 	 *
-	 * @since Escapade 1.0
+	 * @since KC Escapade 1.0
 	 *
 	 * @param string $class Optional. Class string of the div element. Defaults to 'entry-summary'.
 	 */
@@ -142,7 +142,7 @@ if ( ! function_exists( 'escapade_excerpt_more' ) && ! is_admin() ) :
  *
  * Create your own escapade_excerpt_more() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @return string 'Continue reading' link prepended with an ellipsis.
  */
@@ -163,7 +163,7 @@ if ( ! function_exists( 'escapade_categorized_blog' ) ) :
  *
  * Create your own escapade_categorized_blog() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @return bool True if there is more than one category, false otherwise.
  */
@@ -195,7 +195,7 @@ endif;
 /**
  * Flushes out the transients used in escapade_categorized_blog().
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_category_transient_flusher() {
 	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {

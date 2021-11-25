@@ -3,8 +3,8 @@
  * The template for displaying all single posts and attachments
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 
 get_header(); ?>

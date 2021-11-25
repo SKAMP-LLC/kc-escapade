@@ -3,8 +3,8 @@
  * The template for the content bottom widget areas on posts and pages
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 
 if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) ) {

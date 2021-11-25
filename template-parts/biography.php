@@ -3,8 +3,8 @@
  * The template part for displaying an Author biography.
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 ?>
 
@@ -12,9 +12,9 @@
 	<div class="author-avatar">
 		<?php
 		/**
-		 * Filter the Escapade author bio avatar size.
+		 * Filter the KC Escapade author bio avatar size.
 		 *
-		 * @since Escapade 1.0
+		 * @since KC Escapade 1.0
 		 *
 		 * @param int $size The avatar height and width size in pixels.
 		 */

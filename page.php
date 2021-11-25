@@ -7,8 +7,8 @@
  * other "pages" on your WordPress site will use a different template.
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 
 get_header(); ?>

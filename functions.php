@@ -1,6 +1,6 @@
 <?php
 /**
- * Escapade functions and definitions
+ * KC Escapade functions and definitions
  *
  * Set up the theme and provides some helper functions, which are used in the
  * theme as custom template tags. Others are attached to action and filter
@@ -21,15 +21,15 @@
  * {@link https://codex.wordpress.org/Plugin_API}
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 
    // Choices are: paprika | imew | rascals | knuckleup | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots | bethellium | princessbunny
    $development_theme = '###';
 
 /**
- * Escapade only works in WordPress 4.4 or later.
+ * KC Escapade only works in WordPress 4.4 or later.
  */
 if ( version_compare( $GLOBALS['wp_version'], '4.4-alpha', '<' ) ) {
     require get_template_directory() . '/inc/back-compat.php';
@@ -45,13 +45,13 @@ if ( ! function_exists( 'escapade_setup' ) ) :
  *
  * Create your own escapade_setup() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_setup() {
     /*
      * Make theme available for translation.
      * Translations can be filed at WordPress.org. See: https://translate.wordpress.org/projects/wp-themes/escapade
-     * If you're building a theme based on Escapade, use a find and replace
+     * If you're building a theme based on KC Escapade, use a find and replace
      * to change 'escapade' to the name of your theme in all the template files
      */
     load_theme_textdomain( 'escapade' );
@@ -70,7 +70,7 @@ function escapade_setup() {
     /*
      * Enable support for custom logo.
      *
-     *  @since Escapade 1.2
+     *  @since KC Escapade 1.2
      */
     add_theme_support( 'custom-logo', array(
         'height'      => 240,
@@ -159,7 +159,7 @@ add_action( 'after_setup_theme', 'escapade_setup' );
  *
  * @global int $content_width
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_content_width() {
     $GLOBALS['content_width'] = apply_filters( 'escapade_content_width', 840 );
@@ -171,7 +171,7 @@ add_action( 'after_setup_theme', 'escapade_content_width', 0 );
  *
  * @link https://developer.wordpress.org/reference/functions/register_sidebar/
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_widgets_init() {
     register_sidebar( array(
@@ -208,11 +208,11 @@ add_action( 'widgets_init', 'escapade_widgets_init' );
 
 if ( ! function_exists( 'escapade_fonts_url' ) ) :
 /**
- * Register Google fonts for Escapade.
+ * Register Google fonts for KC Escapade.
  *
  * Create your own escapade_fonts_url() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @return string Google fonts URL for the theme.
  */
@@ -252,7 +252,7 @@ endif;
  *
  * Adds a `js` class to the root `<html>` element when JavaScript is detected.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_javascript_detection() {
     echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
@@ -262,7 +262,7 @@ add_action( 'wp_head', 'escapade_javascript_detection', 0 );
 /**
  * Enqueues scripts and styles.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_scripts() {
     // Add custom fonts, used in the main stylesheet.
@@ -384,7 +384,7 @@ add_action( 'wp_enqueue_scripts', 'escapade_scripts' );
 /**
  * Adds custom classes to the array of body classes.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @param array $classes Classes for the body element.
  * @return array (Maybe) filtered body classes.
@@ -417,7 +417,7 @@ add_filter( 'body_class', 'escapade_body_classes' );
 /**
  * Converts a HEX value to RGB.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @param string $color The original color, in 3- or 6-digit hexadecimal form.
  * @return array Array containing RGB (red, green, and blue) values for the given
@@ -455,7 +455,7 @@ require get_template_directory() . '/inc/customizer.php';
  * Add custom image sizes attribute to enhance responsive image functionality
  * for content images
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @param string $sizes A source size value for use in a 'sizes' attribute.
  * @param array  $size  Image size. Accepts an array of width and height
@@ -489,7 +489,7 @@ add_filter( 'wp_calculate_image_sizes', 'escapade_content_image_sizes_attr', 10 
  * Add custom image sizes attribute to enhance responsive image functionality
  * for post thumbnails
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @param array $attr Attributes for the image markup.
  * @param int   $attachment Image attachment ID.
@@ -512,7 +512,7 @@ add_filter( 'wp_get_attachment_image_attributes', 'escapade_post_thumbnail_sizes
  * Modifies tag cloud widget arguments to display all tags in the same font size
  * and use list format for better accessibility.
  *
- * @since Escapade 1.1
+ * @since KC Escapade 1.1
  *
  * @param array $args Arguments for tag cloud widget.
  * @return array The filtered arguments for tag cloud widget.

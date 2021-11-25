@@ -3,8 +3,8 @@
  * The template for the comic archives with thumbnails.
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 ?>
 
@@ -26,6 +26,3 @@
     </section>
   </div>
 </article>
-
-
-

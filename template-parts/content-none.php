@@ -3,8 +3,8 @@
  * The template part for displaying a message that posts cannot be found.
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 ?>
 

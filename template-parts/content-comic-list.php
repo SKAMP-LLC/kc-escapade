@@ -3,8 +3,8 @@
  * The template for the front page comic list. Mobile only.
  *
  * @package WordPress
- * @subpackage Tudor
- * @since Tudor 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 ?>
 

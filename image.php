@@ -3,8 +3,8 @@
  * The template for displaying image attachments
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 
 get_header(); ?>
@@ -37,7 +37,7 @@ get_header(); ?>
 								/**
 								 * Filter the default escapade image attachment size.
 								 *
-								 * @since Escapade 1.0
+								 * @since KC Escapade 1.0
 								 *
 								 * @param string $image_size Image size. Default 'large'.
 								 */

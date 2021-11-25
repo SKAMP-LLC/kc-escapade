@@ -1,5 +1,5 @@
 /**
- * Escapade keyboard support for image navigation.
+ * KC Escapade keyboard support for image navigation.
  */
 
 (function ($) {

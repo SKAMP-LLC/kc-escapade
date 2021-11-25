@@ -1,16 +1,16 @@
 <?php
 /**
- * Escapade Customizer functionality
+ * KC Escapade Customizer functionality
  *
  * @package WordPress
- * @subpackage Escapade
- * @since Escapade 1.0
+ * @subpackage KC Escapade
+ * @since KC Escapade 1.0
  */
 
 /**
  * Sets up the WordPress core custom header and custom background features.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @see escapade_header_style()
  */
@@ -20,9 +20,9 @@ function escapade_custom_header_and_background() {
 	$default_text_color       = trim( $color_scheme[3], '#' );
 
 	/**
-	 * Filter the arguments used when adding 'custom-background' support in Escapade.
+	 * Filter the arguments used when adding 'custom-background' support in KC Escapade.
 	 *
-	 * @since Escapade 1.0
+	 * @since KC Escapade 1.0
 	 *
 	 * @param array $args {
 	 *     An array of custom-background support arguments.
@@ -35,9 +35,9 @@ function escapade_custom_header_and_background() {
 	) ) );
 
 	/**
-	 * Filter the arguments used when adding 'custom-header' support in Escapade.
+	 * Filter the arguments used when adding 'custom-header' support in KC Escapade.
 	 *
-	 * @since Escapade 1.0
+	 * @since KC Escapade 1.0
 	 *
 	 * @param array $args {
 	 *     An array of custom-header support arguments.
@@ -66,7 +66,7 @@ if ( ! function_exists( 'escapade_header_style' ) ) :
  *
  * Create your own escapade_header_style() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @see escapade_custom_header_and_background().
  */
@@ -96,7 +96,7 @@ endif; // escapade_header_style
 /**
  * Adds postMessage support for site title and description for the Customizer.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @param WP_Customize_Manager $wp_customize The Customizer object.
  */
@@ -190,7 +190,7 @@ add_action( 'customize_register', 'escapade_customize_register', 11 );
 /**
  * Render the site title for the selective refresh partial.
  *
- * @since Escapade 1.2
+ * @since KC Escapade 1.2
  * @see escapade_customize_register()
  *
  * @return void
@@ -202,7 +202,7 @@ function escapade_customize_partial_blogname() {
 /**
  * Render the site tagline for the selective refresh partial.
  *
- * @since Escapade 1.2
+ * @since KC Escapade 1.2
  * @see escapade_customize_register()
  *
  * @return void
@@ -212,7 +212,7 @@ function escapade_customize_partial_blogdescription() {
 }
 
 /**
- * Registers color schemes for Escapade.
+ * Registers color schemes for KC Escapade.
  *
  * Can be filtered with {@see 'escapade_color_schemes'}.
  *
@@ -223,17 +223,17 @@ function escapade_customize_partial_blogdescription() {
  * 4. Main Text Color.
  * 5. Secondary Text Color.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @return array An associative array of color scheme options.
  */
 function escapade_get_color_schemes() {
 	/**
-	 * Filter the color schemes registered for use with Escapade.
+	 * Filter the color schemes registered for use with KC Escapade.
 	 *
 	 * The default schemes include 'default', 'dark', 'gray', 'red', and 'yellow'.
 	 *
-	 * @since Escapade 1.0
+	 * @since KC Escapade 1.0
 	 *
 	 * @param array $schemes {
 	 *     Associative array of color schemes data.
@@ -304,11 +304,11 @@ function escapade_get_color_schemes() {
 
 if ( ! function_exists( 'escapade_get_color_scheme' ) ) :
 /**
- * Retrieves the current Escapade color scheme.
+ * Retrieves the current KC Escapade color scheme.
  *
  * Create your own escapade_get_color_scheme() function to override in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @return array An associative array of either the current or default color scheme HEX values.
  */
@@ -326,12 +326,12 @@ endif; // escapade_get_color_scheme
 
 if ( ! function_exists( 'escapade_get_color_scheme_choices' ) ) :
 /**
- * Retrieves an array of color scheme choices registered for Escapade.
+ * Retrieves an array of color scheme choices registered for KC Escapade.
  *
  * Create your own escapade_get_color_scheme_choices() function to override
  * in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @return array Array of color schemes.
  */
@@ -350,12 +350,12 @@ endif; // escapade_get_color_scheme_choices
 
 if ( ! function_exists( 'escapade_sanitize_color_scheme' ) ) :
 /**
- * Handles sanitization for Escapade color schemes.
+ * Handles sanitization for KC Escapade color schemes.
  *
  * Create your own escapade_sanitize_color_scheme() function to override
  * in a child theme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @param string $value Color scheme name value.
  * @return string Color scheme name.
@@ -374,7 +374,7 @@ endif; // escapade_sanitize_color_scheme
 /**
  * Enqueues front-end CSS for color scheme.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @see wp_add_inline_style()
  */
@@ -418,7 +418,7 @@ add_action( 'wp_enqueue_scripts', 'escapade_color_scheme_css' );
  *
  * Passes color scheme data as colorScheme global.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_customize_control_js() {
 	wp_enqueue_script( 'color-scheme-control', get_template_directory_uri() . '/js/color-scheme-control.js', array( 'customize-controls', 'iris', 'underscore', 'wp-util' ), '20160816', true );
@@ -429,7 +429,7 @@ add_action( 'customize_controls_enqueue_scripts', 'escapade_customize_control_js
 /**
  * Binds JS handlers to make the Customizer preview reload changes asynchronously.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_customize_preview_js() {
 	wp_enqueue_script( 'escapade-customize-preview', get_template_directory_uri() . '/js/customize-preview.js', array( 'customize-preview' ), '20160816', true );
@@ -439,7 +439,7 @@ add_action( 'customize_preview_init', 'escapade_customize_preview_js' );
 /**
  * Returns CSS for the color schemes.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @param array $colors Color scheme colors.
  * @return string Color scheme CSS.
@@ -769,7 +769,7 @@ CSS;
  * The template generates the css dynamically for instant display in the
  * Customizer preview.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  */
 function escapade_color_scheme_css_template() {
 	$colors = array(
@@ -791,7 +791,7 @@ add_action( 'customize_controls_print_footer_scripts', 'escapade_color_scheme_cs
 /**
  * Enqueues front-end CSS for the page background color.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @see wp_add_inline_style()
  */
@@ -864,7 +864,7 @@ add_action( 'wp_enqueue_scripts', 'escapade_page_background_color_css', 11 );
 /**
  * Enqueues front-end CSS for the link color.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @see wp_add_inline_style()
  */
@@ -967,7 +967,7 @@ add_action( 'wp_enqueue_scripts', 'escapade_link_color_css', 11 );
 /**
  * Enqueues front-end CSS for the main text color.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @see wp_add_inline_style()
  */
@@ -1121,7 +1121,7 @@ add_action( 'wp_enqueue_scripts', 'escapade_main_text_color_css', 11 );
 /**
  * Enqueues front-end CSS for the secondary text color.
  *
- * @since Escapade 1.0
+ * @since KC Escapade 1.0
  *
  * @see wp_add_inline_style()
  */
