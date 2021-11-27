@@ -164,7 +164,7 @@
       <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, drama, abluedeer, bethellium">
       <?php elseif ( $development_theme == 'princessbunny' || strpos($url, 'princessbunny') !== false ) : ?>
       <title>Princess Bunny | A furry webcomic by BunBunArt</title>
-      <meta name="description" content="“A young adventurer is ready to explore the world in order to find her mother. Along the way she will go through many adventures and meet interesting people that will make her journey more exciting.”">
+      <meta name="description" content="A young adventurer is ready to explore the world in order to find her mother. Along the way she will go through many adventures and meet interesting people that will make her journey more exciting.">
       <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, drama, bunbun.art, princess bunny">
     <?php endif; ?>
     <!-- Pinterest Tag -->
