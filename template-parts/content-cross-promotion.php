@@ -69,7 +69,7 @@
 <?php elseif ( $development_theme == 'addictivescience' || strpos($url, 'addictivescience') !== false ) : ?>
   <section class="cross-promotion">
     <a class="spotlight" href="https://www.patreon.com/Cervelet"></a>
-    <a class="spotlight" href="http://growingtroubles.smackjeeves.com/comics/2667472/growing-troubles-1/"></a>
+    <a class="spotlight" href="http://growingtroubles.thecomicseries.com/"></a>
     <a class="spotlight" href="http://www.offcentaured.com/"></a>
   </section>
 <?php elseif ( $development_theme == 'tots' || strpos($url, 'tots') !== false ) : ?>
