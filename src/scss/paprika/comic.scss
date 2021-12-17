@@ -1,14 +1,12 @@
-@include respond-to("md") {
-  .content {
-    margin-top: 0.5em;
-
-    #primary {
-      .comic-table {
-        #comic {
-          img {
-            width: inherit;
-          }
-        }
+#primary {
+  .comic-table {
+    #comic {
+      width: inherit;
+      a {
+        width: inherit;
+      }
+      img {
+        width: inherit;
       }
     }
   }
