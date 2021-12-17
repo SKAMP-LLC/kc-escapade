@@ -162,7 +162,7 @@
       <title>Bethellium | Fantasy Furry Webcomic</title>
       <meta name="description" content="When Master Alchemist Zoana is invited to the secret city of Bethellium under false pretenses, she finds only fear and suspicion. In a world where magic is almost extinct. Why is the secret art of alchemy so feared? What secrets lie hidden in the last magic city of the world?">
       <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, drama, abluedeer, bethellium">
-      <?php elseif ( $development_theme == 'princessbunny' || strpos($url, 'princessbunny') !== false ) : ?>
+    <?php elseif ( $development_theme == 'princessbunny' || strpos($url, 'princessbunny') !== false ) : ?>
       <title>Princess Bunny | A furry webcomic by BunBunArt</title>
       <meta name="description" content="A young adventurer is ready to explore the world in order to find her mother. Along the way she will go through many adventures and meet interesting people that will make her journey more exciting.">
       <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, drama, bunbun.art, princess bunny">
