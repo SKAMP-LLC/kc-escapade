@@ -644,6 +644,11 @@
         <div class="kc-side-banner">
           <a href="https://kemono.cafe/"></a>
         </div>
+        <ul class="partners">
+          <li class="twc">
+            <a href="https://topwebcomics.com/vote/26906"></a>
+          </li>
+        </ul>
       </div>
   <?php endif; ?>
 </div>
