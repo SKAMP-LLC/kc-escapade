@@ -124,6 +124,12 @@
     }
   }
 
+  .slot_15 {
+    div.thumbnail {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/11/comic_link_15.png");
+    }
+  }
+
   @include respond-to("lg") {
     display: none;
   }
