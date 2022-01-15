@@ -583,7 +583,7 @@
             <a href="https://ko-fi.com/abluedeer"></a>
           </li>
           <li class="fur-affinity">
-            <a href="https://www.furaffinity.net/commissions/abluedeer/"></a>
+            <a href="https://www.furaffinity.net/user/abluedeer/"></a>
           </li>
           <li class="deviant-art">
             <a href="https://www.deviantart.com/a-bluedeer/"></a>
