@@ -18,6 +18,7 @@ module.exports = {
     rascals: './src/rascals.js',
     theeye: './src/theeye.js',
     tots: './src/tots.js',
+    ultrarosa: './src/ultrarosa.js',
   },
   output: {
     filename: '[name].js',

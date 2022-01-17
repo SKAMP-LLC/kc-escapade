@@ -67,6 +67,10 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Princess Bunny &#169; 2021 bun-bun.art All Rights Reserved</span>
       </footer>
+  <?php elseif ( $development_theme == 'ultrarosa' || strpos($url, 'ultrarosa') !== false ) : ?>
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <span>Ultra Rosa &#169; Sr.Kah All Rights Reserved</span>
+      </footer>
   <?php endif; ?>
 </div><!-- .site -->
 

@@ -1,0 +1,14 @@
+.logo {
+  a {
+    background-image: url("https://kemono.cafe/wp-content/uploads/2022/01/comic_header_logo_ultrarosa.png");
+  }
+}
+
+// @include respond-to("lg") {
+//   .logo {
+//     a {
+//       height: 401px !important;
+//       width: 800px !important;
+//     }
+//   }
+// }

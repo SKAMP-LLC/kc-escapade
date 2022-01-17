@@ -1,0 +1,33 @@
+@import "../palette.scss";
+@import "./archive.scss";
+@import "./cast.scss";
+@import "./comic-navigation.scss";
+@import "./comic.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./partners.scss";
+@import "./post-content.scss";
+@import "./site-navigation.scss";
+@import "./site-navigation.scss";
+
+body {
+  background-image: url("https://kemono.cafe/wp-content/uploads/2022/01/comic_background_ultrarosa.png");
+  background-position: center;
+  background-color: #000000;
+  color: #F6D5E7;
+  a {
+    color: #A43266;
+  }
+}
+
+.cross-promotion {
+  a {
+    background-image: url("https://kemono.cafe/wp-content/uploads/2020/09/paprika_spotlight_banner_2_v3.png");
+    &:first-child {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/09/paprika_spotlight_banner_1_v3.png");
+    }
+    &:last-child {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2020/09/paprika_spotlight_banner_3_v3.png");
+    }
+  }
+}

@@ -25,8 +25,8 @@
  * @since KC Escapade 1.0
  */
 
-   // Choices are: paprika | imew | rascals | knuckleup | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots | bethellium | princessbunny
-   $development_theme = '###';
+   // Choices are: paprika | imew | rascals | knuckleup | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots | bethellium | princessbunny | ultrarosa | ultrarosa-esp
+   $development_theme = 'ultrarosa';
 
 /**
  * KC Escapade only works in WordPress 4.4 or later.
@@ -344,6 +344,16 @@ function escapade_scripts() {
   else if ($development_theme == 'princessbunny' || strpos($url, 'princessbunny') !== false) {
     wp_enqueue_script( 'princessbunny-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/princessbunny.js', array('jquery'), 1, false );
     wp_enqueue_style( 'princessbunny-webpack-main-css', get_template_directory_uri() . '/dist/princessbunny.css', array( 'escapade-style' ), '20160816' );
+  }
+  // Ultra Rosa
+  else if ($development_theme == 'ultrarosa' || strpos($url, 'ultrarosa') !== false) {
+    wp_enqueue_script( 'ultrarosa-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/ultrarosa.js', array('jquery'), 1, false );
+    wp_enqueue_style( 'ultrarosa-webpack-main-css', get_template_directory_uri() . '/dist/ultrarosa.css', array( 'escapade-style' ), '20160816' );
+  }
+  // Ultra Rosa-ESP
+  else if ($development_theme == 'ultrarosa-esp' || strpos($url, 'ultrarosa-esp') !== false) {
+    wp_enqueue_script( 'ultrarosa-esp-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/ultrarosa-esp.js', array('jquery'), 1, false );
+    wp_enqueue_style( 'ultrarosa-esp-webpack-main-css', get_template_directory_uri() . '/dist/ultrarosa-esp.css', array( 'escapade-style' ), '20160816' );
   }
 
     // Load the Internet Explorer specific stylesheet.
