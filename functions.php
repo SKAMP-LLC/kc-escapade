@@ -26,7 +26,7 @@
  */
 
    // Choices are: paprika | imew | rascals | knuckleup | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots | bethellium | princessbunny | ultrarosa | ultrarosa-esp
-   $development_theme = 'ultrarosa';
+   $development_theme = '###';
 
 /**
  * KC Escapade only works in WordPress 4.4 or later.

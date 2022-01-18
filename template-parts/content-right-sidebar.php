@@ -650,5 +650,27 @@
           </li>
         </ul>
       </div>
+    <?php elseif ( $development_theme == 'ultrarosa' || strpos($url, 'ultrarosa') !== false ) : ?>
+    <div>
+      <ul class="buttons">
+        <li class="twitter">
+          <a href="https://twitter.com/senorkah"></a>
+        </li>
+        <li class="patreon">
+          <a href="https://patreon.com/ultrarosa"></a>
+        </li>
+        <li class="facebook">
+          <a href="https://facebook.com/ultrarosa"></a>
+        </li>
+        <li class="instagram">
+          <a href="https://instagram.com/sr.kah_work"></a>
+        </li>
+      </ul>
+      <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
+      <ul class="partners">
+      </ul>
+    </div>
   <?php endif; ?>
 </div>

@@ -613,4 +613,10 @@
         </div>
       </div>
   </article>
+<?php elseif ( $development_theme == 'ultrarosa' || strpos($url, 'ultrarosa') !== false ) : ?>
+  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <div class="cast-page">
+      <h2 class="empty">This comic does not have a cast page yet.</h2>
+    </div>
+  </article>
 <?php endif; ?>
