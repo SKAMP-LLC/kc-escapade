@@ -92,8 +92,8 @@
   </section>
 <?php elseif ( $development_theme == 'ultrarosa' || strpos($url, 'ultrarosa') !== false ) : ?>
   <section class="cross-promotion">
-    <a class="spotlight" href="https://ko-fi.com/thebunbunart"></a>
-    <a class="spotlight" href="https://bun-bun.art/"></a>
-    <a class="spotlight" href="https://www.patreon.com/princess_bunny"></a>
+    <a class="spotlight" href="https://patreon.com/ultrarosa"></a>
+    <a class="spotlight" href="https://ultrarosa.kemono.cafe/"></a>
+    <a class="spotlight" href="https://ultrarosa-esp.kemono.cafe/"></a>
   </section>
 <?php endif; ?>
