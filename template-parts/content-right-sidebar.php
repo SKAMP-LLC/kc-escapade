@@ -650,7 +650,7 @@
           </li>
         </ul>
       </div>
-    <?php elseif ( $development_theme == 'ultrarosa' || strpos($url, 'ultrarosa') !== false ) : ?>
+    <?php elseif ( $development_theme == 'ultrarosa-esp' || $development_theme == 'ultrarosa' || strpos($url, 'ultrarosa-esp') !== false || strpos($url, 'ultrarosa') !== false ) : ?>
     <div>
       <ul class="buttons">
         <li class="twitter">

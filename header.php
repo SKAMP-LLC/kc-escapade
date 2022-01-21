@@ -166,7 +166,7 @@
       <title>Princess Bunny | A furry webcomic by BunBunArt</title>
       <meta name="description" content="A young adventurer is ready to explore the world in order to find her mother. Along the way she will go through many adventures and meet interesting people that will make her journey more exciting.">
       <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, drama, bunbun.art, princess bunny">
-    <?php elseif ( $development_theme == 'ultrarosa' || strpos($url, 'ultrarosa') !== false ) : ?>
+    <?php elseif ( $development_theme == 'ultrarosa-esp' || $development_theme == 'ultrarosa' || strpos($url, 'ultrarosa-esp') !== false || strpos($url, 'ultrarosa') !== false ) : ?>
       <title>Ultra Rosa | A Scifi Space Adventure Webcomic by Sr.Kah</title>
       <meta name="description" content="Ultra power imbued Bounty Hunter and her eccentric crew travel the stars for their next mark.">
       <meta name="keywords" content="webcomic list, webcomic, webcomics, art, anime, traditional, traditional art, kemono, kemono cafe, furry, furry art, furry comic, furry comic community, furry comics, furry webcomic, furry webcomic community, furry webcomics, manga, action, drama, ultrarosa, sr.kah">

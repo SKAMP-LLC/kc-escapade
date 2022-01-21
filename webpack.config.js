@@ -19,6 +19,7 @@ module.exports = {
     theeye: './src/theeye.js',
     tots: './src/tots.js',
     ultrarosa: './src/ultrarosa.js',
+    'ultrarosa-esp': './src/ultrarosa.js',
   },
   output: {
     filename: '[name].js',
