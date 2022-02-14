@@ -341,6 +341,9 @@
           <li class="vreakerz">
             <a href="http://vreakerz.angrykitten.nl/"></a>
           </li>
+          <li class="cyborgkale">
+            <a href="http://cyborgkale.com/"></a>
+          </li>
         </ul>
       </div>
 
