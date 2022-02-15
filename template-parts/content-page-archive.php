@@ -24,5 +24,10 @@
       ) );
       ?>
     </section>
+    <div class="right-sidebar">
+      <?php
+        get_template_part( 'template-parts/content', 'right-sidebar' );
+      ?>
+    </div>
   </div>
 </article>

@@ -1,0 +1,14 @@
+.archive-page {
+  display: flex;
+  justify-content: space-between;
+
+  section {
+    flex-grow: 1;
+  }
+
+  .right-sidebar {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 120px;
+  }
+}
