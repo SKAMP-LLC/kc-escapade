@@ -47,10 +47,6 @@
       <div class="thumbnail"></div>
       <span>Tina of the South</span>
     </a>
-    <a href="https://www.desertfoxcomics.net/" class="comic_list_item slot_10">
-      <div class="thumbnail"></div>
-      <span>Desert Fox Comics</span>
-    </a>
     <a href="https://knuckle-up.kemono.cafe/" class="comic_list_item slot_11">
       <div class="thumbnail"></div>
       <span>Knuckle Up</span>
@@ -70,6 +66,10 @@
     <a href="https://princessbunny.kemono.cafe/" class="comic_list_item slot_15">
       <div class="thumbnail"></div>
       <span>Princess Bunny</span>
+    </a>
+    <a href="https://ultrarosa.kemono.cafe/" class="comic_list_item slot_16">
+      <div class="thumbnail"></div>
+      <span>Ultra Rosa</span>
     </a>
   </div>
 </section>
