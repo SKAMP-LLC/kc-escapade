@@ -355,6 +355,11 @@ function escapade_scripts() {
     wp_enqueue_script( 'ultrarosa-esp-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/ultrarosa-esp.js', array('jquery'), 1, false );
     wp_enqueue_style( 'ultrarosa-esp-webpack-main-css', get_template_directory_uri() . '/dist/ultrarosa-esp.css', array( 'escapade-style' ), '20160816' );
   }
+  // Caught In Orbit
+  else if ($development_theme == 'caughtinorbit' || strpos($url, 'caughtinorbit') !== false) {
+    wp_enqueue_script( 'caughtinorbit-webpack-bundle-js', get_stylesheet_directory_uri() . '/dist/caughtinorbit.js', array('jquery'), 1, false );
+    wp_enqueue_style( 'caughtinorbit-webpack-main-css', get_template_directory_uri() . '/dist/caughtinorbit.css', array( 'escapade-style' ), '20160816' );
+  }
 
     // Load the Internet Explorer specific stylesheet.
     wp_enqueue_style( 'escapade-ie', get_template_directory_uri() . '/css/ie.css', array( 'escapade-style' ), '20160816' );

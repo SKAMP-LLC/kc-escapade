@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     addictivescience: './src/addictivescience.js',
     bethellium: './src/bethellium.js',
+    caughtinorbit: './src/caughtinorbit.js',
     cb: './src/cb.js',
     knighthood: './src/knighthood.js',
     knuckleup: './src/knuckleup.js',

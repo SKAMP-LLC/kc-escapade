@@ -1,0 +1,40 @@
+@import "../palette.scss";
+@import "./about.scss";
+@import "./archive.scss";
+@import "./cast.scss";
+@import "./comic-navigation.scss";
+@import "./comic.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./partners.scss";
+@import "./post-content.scss";
+@import "./site-navigation.scss";
+
+body {
+  background-attachment: fixed;
+  background-color: #00210d;
+  background-image: url("https://kemono.cafe/wp-content/uploads/2021/08/bethellium_background_v3.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  color: $off_white;
+}
+
+.cross-promotion {
+  a {
+    background-image: url("https://kemono.cafe/wp-content/uploads/2021/08/bethellium_spotlight_banner_2_v3.png");
+    &:first-child {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/08/bethellium_spotlight_banner_1_v3.png");
+    }
+    &:last-child {
+      background-image: url("https://kemono.cafe/wp-content/uploads/2021/08/bethellium_spotlight_banner_3_v3.png");
+    }
+  }
+}
+
+.comic {
+  .comic-table {
+    #comic {
+      background: $black !important;
+    }
+  }
+}

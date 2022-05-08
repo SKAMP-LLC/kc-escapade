@@ -1,0 +1,19 @@
+#site-navigation {
+  ul#menu-primary-navigation {
+    .menu-item:nth-child(1) {
+      a {
+        background-image: url("https://kemono.cafe/wp-content/uploads/2021/08/bethellium_text_menu_1_v3.png");
+      }
+    }
+    .menu-item:nth-child(2) {
+      a {
+        background-image: url("https://kemono.cafe/wp-content/uploads/2021/08/bethellium_text_menu_2_v3.png");
+      }
+    }
+    .menu-item:nth-child(3) {
+      a {
+        background-image: url("https://kemono.cafe/wp-content/uploads/2021/08/bethellium_text_menu_3_v3.png");
+      }
+    }
+  }
+}
