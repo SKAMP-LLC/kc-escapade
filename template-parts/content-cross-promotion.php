@@ -96,4 +96,10 @@
     <a class="spotlight" href="https://ultrarosa.kemono.cafe/"></a>
     <a class="spotlight" href="https://ultrarosa-esp.kemono.cafe/"></a>
   </section>
+<?php elseif ( $development_theme == 'caughtinorbit' || strpos($url, 'caughtinorbit') !== false  ) : ?>
+  <section class="cross-promotion">
+    <a class="spotlight" href="https://caughtinorbit.kemono.cafe"></a>
+    <a class="spotlight" href="https://caughtinorbit.kemono.cafe"></a>
+    <a class="spotlight" href="https://caughtinorbit.kemono.cafe"></a>
+  </section>
 <?php endif; ?>

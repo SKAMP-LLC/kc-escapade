@@ -71,7 +71,7 @@
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Ultra Rosa &#169; 2022 Sr.Kah All Rights Reserved</span>
       </footer>
-  <?php elseif ( $development_theme == 'caughtinorbit' || $development_theme == 'caughtinorbit' ) : ?>
+  <?php elseif ( $development_theme == 'caughtinorbit' || strpos($url, 'caughtinorbit') !== false ) : ?>
       <footer id="colophon" class="site-footer" role="contentinfo">
         <span>Caught In Orbit &#169; 2022 Alexandria Bowersox All Rights Reserved</span>
       </footer>
