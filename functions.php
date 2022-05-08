@@ -25,7 +25,7 @@
  * @since KC Escapade 1.0
  */
 
-   // Choices are: paprika | imew | rascals | knuckleup | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots | bethellium | princessbunny | ultrarosa | ultrarosa-esp
+   // Choices are: paprika | imew | rascals | knuckleup | theeye | cb | pmp | laslindas | knighthood | addictivescience | tots | bethellium | princessbunny | ultrarosa | ultrarosa-esp | caughtinorbit
    $development_theme = '###';
 
 /**
