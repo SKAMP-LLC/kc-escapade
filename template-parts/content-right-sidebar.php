@@ -675,5 +675,33 @@
       <ul class="partners">
       </ul>
     </div>
+    <?php elseif ( $development_theme == 'caughtinorbit' || strpos($url, 'caughtinorbit') !== false ) : ?>
+    <div>
+      <ul class="buttons">
+        <li class="picarto">
+          <a href="https://picarto.tv/JyinxxedArt"></a>
+        </li>
+        <li class="fur-affinity">
+          <a href="https://www.furaffinity.net/user/xizana/"></a>
+        </li>
+        <li class="patreon">
+          <a href="https://www.patreon.com/JyinxxedComics"></a>
+        </li>
+        <li class="ko-fi">
+          <a href="https://ko-fi.com/jyinxxed"></a>
+        </li>
+        <li class="twitter">
+          <a href="https://twitter.com/Jyinxxed"></a>
+        </li>
+        <li class="discord">
+          <a href="https://discord.com/invite/rvjDqpp"></a>
+        </li>
+      </ul>
+      <div class="kc-side-banner">
+        <a href="https://kemono.cafe/"></a>
+      </div>
+      <ul class="partners">
+      </ul>
+    </div>
   <?php endif; ?>
 </div>

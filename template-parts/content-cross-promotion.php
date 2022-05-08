@@ -98,8 +98,8 @@
   </section>
 <?php elseif ( $development_theme == 'caughtinorbit' || strpos($url, 'caughtinorbit') !== false  ) : ?>
   <section class="cross-promotion">
-    <a class="spotlight" href="https://caughtinorbit.kemono.cafe"></a>
-    <a class="spotlight" href="https://caughtinorbit.kemono.cafe"></a>
-    <a class="spotlight" href="https://caughtinorbit.kemono.cafe"></a>
+    <a class="spotlight" href="https://huxcyn.com"></a>
+    <a class="spotlight" href="https://discord.com/invite/rvjDqpp"></a>
+    <a class="spotlight" href="https://www.furaffinity.net/commissions/xizana/"></a>
   </section>
 <?php endif; ?>
