@@ -71,5 +71,9 @@
       <div class="thumbnail"></div>
       <span>Ultra Rosa</span>
     </a>
+    <a href="https://caughtinorbit.kemono.cafe/" class="comic_list_item slot_17">
+      <div class="thumbnail"></div>
+      <span>Caught in Orbit</span>
+    </a>
   </div>
 </section>
