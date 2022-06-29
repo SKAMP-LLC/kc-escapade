@@ -679,7 +679,7 @@
     <div>
       <ul class="buttons">
         <li class="picarto">
-          <a href="https://picarto.tv/JyinxxedArt"></a>
+          <a href="https://picarto.tv/Jyinxx"></a>
         </li>
         <li class="fur-affinity">
           <a href="https://www.furaffinity.net/user/xizana/"></a>
