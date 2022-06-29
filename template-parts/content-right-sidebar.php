@@ -626,6 +626,9 @@
           <li class="wukrii">
             <a href="https://www.wukrii.com/"></a>
           </li>
+          <li class="derideal">
+            <a href="https://www.derideal.com/"></a>
+          </li>
         </ul>
       </div>
     <?php elseif ( $development_theme == 'princessbunny' || strpos($url, 'princessbunny') !== false ) : ?>
